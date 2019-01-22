@@ -1,0 +1,822 @@
+Timing Violation Report Max Delay Analysis
+
+SmartTime Version v11.8
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Tue Mar 13 23:50:06 2018
+
+
+Design: Top
+Family: IGLOO
+Die: AGLN250V2
+Package: 100 VQFP
+Temperature Range: 0 - 70 C
+Voltage Range: 1.14 - 1.26 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.26 V - 0 C
+Max Operating Conditions: WORST - 1.14 V - 70 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+Path 1
+  From:                        clock_control_0/delay_counter[4]:CLK
+  To:                          clock_control_0/delay_counter[9]:D
+  Delay (ns):                  10.260
+  Slack (ns):                  8.635
+  Arrival (ns):                11.425
+  Required (ns):               20.060
+
+Path 2
+  From:                        clock_control_0/delay_counter[4]:CLK
+  To:                          clock_control_0/delay_counter[11]:D
+  Delay (ns):                  10.190
+  Slack (ns):                  8.705
+  Arrival (ns):                11.355
+  Required (ns):               20.060
+
+Path 3
+  From:                        clock_control_0/counter[4]:CLK
+  To:                          clock_control_0/clock_out:E
+  Delay (ns):                  9.674
+  Slack (ns):                  9.035
+  Arrival (ns):                10.848
+  Required (ns):               19.883
+
+Path 4
+  From:                        clock_control_0/delay_counter[0]:CLK
+  To:                          clock_control_0/delay_counter[11]:D
+  Delay (ns):                  9.836
+  Slack (ns):                  9.059
+  Arrival (ns):                11.001
+  Required (ns):               20.060
+
+Path 5
+  From:                        clock_control_0/counter[4]:CLK
+  To:                          clock_control_0/delay_counter[4]:E
+  Delay (ns):                  9.603
+  Slack (ns):                  9.099
+  Arrival (ns):                10.777
+  Required (ns):               19.876
+
+Path 6
+  From:                        clock_control_0/counter[4]:CLK
+  To:                          clock_control_0/delay_counter[0]:E
+  Delay (ns):                  9.603
+  Slack (ns):                  9.099
+  Arrival (ns):                10.777
+  Required (ns):               19.876
+
+Path 7
+  From:                        clock_control_0/counter[4]:CLK
+  To:                          clock_control_0/delay_counter[2]:E
+  Delay (ns):                  9.582
+  Slack (ns):                  9.120
+  Arrival (ns):                10.756
+  Required (ns):               19.876
+
+Path 8
+  From:                        clock_control_0/counter[4]:CLK
+  To:                          clock_control_0/delay_counter[5]:E
+  Delay (ns):                  9.662
+  Slack (ns):                  9.122
+  Arrival (ns):                10.836
+  Required (ns):               19.958
+
+Path 9
+  From:                        clock_control_0/counter[4]:CLK
+  To:                          clock_control_0/delay_counter[3]:E
+  Delay (ns):                  9.662
+  Slack (ns):                  9.122
+  Arrival (ns):                10.836
+  Required (ns):               19.958
+
+Path 10
+  From:                        downlink_clock_divider_0/divider_counter[4]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[1]:D
+  Delay (ns):                  9.743
+  Slack (ns):                  9.145
+  Arrival (ns):                10.940
+  Required (ns):               20.085
+
+Path 11
+  From:                        clock_control_0/delay_counter[0]:CLK
+  To:                          clock_control_0/delay_counter[6]:D
+  Delay (ns):                  9.644
+  Slack (ns):                  9.225
+  Arrival (ns):                10.809
+  Required (ns):               20.034
+
+Path 12
+  From:                        clock_control_0/delay_counter[2]:CLK
+  To:                          clock_control_0/delay_counter[9]:D
+  Delay (ns):                  9.668
+  Slack (ns):                  9.227
+  Arrival (ns):                10.833
+  Required (ns):               20.060
+
+Path 13
+  From:                        clock_control_0/delay_counter[1]:CLK
+  To:                          clock_control_0/delay_counter[11]:D
+  Delay (ns):                  9.570
+  Slack (ns):                  9.243
+  Arrival (ns):                10.817
+  Required (ns):               20.060
+
+Path 14
+  From:                        clock_control_0/counter[4]:CLK
+  To:                          clock_control_0/delay_counter[11]:E
+  Delay (ns):                  9.448
+  Slack (ns):                  9.261
+  Arrival (ns):                10.622
+  Required (ns):               19.883
+
+Path 15
+  From:                        clock_control_0/counter[4]:CLK
+  To:                          clock_control_0/delay_counter[8]:E
+  Delay (ns):                  9.479
+  Slack (ns):                  9.276
+  Arrival (ns):                10.653
+  Required (ns):               19.929
+
+Path 16
+  From:                        clock_control_0/delay_counter[2]:CLK
+  To:                          clock_control_0/delay_counter[11]:D
+  Delay (ns):                  9.598
+  Slack (ns):                  9.297
+  Arrival (ns):                10.763
+  Required (ns):               20.060
+
+Path 17
+  From:                        clock_control_0/delay_counter[4]:CLK
+  To:                          clock_control_0/delay_counter[8]:D
+  Delay (ns):                  9.620
+  Slack (ns):                  9.321
+  Arrival (ns):                10.785
+  Required (ns):               20.106
+
+Path 18
+  From:                        clock_control_0/delay_counter[3]:CLK
+  To:                          clock_control_0/delay_counter[11]:D
+  Delay (ns):                  9.483
+  Slack (ns):                  9.330
+  Arrival (ns):                10.730
+  Required (ns):               20.060
+
+Path 19
+  From:                        clock_control_0/counter[4]:CLK
+  To:                          clock_control_0/delay_counter[6]:E
+  Delay (ns):                  9.347
+  Slack (ns):                  9.336
+  Arrival (ns):                10.521
+  Required (ns):               19.857
+
+Path 20
+  From:                        clock_control_0/delay_counter[0]:CLK
+  To:                          clock_control_0/delay_counter[9]:D
+  Delay (ns):                  9.557
+  Slack (ns):                  9.338
+  Arrival (ns):                10.722
+  Required (ns):               20.060
+
+Path 21
+  From:                        clock_control_0/counter[4]:CLK
+  To:                          clock_control_0/delay_counter[9]:E
+  Delay (ns):                  9.337
+  Slack (ns):                  9.372
+  Arrival (ns):                10.511
+  Required (ns):               19.883
+
+Path 22
+  From:                        clock_control_0/delay_counter[5]:CLK
+  To:                          clock_control_0/switch:D
+  Delay (ns):                  9.481
+  Slack (ns):                  9.402
+  Arrival (ns):                10.728
+  Required (ns):               20.130
+
+Path 23
+  From:                        clock_control_0/delay_counter[1]:CLK
+  To:                          clock_control_0/delay_counter[6]:D
+  Delay (ns):                  9.378
+  Slack (ns):                  9.409
+  Arrival (ns):                10.625
+  Required (ns):               20.034
+
+Path 24
+  From:                        downlink_clock_divider_0/divider_counter[5]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[1]:D
+  Delay (ns):                  9.470
+  Slack (ns):                  9.418
+  Arrival (ns):                10.667
+  Required (ns):               20.085
+
+Path 25
+  From:                        clock_control_0/counter[4]:CLK
+  To:                          clock_control_0/delay_counter[7]:E
+  Delay (ns):                  9.352
+  Slack (ns):                  9.427
+  Arrival (ns):                10.526
+  Required (ns):               19.953
+
+Path 26
+  From:                        clock_control_0/counter[2]:CLK
+  To:                          clock_control_0/counter[5]:D
+  Delay (ns):                  9.416
+  Slack (ns):                  9.435
+  Arrival (ns):                10.570
+  Required (ns):               20.005
+
+Path 27
+  From:                        downlink_clock_divider_0/divider_counter[4]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[6]:D
+  Delay (ns):                  9.396
+  Slack (ns):                  9.449
+  Arrival (ns):                10.593
+  Required (ns):               20.042
+
+Path 28
+  From:                        clock_control_0/counter[4]:CLK
+  To:                          clock_control_0/delay_counter[10]:E
+  Delay (ns):                  9.251
+  Slack (ns):                  9.504
+  Arrival (ns):                10.425
+  Required (ns):               19.929
+
+Path 29
+  From:                        clock_control_0/counter[4]:CLK
+  To:                          clock_control_0/switch:E
+  Delay (ns):                  9.272
+  Slack (ns):                  9.507
+  Arrival (ns):                10.446
+  Required (ns):               19.953
+
+Path 30
+  From:                        downlink_clock_divider_0/divider_counter[1]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[5]:D
+  Delay (ns):                  9.370
+  Slack (ns):                  9.518
+  Arrival (ns):                10.567
+  Required (ns):               20.085
+
+Path 31
+  From:                        clock_control_0/delay_counter[1]:CLK
+  To:                          clock_control_0/delay_counter[9]:D
+  Delay (ns):                  9.291
+  Slack (ns):                  9.522
+  Arrival (ns):                10.538
+  Required (ns):               20.060
+
+Path 32
+  From:                        downlink_clock_divider_0/divider_counter[2]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[5]:D
+  Delay (ns):                  9.358
+  Slack (ns):                  9.530
+  Arrival (ns):                10.555
+  Required (ns):               20.085
+
+Path 33
+  From:                        clock_control_0/delay_counter[2]:CLK
+  To:                          clock_control_0/delay_counter[6]:D
+  Delay (ns):                  9.270
+  Slack (ns):                  9.599
+  Arrival (ns):                10.435
+  Required (ns):               20.034
+
+Path 34
+  From:                        downlink_clock_divider_0/divider_counter[4]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[3]:D
+  Delay (ns):                  9.230
+  Slack (ns):                  9.615
+  Arrival (ns):                10.427
+  Required (ns):               20.042
+
+Path 35
+  From:                        downlink_clock_divider_0/divider_counter[4]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[4]:D
+  Delay (ns):                  9.258
+  Slack (ns):                  9.630
+  Arrival (ns):                10.455
+  Required (ns):               20.085
+
+Path 36
+  From:                        clock_control_0/counter[3]:CLK
+  To:                          clock_control_0/counter[0]:D
+  Delay (ns):                  9.179
+  Slack (ns):                  9.632
+  Arrival (ns):                10.353
+  Required (ns):               19.985
+
+Path 37
+  From:                        clock_control_0/counter[0]:CLK
+  To:                          clock_control_0/counter[5]:D
+  Delay (ns):                  9.218
+  Slack (ns):                  9.633
+  Arrival (ns):                10.372
+  Required (ns):               20.005
+
+Path 38
+  From:                        clock_control_0/counter[3]:CLK
+  To:                          clock_control_0/counter[5]:D
+  Delay (ns):                  9.198
+  Slack (ns):                  9.633
+  Arrival (ns):                10.372
+  Required (ns):               20.005
+
+Path 39
+  From:                        clock_control_0/delay_counter[6]:CLK
+  To:                          clock_control_0/switch:D
+  Delay (ns):                  9.345
+  Slack (ns):                  9.639
+  Arrival (ns):                10.491
+  Required (ns):               20.130
+
+Path 40
+  From:                        clock_control_0/delay_counter[5]:CLK
+  To:                          clock_control_0/delay_counter[9]:D
+  Delay (ns):                  9.162
+  Slack (ns):                  9.651
+  Arrival (ns):                10.409
+  Required (ns):               20.060
+
+Path 41
+  From:                        clock_control_0/delay_counter[8]:CLK
+  To:                          clock_control_0/delay_counter[11]:D
+  Delay (ns):                  9.164
+  Slack (ns):                  9.678
+  Arrival (ns):                10.382
+  Required (ns):               20.060
+
+Path 42
+  From:                        clock_control_0/counter[4]:CLK
+  To:                          clock_control_0/delay_counter[1]:E
+  Delay (ns):                  9.084
+  Slack (ns):                  9.700
+  Arrival (ns):                10.258
+  Required (ns):               19.958
+
+Path 43
+  From:                        clock_control_0/counter[3]:CLK
+  To:                          clock_control_0/counter[2]:D
+  Delay (ns):                  9.097
+  Slack (ns):                  9.714
+  Arrival (ns):                10.271
+  Required (ns):               19.985
+
+Path 44
+  From:                        downlink_clock_divider_0/divider_counter[1]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[7]:D
+  Delay (ns):                  9.111
+  Slack (ns):                  9.720
+  Arrival (ns):                10.308
+  Required (ns):               20.028
+
+Path 45
+  From:                        downlink_clock_divider_0/divider_counter[5]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[6]:D
+  Delay (ns):                  9.123
+  Slack (ns):                  9.722
+  Arrival (ns):                10.320
+  Required (ns):               20.042
+
+Path 46
+  From:                        downlink_clock_divider_0/divider_counter[4]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[7]:D
+  Delay (ns):                  9.162
+  Slack (ns):                  9.726
+  Arrival (ns):                10.359
+  Required (ns):               20.085
+
+Path 47
+  From:                        clock_control_0/counter[3]:CLK
+  To:                          clock_control_0/counter[1]:D
+  Delay (ns):                  9.074
+  Slack (ns):                  9.757
+  Arrival (ns):                10.248
+  Required (ns):               20.005
+
+Path 48
+  From:                        clock_control_0/counter[3]:CLK
+  To:                          clock_control_0/counter[3]:D
+  Delay (ns):                  9.074
+  Slack (ns):                  9.757
+  Arrival (ns):                10.248
+  Required (ns):               20.005
+
+Path 49
+  From:                        downlink_clock_divider_0/divider_counter[7]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[1]:D
+  Delay (ns):                  9.126
+  Slack (ns):                  9.762
+  Arrival (ns):                10.323
+  Required (ns):               20.085
+
+Path 50
+  From:                        downlink_clock_divider_0/divider_counter[0]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[7]:D
+  Delay (ns):                  9.117
+  Slack (ns):                  9.771
+  Arrival (ns):                10.314
+  Required (ns):               20.085
+
+Path 51
+  From:                        clock_control_0/delay_counter[4]:CLK
+  To:                          clock_control_0/switch:D
+  Delay (ns):                  9.142
+  Slack (ns):                  9.823
+  Arrival (ns):                10.307
+  Required (ns):               20.130
+
+Path 52
+  From:                        clock_control_0/counter[5]:CLK
+  To:                          clock_control_0/counter[5]:D
+  Delay (ns):                  9.052
+  Slack (ns):                  9.836
+  Arrival (ns):                10.226
+  Required (ns):               20.062
+
+Path 53
+  From:                        clock_control_0/counter[5]:CLK
+  To:                          clock_control_0/counter[0]:D
+  Delay (ns):                  9.018
+  Slack (ns):                  9.850
+  Arrival (ns):                10.192
+  Required (ns):               20.042
+
+Path 54
+  From:                        downlink_clock_divider_0/divider_counter[0]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[6]:D
+  Delay (ns):                  8.985
+  Slack (ns):                  9.860
+  Arrival (ns):                10.182
+  Required (ns):               20.042
+
+Path 55
+  From:                        clock_control_0/counter[1]:CLK
+  To:                          clock_control_0/counter[5]:D
+  Delay (ns):                  8.948
+  Slack (ns):                  9.883
+  Arrival (ns):                10.122
+  Required (ns):               20.005
+
+Path 56
+  From:                        clock_control_0/delay_counter[0]:CLK
+  To:                          clock_control_0/delay_counter[4]:D
+  Delay (ns):                  9.004
+  Slack (ns):                  9.884
+  Arrival (ns):                10.169
+  Required (ns):               20.053
+
+Path 57
+  From:                        downlink_clock_divider_0/divider_counter[5]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[3]:D
+  Delay (ns):                  8.957
+  Slack (ns):                  9.888
+  Arrival (ns):                10.154
+  Required (ns):               20.042
+
+Path 58
+  From:                        downlink_clock_divider_0/divider_counter[5]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[4]:D
+  Delay (ns):                  8.985
+  Slack (ns):                  9.903
+  Arrival (ns):                10.182
+  Required (ns):               20.085
+
+Path 59
+  From:                        clock_control_0/counter[5]:CLK
+  To:                          clock_control_0/counter[1]:D
+  Delay (ns):                  8.983
+  Slack (ns):                  9.905
+  Arrival (ns):                10.157
+  Required (ns):               20.062
+
+Path 60
+  From:                        clock_control_0/delay_counter[2]:CLK
+  To:                          clock_control_0/delay_counter[8]:D
+  Delay (ns):                  9.028
+  Slack (ns):                  9.913
+  Arrival (ns):                10.193
+  Required (ns):               20.106
+
+Path 61
+  From:                        clock_control_0/counter[5]:CLK
+  To:                          clock_control_0/counter[3]:D
+  Delay (ns):                  8.971
+  Slack (ns):                  9.917
+  Arrival (ns):                10.145
+  Required (ns):               20.062
+
+Path 62
+  From:                        clock_control_0/counter[3]:CLK
+  To:                          clock_control_0/clock_out:E
+  Delay (ns):                  8.786
+  Slack (ns):                  9.923
+  Arrival (ns):                9.960
+  Required (ns):               19.883
+
+Path 63
+  From:                        clock_control_0/delay_counter[2]:CLK
+  To:                          clock_control_0/delay_counter[7]:D
+  Delay (ns):                  9.039
+  Slack (ns):                  9.926
+  Arrival (ns):                10.204
+  Required (ns):               20.130
+
+Path 64
+  From:                        downlink_clock_divider_0/divider_counter[1]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[6]:D
+  Delay (ns):                  8.854
+  Slack (ns):                  9.934
+  Arrival (ns):                10.051
+  Required (ns):               19.985
+
+Path 65
+  From:                        clock_control_0/delay_counter[4]:CLK
+  To:                          clock_control_0/delay_counter[10]:D
+  Delay (ns):                  8.986
+  Slack (ns):                  9.955
+  Arrival (ns):                10.151
+  Required (ns):               20.106
+
+Path 66
+  From:                        clock_control_0/delay_counter[9]:CLK
+  To:                          clock_control_0/delay_counter[11]:D
+  Delay (ns):                  8.911
+  Slack (ns):                  9.977
+  Arrival (ns):                10.083
+  Required (ns):               20.060
+
+Path 67
+  From:                        clock_control_0/counter[3]:CLK
+  To:                          clock_control_0/delay_counter[4]:E
+  Delay (ns):                  8.715
+  Slack (ns):                  9.987
+  Arrival (ns):                9.889
+  Required (ns):               19.876
+
+Path 68
+  From:                        clock_control_0/counter[3]:CLK
+  To:                          clock_control_0/delay_counter[0]:E
+  Delay (ns):                  8.715
+  Slack (ns):                  9.987
+  Arrival (ns):                9.889
+  Required (ns):               19.876
+
+Path 69
+  From:                        downlink_clock_divider_0/divider_counter[0]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[3]:D
+  Delay (ns):                  8.857
+  Slack (ns):                  9.988
+  Arrival (ns):                10.054
+  Required (ns):               20.042
+
+Path 70
+  From:                        downlink_clock_divider_0/divider_counter[0]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[5]:D
+  Delay (ns):                  8.896
+  Slack (ns):                  9.992
+  Arrival (ns):                10.093
+  Required (ns):               20.085
+
+Path 71
+  From:                        downlink_clock_divider_0/divider_counter[5]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[7]:D
+  Delay (ns):                  8.889
+  Slack (ns):                  9.999
+  Arrival (ns):                10.086
+  Required (ns):               20.085
+
+Path 72
+  From:                        clock_control_0/counter[3]:CLK
+  To:                          clock_control_0/delay_counter[2]:E
+  Delay (ns):                  8.694
+  Slack (ns):                  10.008
+  Arrival (ns):                9.868
+  Required (ns):               19.876
+
+Path 73
+  From:                        clock_control_0/counter[3]:CLK
+  To:                          clock_control_0/delay_counter[5]:E
+  Delay (ns):                  8.774
+  Slack (ns):                  10.010
+  Arrival (ns):                9.948
+  Required (ns):               19.958
+
+Path 74
+  From:                        clock_control_0/counter[3]:CLK
+  To:                          clock_control_0/delay_counter[3]:E
+  Delay (ns):                  8.774
+  Slack (ns):                  10.010
+  Arrival (ns):                9.948
+  Required (ns):               19.958
+
+Path 75
+  From:                        clock_control_0/delay_counter[3]:CLK
+  To:                          clock_control_0/delay_counter[9]:D
+  Delay (ns):                  8.794
+  Slack (ns):                  10.019
+  Arrival (ns):                10.041
+  Required (ns):               20.060
+
+Path 76
+  From:                        clock_control_0/delay_counter[0]:CLK
+  To:                          clock_control_0/delay_counter[8]:D
+  Delay (ns):                  8.917
+  Slack (ns):                  10.024
+  Arrival (ns):                10.082
+  Required (ns):               20.106
+
+Path 77
+  From:                        downlink_clock_divider_0/divider_counter[3]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[6]:D
+  Delay (ns):                  8.833
+  Slack (ns):                  10.055
+  Arrival (ns):                9.987
+  Required (ns):               20.042
+
+Path 78
+  From:                        downlink_clock_divider_0/divider_counter[1]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[3]:D
+  Delay (ns):                  8.725
+  Slack (ns):                  10.063
+  Arrival (ns):                9.922
+  Required (ns):               19.985
+
+Path 79
+  From:                        downlink_clock_divider_0/divider_counter[7]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[6]:D
+  Delay (ns):                  8.779
+  Slack (ns):                  10.066
+  Arrival (ns):                9.976
+  Required (ns):               20.042
+
+Path 80
+  From:                        clock_control_0/delay_counter[1]:CLK
+  To:                          clock_control_0/delay_counter[4]:D
+  Delay (ns):                  8.738
+  Slack (ns):                  10.068
+  Arrival (ns):                9.985
+  Required (ns):               20.053
+
+Path 81
+  From:                        clock_control_0/delay_counter[0]:CLK
+  To:                          clock_control_0/delay_counter[3]:D
+  Delay (ns):                  8.863
+  Slack (ns):                  10.107
+  Arrival (ns):                10.028
+  Required (ns):               20.135
+
+Path 82
+  From:                        clock_control_0/delay_counter[6]:CLK
+  To:                          clock_control_0/delay_counter[9]:D
+  Delay (ns):                  8.790
+  Slack (ns):                  10.124
+  Arrival (ns):                9.936
+  Required (ns):               20.060
+
+Path 83
+  From:                        clock_control_0/counter[5]:CLK
+  To:                          clock_control_0/counter[2]:D
+  Delay (ns):                  8.738
+  Slack (ns):                  10.130
+  Arrival (ns):                9.912
+  Required (ns):               20.042
+
+Path 84
+  From:                        clock_control_0/counter[3]:CLK
+  To:                          clock_control_0/counter[4]:D
+  Delay (ns):                  8.699
+  Slack (ns):                  10.132
+  Arrival (ns):                9.873
+  Required (ns):               20.005
+
+Path 85
+  From:                        clock_control_0/counter[3]:CLK
+  To:                          clock_control_0/delay_counter[11]:E
+  Delay (ns):                  8.560
+  Slack (ns):                  10.149
+  Arrival (ns):                9.734
+  Required (ns):               19.883
+
+Path 86
+  From:                        clock_control_0/counter[0]:CLK
+  To:                          clock_control_0/clock_out:E
+  Delay (ns):                  8.566
+  Slack (ns):                  10.163
+  Arrival (ns):                9.720
+  Required (ns):               19.883
+
+Path 87
+  From:                        clock_control_0/counter[3]:CLK
+  To:                          clock_control_0/delay_counter[8]:E
+  Delay (ns):                  8.591
+  Slack (ns):                  10.164
+  Arrival (ns):                9.765
+  Required (ns):               19.929
+
+Path 88
+  From:                        downlink_clock_divider_0/divider_counter[2]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[7]:D
+  Delay (ns):                  8.711
+  Slack (ns):                  10.177
+  Arrival (ns):                9.908
+  Required (ns):               20.085
+
+Path 89
+  From:                        clock_control_0/counter[1]:CLK
+  To:                          clock_control_0/clock_out:E
+  Delay (ns):                  8.532
+  Slack (ns):                  10.177
+  Arrival (ns):                9.706
+  Required (ns):               19.883
+
+Path 90
+  From:                        clock_control_0/delay_counter[7]:CLK
+  To:                          clock_control_0/delay_counter[9]:D
+  Delay (ns):                  8.633
+  Slack (ns):                  10.185
+  Arrival (ns):                9.875
+  Required (ns):               20.060
+
+Path 91
+  From:                        downlink_clock_divider_0/divider_counter[4]:CLK
+  To:                          downlink_clock_divider_0/clock_out:E
+  Delay (ns):                  8.810
+  Slack (ns):                  10.190
+  Arrival (ns):                10.007
+  Required (ns):               20.197
+
+Path 92
+  From:                        clock_control_0/delay_counter[1]:CLK
+  To:                          clock_control_0/delay_counter[8]:D
+  Delay (ns):                  8.651
+  Slack (ns):                  10.208
+  Arrival (ns):                9.898
+  Required (ns):               20.106
+
+Path 93
+  From:                        clock_control_0/counter[3]:CLK
+  To:                          clock_control_0/delay_counter[6]:E
+  Delay (ns):                  8.459
+  Slack (ns):                  10.224
+  Arrival (ns):                9.633
+  Required (ns):               19.857
+
+Path 94
+  From:                        clock_control_0/counter[0]:CLK
+  To:                          clock_control_0/delay_counter[4]:E
+  Delay (ns):                  8.495
+  Slack (ns):                  10.227
+  Arrival (ns):                9.649
+  Required (ns):               19.876
+
+Path 95
+  From:                        clock_control_0/counter[0]:CLK
+  To:                          clock_control_0/delay_counter[0]:E
+  Delay (ns):                  8.495
+  Slack (ns):                  10.227
+  Arrival (ns):                9.649
+  Required (ns):               19.876
+
+Path 96
+  From:                        downlink_clock_divider_0/divider_counter[7]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[3]:D
+  Delay (ns):                  8.613
+  Slack (ns):                  10.232
+  Arrival (ns):                9.810
+  Required (ns):               20.042
+
+Path 97
+  From:                        clock_control_0/counter[1]:CLK
+  To:                          clock_control_0/delay_counter[4]:E
+  Delay (ns):                  8.461
+  Slack (ns):                  10.241
+  Arrival (ns):                9.635
+  Required (ns):               19.876
+
+Path 98
+  From:                        clock_control_0/counter[1]:CLK
+  To:                          clock_control_0/delay_counter[0]:E
+  Delay (ns):                  8.461
+  Slack (ns):                  10.241
+  Arrival (ns):                9.635
+  Required (ns):               19.876
+
+Path 99
+  From:                        downlink_clock_divider_0/divider_counter[7]:CLK
+  To:                          downlink_clock_divider_0/divider_counter[4]:D
+  Delay (ns):                  8.641
+  Slack (ns):                  10.247
+  Arrival (ns):                9.838
+  Required (ns):               20.085
+
+Path 100
+  From:                        clock_control_0/counter[0]:CLK
+  To:                          clock_control_0/delay_counter[2]:E
+  Delay (ns):                  8.474
+  Slack (ns):                  10.248
+  Arrival (ns):                9.628
+  Required (ns):               19.876
+

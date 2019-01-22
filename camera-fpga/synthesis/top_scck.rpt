@@ -1,0 +1,31 @@
+# Synopsys Constraint Checker(syntax only), version mapact, Build 1920R, built Nov 17 2016
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Wed Mar 21 13:51:08 2018
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "top"
+Constraint File(s):      "C:\Users\pyzhang\Desktop\working\backscatter-fpga\constraint\userdefined.sdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+Start                                  Requested     Requested     Clock        Clock        Clock
+Clock                                  Frequency     Period        Type         Group        Load 
+--------------------------------------------------------------------------------------------------
+clock_control_0.clock_out              1.0 MHz       1000.000      declared     main         146  
+downlink_clock_divider_0.clock_out     1.0 MHz       1000.000      declared     downlink     32   
+pclk                                   1.0 MHz       1000.000      declared     camera       96   
+pll_core_0.GLA                         50.0 MHz      20.000        declared     main         34   
+==================================================================================================

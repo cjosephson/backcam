@@ -1,0 +1,20 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+'IDE_DESIGNERVIEW_ROOTDIR' set to
+'C:\Users\pyzhang\Downloads\HitchHike-stable\HitchHike-5062a0c009f31641af70f1cf3ca8fc7b243d43bf\
+\HitchHike_FPGA_code\designer'
+Info: The design top.adb was last modified by software version 11.8.0.26.
+Opened an existing Libero design top.adb.
+
+The Execute Script command succeeded ( 00:00:39 )
+  - Reading netlist
+  - Initializing power engine...
+Info: Derived clock created at pin: pll_core_0/Core:GLA.
+  - Restoring saved options...
+  - Power analysis done!
+Info: Commit the changes made in SmartPower ?
+      Changes not commited will be lost. [NO]
+Design closed.
+

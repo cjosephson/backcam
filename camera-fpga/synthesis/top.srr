@@ -1,0 +1,1205 @@
+#Build: Synplify Pro L-2016.09M-2, Build 065R, Nov 16 2016
+#install: C:\Microsemi\Libero_SoC_v11.8\SynplifyPro
+#OS: Windows 7 6.1
+#Hostname: WIN-20J06I78429
+
+# Wed Mar 21 13:51:05 2018
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\camera_adapter.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\camera_clock.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\clock_control.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\dbpsk_modulator.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_clock_divider.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_decoder.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\packet_encoder.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\pll_core\pll_core.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\switch_encoder.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\whitening.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\component\work\top\top.v" (library work)
+Verilog syntax check successful!
+File C:\Users\pyzhang\Desktop\working\backscatter-fpga\component\work\top\top.v changed - recompiling
+Selecting top level module top
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\camera_adapter.v":1:7:1:20|Synthesizing module camera_adapter in library work.
+
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\camera_clock.v":5:7:5:18|Synthesizing module camera_clock in library work.
+
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\clock_control.v":7:7:7:19|Synthesizing module clock_control in library work.
+
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\dbpsk_modulator.v":1:7:1:21|Synthesizing module dbpsk_modulator in library work.
+
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\dbpsk_modulator.v":16:28:16:39|Removing redundant assignment.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_clock_divider.v":5:7:5:28|Synthesizing module downlink_clock_divider in library work.
+
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_clock_divider.v":32:25:32:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_clock_divider.v":37:25:37:33|Removing redundant assignment.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_decoder.v":11:7:11:22|Synthesizing module downlink_decoder in library work.
+
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":6:7:6:21|Synthesizing module downlink_parser in library work.
+
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":34:27:34:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":56:26:56:35|Removing redundant assignment.
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":57:27:57:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":58:26:58:35|Removing redundant assignment.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1911:7:1911:11|Synthesizing module XNOR3 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":929:7:929:12|Synthesizing module DFN1C0 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2:7:2:10|Synthesizing module AND2 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":20:7:20:10|Synthesizing module AND3 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1935:7:1935:10|Synthesizing module XOR3 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1905:7:1905:11|Synthesizing module XNOR2 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":86:7:86:9|Synthesizing module AO1 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1929:7:1929:10|Synthesizing module XOR2 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1996:7:1996:12|Synthesizing module RAM4K9 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":977:7:977:14|Synthesizing module DFN1E1C0 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1953:7:1953:10|Synthesizing module BUFF in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1283:7:1283:9|Synthesizing module INV in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1349:7:1349:11|Synthesizing module NAND2 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":8:7:8:11|Synthesizing module AND2A in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1001:7:1001:12|Synthesizing module DFN1P0 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1163:7:1163:9|Synthesizing module GND in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1864:7:1864:9|Synthesizing module VCC in library work.
+
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":5:7:5:18|Synthesizing module input_buffer in library work.
+
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":1090:9:1090:15|Removing instance AND2_28 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":1089:9:1089:15|Removing instance XOR2_71 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":1067:9:1067:15|Removing instance AND2_37 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":1043:9:1043:15|Removing instance AND2_21 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":930:9:930:15|Removing instance AND2_42 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":924:9:924:15|Removing instance AND2_40 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":838:9:838:14|Removing instance AND2_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":808:9:808:15|Removing instance XOR2_35 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":781:9:781:15|Removing instance AND2_36 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":744:9:744:15|Removing instance AND2_39 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":742:11:742:22|Removing instance DFN1C0_DVLDX because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":719:9:719:15|Removing instance AND2_63 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":709:9:709:15|Removing instance AND2_34 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":699:8:699:13|Removing instance AO1_22 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":696:9:696:15|Removing instance XOR2_25 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":609:9:609:15|Removing instance AND2_55 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":594:9:594:15|Removing instance AND2_16 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":583:9:583:15|Removing instance AND2_47 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":582:9:582:15|Removing instance AND2_64 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":579:9:579:15|Removing instance AND2_51 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":529:9:529:15|Removing instance AND2_23 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":456:9:456:15|Removing instance AND2_29 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":449:9:449:15|Removing instance AND2_38 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":387:9:387:15|Removing instance AND2_62 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":384:9:384:15|Removing instance XOR2_57 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":380:9:380:15|Removing instance AND2_60 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":308:9:308:15|Removing instance AND2_57 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":256:9:256:14|Removing instance AND2_7 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":219:9:219:15|Removing instance AND2_18 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":195:8:195:13|Removing instance AO1_31 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":158:9:158:15|Removing instance AND2_22 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":151:9:151:15|Removing instance AND2_11 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":147:9:147:15|Removing instance AND2_20 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\packet_encoder.v":3:7:3:20|Synthesizing module packet_encoder in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2447:7:2447:9|Synthesizing module PLL in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":276:7:276:12|Synthesizing module PLLINT in library work.
+
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\pll_core\pll_core.v":5:7:5:14|Synthesizing module pll_core in library work.
+
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\switch_encoder.v":3:7:3:20|Synthesizing module switch_encoder in library work.
+
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\whitening.v":1:7:1:15|Synthesizing module whitening in library work.
+
+@A: CL282 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\whitening.v":9:0:9:5|Feedback mux created for signal output_whitening. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\component\work\top\top.v":9:7:9:9|Synthesizing module top in library work.
+
+@W: CL138 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":38:0:38:5|Removing register 'compression' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":38:0:38:5|Removing register 'repetition' because it is only assigned 0 or its original value.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Mar 21 13:51:06 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Mar 21 13:51:07 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Mar 21 13:51:07 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+File C:\Users\pyzhang\Desktop\working\backscatter-fpga\synthesis\synwork\top_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Mar 21 13:51:08 2018
+
+###########################################################]
+Pre-mapping Report
+
+# Wed Mar 21 13:51:08 2018
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+Reading constraint file: C:\Users\pyzhang\Desktop\working\backscatter-fpga\constraint\userdefined.sdc
+@L: C:\Users\pyzhang\Desktop\working\backscatter-fpga\synthesis\top_scck.rpt 
+Printing clock  summary report in "C:\Users\pyzhang\Desktop\working\backscatter-fpga\synthesis\top_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+@N: BN362 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\camera_adapter.v":36:0:36:5|Removing sequential instance hi_nibble[3:0] (in view: work.camera_adapter(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":1:0:1:0|Assigning clock "pclk" to command: define_clock p:pclk -freq 1 -clockgroup camera 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":2:0:2:0|Assigning clock "pll_core_0.GLA" to command: define_clock n:pll_core_0.GLA -freq 50 -clockgroup main 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":3:0:3:0|Assigning clock "downlink_clock_divider_0.clock_out" to command: define_clock n:downlink_clock_divider_0.clock_out -freq 1 -clockgroup downlink 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":4:0:4:0|Assigning clock "clock_control_0.clock_out" to command: define_clock n:clock_control_0.clock_out -freq 1 -clockgroup main 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                  Requested     Requested     Clock        Clock        Clock
+Clock                                  Frequency     Period        Type         Group        Load 
+--------------------------------------------------------------------------------------------------
+clock_control_0.clock_out              1.0 MHz       1000.000      declared     main         146  
+downlink_clock_divider_0.clock_out     1.0 MHz       1000.000      declared     downlink     32   
+pclk                                   1.0 MHz       1000.000      declared     camera       96   
+pll_core_0.GLA                         50.0 MHz      20.000        declared     main         34   
+==================================================================================================
+
+Finished Pre Mapping Phase.
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":1:0:1:0|Assigning clock "pclk" to command: define_clock p:pclk -freq 1 -clockgroup camera 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":2:0:2:0|Assigning clock "pll_core_0.GLA" to command: define_clock n:pll_core_0.GLA -freq 50 -clockgroup main 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":3:0:3:0|Assigning clock "downlink_clock_divider_0.clock_out" to command: define_clock n:downlink_clock_divider_0.clock_out -freq 1 -clockgroup downlink 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":4:0:4:0|Assigning clock "clock_control_0.clock_out" to command: define_clock n:clock_control_0.clock_out -freq 1 -clockgroup main 
+@N: BN225 |Writing default property annotation file C:\Users\pyzhang\Desktop\working\backscatter-fpga\synthesis\top.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 26MB peak: 111MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Mar 21 13:51:09 2018
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Mar 21 13:51:09 2018
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+@W: MO160 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\camera_adapter.v":36:0:36:5|Register bit lohalf (in view view:work.camera_adapter(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":1:0:1:0|Assigning clock "pclk" to command: define_clock p:pclk -freq 1 -clockgroup camera 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":2:0:2:0|Assigning clock "pll_core_0_GLA" to command: define_clock n:pll_core_0.GLA -freq 50 -clockgroup main 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":3:0:3:0|Assigning clock "downlink_clock_divider_0.clock_out" to command: define_clock n:downlink_clock_divider_0.clock_out -freq 1 -clockgroup downlink 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":4:0:4:0|Assigning clock "clock_control_0.clock_out" to command: define_clock n:clock_control_0.clock_out -freq 1 -clockgroup main 
+@N: BN362 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\camera_adapter.v":36:0:36:5|Removing sequential instance last_pixel[7:0] (in view: work.camera_adapter(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\camera_adapter.v":36:0:36:5|Removing sequential instance pixel_idx[7:0] (in view: work.camera_adapter(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+@N: MF238 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\camera_clock.v":26:23:26:34|Found 6-bit incrementor, 'un3_counter[5:0]'
+@N: MO231 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\clock_control.v":18:0:18:5|Found counter in view:work.clock_control(verilog) instance counter[5:0] 
+@N: MO231 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\clock_control.v":18:0:18:5|Found counter in view:work.clock_control(verilog) instance delay_counter[11:0] 
+@N: MF238 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\downlink_clock_divider.v":28:31:28:50|Found 6-bit incrementor, 'un3_divider_counter_1[5:0]'
+@N: MO231 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\downlink_decoder.v":22:0:22:5|Found counter in view:work.downlink_decoder(verilog) instance packet_length[11:0] 
+@N: MO231 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\packet_encoder.v":24:0:24:5|Found counter in view:work.packet_encoder(verilog) instance bit_state[4:0] 
+@N: MO231 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\packet_encoder.v":24:0:24:5|Found counter in view:work.packet_encoder(verilog) instance byte_counter[15:0] 
+@N: MO231 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\packet_encoder.v":24:0:24:5|Found counter in view:work.packet_encoder(verilog) instance payload_size[7:0] 
+@N: MO231 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\packet_encoder.v":24:0:24:5|Found counter in view:work.packet_encoder(verilog) instance seq_number[23:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 115MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 113MB peak: 115MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 114MB peak: 115MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 114MB peak: 115MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 114MB peak: 115MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 114MB peak: 115MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 114MB peak: 115MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 113MB peak: 115MB)
+
+@N: MF322 |Retiming summary: 12 registers retimed to 33 
+
+		#####  BEGIN RETIMING REPORT  #####
+
+Retiming summary : 12 registers retimed to 33
+
+Original and Pipelined registers replaced by retiming :
+		clock_control_0.counter[0]
+		clock_control_0.delay_counter[11]
+		packet_encoder_0.bit_state[0]
+		packet_encoder_0.current[0]
+		packet_encoder_0.current[1]
+		packet_encoder_0.current[2]
+		packet_encoder_0.current[3]
+		packet_encoder_0.current[4]
+		packet_encoder_0.current[5]
+		packet_encoder_0.current[6]
+		packet_encoder_0.current[7]
+		packet_encoder_0.seq_number[0]
+
+New registers created by retiming :
+		clock_control_0.counter_ret
+		clock_control_0.counter_ret_1
+		clock_control_0.delay_counter_ret
+		clock_control_0.delay_counter_ret_1
+		clock_control_0.delay_counter_ret_2
+		packet_encoder_0.bit_state_ret
+		packet_encoder_0.bit_state_ret_1
+		packet_encoder_0.current_ret
+		packet_encoder_0.current_ret_0
+		packet_encoder_0.current_ret_1
+		packet_encoder_0.current_ret_2
+		packet_encoder_0.current_ret_3
+		packet_encoder_0.current_ret_4
+		packet_encoder_0.current_ret_5
+		packet_encoder_0.current_ret_6
+		packet_encoder_0.current_ret_7
+		packet_encoder_0.current_ret_8
+		packet_encoder_0.current_ret_9
+		packet_encoder_0.current_ret_10
+		packet_encoder_0.current_ret_11
+		packet_encoder_0.current_ret_12
+		packet_encoder_0.current_ret_13
+		packet_encoder_0.current_ret_14
+		packet_encoder_0.current_ret_15
+		packet_encoder_0.current_ret_16
+		packet_encoder_0.current_ret_17
+		packet_encoder_0.current_ret_18
+		packet_encoder_0.current_ret_19
+		packet_encoder_0.current_ret_20
+		packet_encoder_0.current_ret_21
+		packet_encoder_0.current_ret_22
+		packet_encoder_0.seq_number_ret
+		packet_encoder_0.seq_number_ret_1
+
+
+		#####   END RETIMING REPORT  #####
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                     Fanout, notes                   
+-------------------------------------------------------------------------------
+clock_control_0.switch / Q                     66                              
+input_buffer_0.DFN1C0_WRITE_RESET_P / Q        61 : 61 asynchronous set/reset  
+input_buffer_0.DFN1C0_READ_RESET_P / Q         62 : 62 asynchronous set/reset  
+packet_encoder_0.current_6_sqmuxa_i_o2 / Y     25                              
+reset_pad / Y                                  177 : 175 asynchronous set/reset
+trigger_signal_pad / Y                         36                              
+===============================================================================
+
+@N: FP130 |Promoting Net reset_c on CLKBUF  reset_pad 
+@N: FP130 |Promoting Net clock_control_0_clock_out on CLKINT  clock_control_0.clock_out_keep 
+@N: FP130 |Promoting Net input_buffer_0.RCLOCKP on CLKINT  I_39 
+@N: FP130 |Promoting Net cam_write_en_2 on CLKINT  I_40 
+@N: FP130 |Promoting Net input_buffer_0.WCLOCKP on CLKINT  I_41 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 113MB peak: 115MB)
+
+Buffering trigger_signal_c, fanout 36 segments 2
+Replicating Combinational Instance packet_encoder_0.current_6_sqmuxa_i_o2, fanout 25 segments 2
+Replicating Sequential Instance input_buffer_0.DFN1C0_READ_RESET_P, fanout 62 segments 3
+Replicating Sequential Instance input_buffer_0.DFN1C0_WRITE_RESET_P, fanout 61 segments 3
+
+Added 1 Buffers
+Added 5 Cells via replication
+	Added 4 Sequential Cells via replication
+	Added 1 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 113MB peak: 115MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+4 non-gated/non-generated clock tree(s) driving 314 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+======================================================== Non-Gated/Non-Generated Clocks ========================================================
+Clock Tree ID     Driving Element                       Drive Element Type                Fanout     Sample Instance                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       clock_control_0.clock_out_RNICHN5     clock definition on CLKINT        165        whitening_0.state[6]                       
+@K:CKID0002       pclk                                  clock definition on port          81         camera_adapter_0.repeat_counter[1]         
+@K:CKID0003       pll_core_0                            clock definition on hierarchy     37         downlink_clock_divider_0.divider_counter[5]
+@K:CKID0004       downlink_clock_divider_0              clock definition on hierarchy     31         downlink_parser_0.downlink_buffer[14]      
+================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 113MB peak: 115MB)
+
+Writing Analyst data base C:\Users\pyzhang\Desktop\working\backscatter-fpga\synthesis\synwork\top_m.srm
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":1:0:1:0|Assigning clock "pclk" to command: define_clock p:pclk -freq 1 -clockgroup camera 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":2:0:2:0|Assigning clock "pll_core_0.GLA" to command: define_clock n:pll_core_0.GLA -freq 50 -clockgroup main 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":3:0:3:0|Assigning clock "downlink_clock_divider_0.clock_out" to command: define_clock n:downlink_clock_divider_0.clock_out -freq 1 -clockgroup downlink 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":4:0:4:0|Assigning clock "clock_control_0.clock_out_RNICHN5" to command: define_clock n:clock_control_0.clock_out -freq 1 -clockgroup main 
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 113MB peak: 115MB)
+
+Writing EDIF Netlist and constraint files
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":1:0:1:0|Assigning clock "pclk" to command: define_clock p:pclk -freq 1 -clockgroup camera 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":2:0:2:0|Assigning clock "pll_core_0.GLA" to command: define_clock n:pll_core_0.GLA -freq 50 -clockgroup main 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":3:0:3:0|Assigning clock "downlink_clock_divider_0.clock_out" to command: define_clock n:downlink_clock_divider_0.clock_out -freq 1 -clockgroup downlink 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":4:0:4:0|Assigning clock "clock_control_0.clock_out_RNICHN5" to command: define_clock n:clock_control_0.clock_out -freq 1 -clockgroup main 
+L-2016.09M-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 114MB peak: 116MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 114MB peak: 116MB)
+
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":1:0:1:0|Assigning clock "pclk" to command: define_clock p:pclk -freq 1 -clockgroup camera 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":2:0:2:0|Assigning clock "pll_core_0.GLA" to command: define_clock n:pll_core_0.GLA -freq 50 -clockgroup main 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":3:0:3:0|Assigning clock "downlink_clock_divider_0.clock_out" to command: define_clock n:downlink_clock_divider_0.clock_out -freq 1 -clockgroup downlink 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":4:0:4:0|Assigning clock "clock_control_0.clock_out_RNICHN5" to command: define_clock n:clock_control_0.clock_out -freq 1 -clockgroup main 
+@N: MT615 |Found clock pclk with period 1000.00ns 
+@N: MT615 |Found clock pll_core_0.GLA with period 20.00ns 
+@N: MT615 |Found clock downlink_clock_divider_0.clock_out with period 1000.00ns 
+@N: MT615 |Found clock clock_control_0.clock_out_RNICHN5 with period 1000.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Mar 21 13:51:12 2018
+#
+
+
+Top view:               top
+Library name:           IGLOO_V2
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.14, P = 3.70, tree_type = balanced_tree )
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Wire load model:        igloo
+Paths requested:        5
+Constraint File(s):    C:\Users\pyzhang\Desktop\working\backscatter-fpga\constraint\userdefined.sdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.957
+
+                                       Requested     Estimated     Requested     Estimated                 Clock        Clock   
+Starting Clock                         Frequency     Frequency     Period        Period        Slack       Type         Group   
+--------------------------------------------------------------------------------------------------------------------------------
+clock_control_0.clock_out_RNICHN5      1.0 MHz       1.2 MHz       1000.000      834.420       460.083     declared     main    
+downlink_clock_divider_0.clock_out     1.0 MHz       33.8 MHz      1000.000      29.606        489.133     declared     downlink
+pclk                                   1.0 MHz       12.3 MHz      1000.000      81.353        459.323     declared     camera  
+pll_core_0.GLA                         50.0 MHz      47.7 MHz      20.000        20.956        -0.957      declared     main    
+================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                  |    rise  to  rise     |    fall  to  fall     |    rise  to  fall     |    fall  to  rise   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                            Ending                              |  constraint  slack    |  constraint  slack    |  constraint  slack    |  constraint  slack  
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pclk                                pclk                                |  1000.000    970.219  |  1000.000    958.024  |  500.000     459.323  |  No paths    -      
+pclk                                clock_control_0.clock_out_RNICHN5   |  No paths    -        |  Diff grp    -        |  No paths    -        |  No paths    -      
+pll_core_0.GLA                      pll_core_0.GLA                      |  20.000      -0.957   |  No paths    -        |  No paths    -        |  No paths    -      
+pll_core_0.GLA                      clock_control_0.clock_out_RNICHN5   |  20.000      3.312    |  No paths    -        |  No paths    -        |  No paths    -      
+downlink_clock_divider_0.clock_out  downlink_clock_divider_0.clock_out  |  1000.000    970.394  |  1000.000    995.790  |  500.000     491.656  |  500.000     489.133
+clock_control_0.clock_out_RNICHN5   pclk                                |  No paths    -        |  Diff grp    -        |  No paths    -        |  No paths    -      
+clock_control_0.clock_out_RNICHN5   clock_control_0.clock_out_RNICHN5   |  1000.000    951.593  |  1000.000    956.868  |  500.000     460.083  |  500.000     487.568
+======================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: clock_control_0.clock_out_RNICHN5
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                   Starting                                                                           Arrival            
+Instance                           Reference                             Type         Pin     Net                     Time        Slack  
+                                   Clock                                                                                                 
+-----------------------------------------------------------------------------------------------------------------------------------------
+packet_encoder_0.fifo_re           clock_control_0.clock_out_RNICHN5     DFN1C0       Q       cam_write_en_3          1.771       460.083
+input_buffer_0.DFN1E1C0_Q\[2\]     clock_control_0.clock_out_RNICHN5     DFN1E1C0     Q       input_buffer_0_Q[2]     1.771       487.568
+input_buffer_0.DFN1E1C0_Q\[3\]     clock_control_0.clock_out_RNICHN5     DFN1E1C0     Q       input_buffer_0_Q[3]     1.771       487.568
+input_buffer_0.DFN1E1C0_Q\[0\]     clock_control_0.clock_out_RNICHN5     DFN1E1C0     Q       input_buffer_0_Q[0]     1.771       487.659
+input_buffer_0.DFN1E1C0_Q\[1\]     clock_control_0.clock_out_RNICHN5     DFN1E1C0     Q       input_buffer_0_Q[1]     1.771       487.973
+input_buffer_0.DFN1E1C0_Q\[7\]     clock_control_0.clock_out_RNICHN5     DFN1E1C0     Q       input_buffer_0_Q[7]     1.771       488.929
+input_buffer_0.DFN1E1C0_Q\[6\]     clock_control_0.clock_out_RNICHN5     DFN1E1C0     Q       input_buffer_0_Q[6]     1.771       488.975
+input_buffer_0.DFN1P0_EMPTY        clock_control_0.clock_out_RNICHN5     DFN1P0       Q       cam_write_en_c          1.771       489.618
+input_buffer_0.DFN1E1C0_Q\[4\]     clock_control_0.clock_out_RNICHN5     DFN1E1C0     Q       input_buffer_0_Q[4]     1.771       491.276
+input_buffer_0.DFN1E1C0_Q\[5\]     clock_control_0.clock_out_RNICHN5     DFN1E1C0     Q       input_buffer_0_Q[5]     1.771       496.079
+=========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                          Starting                                                                        Required            
+Instance                                  Reference                             Type       Pin     Net                    Time         Slack  
+                                          Clock                                                                                               
+----------------------------------------------------------------------------------------------------------------------------------------------
+input_buffer_0.DFN1P0_EMPTY               clock_control_0.clock_out_RNICHN5     DFN1P0     D       EMPTYINT               498.622      460.083
+input_buffer_0.DFN1C0_RGRY\[10\]          clock_control_0.clock_out_RNICHN5     DFN1C0     D       XOR2_67_Y              498.705      465.500
+input_buffer_0.DFN1C0_RGRY\[11\]          clock_control_0.clock_out_RNICHN5     DFN1C0     D       XOR2_5_Y               498.705      466.577
+input_buffer_0.DFN1C0_RGRY\[9\]           clock_control_0.clock_out_RNICHN5     DFN1C0     D       XOR2_32_Y              498.705      467.709
+input_buffer_0.DFN1C0_RGRY\[8\]           clock_control_0.clock_out_RNICHN5     DFN1C0     D       XOR2_55_Y              498.705      467.864
+input_buffer_0.DFN1C0_MEM_RADDR\[11\]     clock_control_0.clock_out_RNICHN5     DFN1C0     D       RBINNXTSHIFT\[11\]     498.705      468.523
+input_buffer_0.DFN1C0_RGRY\[12\]          clock_control_0.clock_out_RNICHN5     DFN1C0     D       XOR2_33_Y              498.705      468.941
+input_buffer_0.DFN1C0_RGRY\[6\]           clock_control_0.clock_out_RNICHN5     DFN1C0     D       XOR2_56_Y              498.705      469.781
+input_buffer_0.DFN1C0_RGRY\[7\]           clock_control_0.clock_out_RNICHN5     DFN1C0     D       XOR2_18_Y              498.705      470.073
+input_buffer_0.DFN1C0_MEM_RADDR\[10\]     clock_control_0.clock_out_RNICHN5     DFN1C0     D       RBINNXTSHIFT\[10\]     498.705      470.733
+==============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      500.000
+    - Setup time:                            1.378
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         498.622
+
+    - Propagation time:                      38.539
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 460.083
+
+    Number of logic level(s):                12
+    Starting point:                          packet_encoder_0.fifo_re / Q
+    Ending point:                            input_buffer_0.DFN1P0_EMPTY / D
+    The start point is clocked by            clock_control_0.clock_out_RNICHN5 [rising] on pin CLK
+    The end   point is clocked by            clock_control_0.clock_out_RNICHN5 [falling] on pin CLK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                       Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+packet_encoder_0.fifo_re                   DFN1C0     Q        Out     1.771     1.771       -         
+cam_write_en_3                             Net        -        -       0.927     -           2         
+input_buffer_0.AND2_MEMORYRE               AND2       B        In      -         2.698       -         
+input_buffer_0.AND2_MEMORYRE               AND2       Y        Out     1.508     4.205       -         
+MEMORYRE                                   Net        -        -       1.938     -           3         
+input_buffer_0.AND2_61                     AND2       B        In      -         6.143       -         
+input_buffer_0.AND2_61                     AND2       Y        Out     1.508     7.651       -         
+AND2_61_Y                                  Net        -        -       0.927     -           2         
+input_buffer_0.AO1_14                      AO1        B        In      -         8.578       -         
+input_buffer_0.AO1_14                      AO1        Y        Out     1.437     10.015      -         
+AO1_14_Y                                   Net        -        -       1.938     -           3         
+input_buffer_0.AO1_6                       AO1        B        In      -         11.953      -         
+input_buffer_0.AO1_6                       AO1        Y        Out     1.437     13.389      -         
+AO1_6_Y                                    Net        -        -       2.844     -           4         
+input_buffer_0.AO1_18                      AO1        B        In      -         16.233      -         
+input_buffer_0.AO1_18                      AO1        Y        Out     1.437     17.670      -         
+AO1_18_Y                                   Net        -        -       2.844     -           4         
+input_buffer_0.AO1_16                      AO1        B        In      -         20.514      -         
+input_buffer_0.AO1_16                      AO1        Y        Out     1.437     21.951      -         
+AO1_16_Y                                   Net        -        -       0.927     -           2         
+input_buffer_0.AO1_36                      AO1        B        In      -         22.878      -         
+input_buffer_0.AO1_36                      AO1        Y        Out     1.437     24.314      -         
+AO1_36_Y                                   Net        -        -       0.773     -           1         
+input_buffer_0.XOR2_RBINNXTSHIFT\[11\]     XOR2       B        In      -         25.087      -         
+input_buffer_0.XOR2_RBINNXTSHIFT\[11\]     XOR2       Y        Out     2.251     27.338      -         
+RBINNXTSHIFT\[11\]                         Net        -        -       2.844     -           4         
+input_buffer_0.XNOR2_4                     XNOR2      A        In      -         30.182      -         
+input_buffer_0.XNOR2_4                     XNOR2      Y        Out     0.981     31.163      -         
+XNOR2_4_Y                                  Net        -        -       0.773     -           1         
+input_buffer_0.AND2_17                     AND2       B        In      -         31.936      -         
+input_buffer_0.AND2_17                     AND2       Y        Out     1.508     33.444      -         
+AND2_17_Y                                  Net        -        -       0.773     -           1         
+input_buffer_0.AND3_0                      AND3       C        In      -         34.216      -         
+input_buffer_0.AND3_0                      AND3       Y        Out     1.541     35.757      -         
+AND3_0_Y                                   Net        -        -       0.773     -           1         
+input_buffer_0.AND2_EMPTYINT               AND2       A        In      -         36.530      -         
+input_buffer_0.AND2_EMPTYINT               AND2       Y        Out     1.236     37.766      -         
+EMPTYINT                                   Net        -        -       0.773     -           1         
+input_buffer_0.DFN1P0_EMPTY                DFN1P0     D        In      -         38.539      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 39.917 is 20.864(52.3%) logic and 19.053(47.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: downlink_clock_divider_0.clock_out
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                          Starting                                                                            Arrival            
+Instance                                  Reference                              Type         Pin     Net                     Time        Slack  
+                                          Clock                                                                                                  
+-------------------------------------------------------------------------------------------------------------------------------------------------
+downlink_parser_0.downlink_buffer[10]     downlink_clock_divider_0.clock_out     DFN0E1C0     Q       downlink_buffer[10]     1.570       489.133
+downlink_parser_0.downlink_buffer[9]      downlink_clock_divider_0.clock_out     DFN0E1C0     Q       downlink_buffer[9]      1.570       489.405
+downlink_parser_0.downlink_buffer[13]     downlink_clock_divider_0.clock_out     DFN0E1C0     Q       downlink_buffer[13]     1.570       491.531
+downlink_parser_0.downlink_buffer[14]     downlink_clock_divider_0.clock_out     DFN0E1C0     Q       downlink_buffer[14]     1.570       491.652
+downlink_decoder_0.detected               downlink_clock_divider_0.clock_out     DFN1C0       Q       debug_detected          1.771       491.656
+downlink_parser_0.downlink_buffer[11]     downlink_clock_divider_0.clock_out     DFN0E1C0     Q       downlink_buffer[11]     1.570       491.802
+downlink_parser_0.downlink_buffer[7]      downlink_clock_divider_0.clock_out     DFN0E1C0     Q       downlink_buffer[7]      1.570       491.840
+downlink_parser_0.downlink_buffer[12]     downlink_clock_divider_0.clock_out     DFN0E1C0     Q       downlink_buffer[12]     1.570       492.099
+downlink_parser_0.downlink_buffer[8]      downlink_clock_divider_0.clock_out     DFN0E1C0     Q       downlink_buffer[8]      1.570       492.433
+downlink_decoder_0.downlink_bit           downlink_clock_divider_0.clock_out     DFN1C0       Q       camera_res_2            1.771       495.744
+=================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                         Starting                                                                       Required            
+Instance                                 Reference                              Type         Pin     Net                Time         Slack  
+                                         Clock                                                                                              
+--------------------------------------------------------------------------------------------------------------------------------------------
+downlink_parser_0.resolution             downlink_clock_divider_0.clock_out     DFN1E1C0     E       resolution5        498.538      489.133
+downlink_parser_0.downlink_buffer[0]     downlink_clock_divider_0.clock_out     DFN0E1C0     E       debug_detected     498.538      491.656
+downlink_parser_0.downlink_buffer[1]     downlink_clock_divider_0.clock_out     DFN0E1C0     E       debug_detected     498.538      491.656
+downlink_parser_0.downlink_buffer[2]     downlink_clock_divider_0.clock_out     DFN0E1C0     E       debug_detected     498.538      491.656
+downlink_parser_0.downlink_buffer[3]     downlink_clock_divider_0.clock_out     DFN0E1C0     E       debug_detected     498.538      491.656
+downlink_parser_0.downlink_buffer[4]     downlink_clock_divider_0.clock_out     DFN0E1C0     E       debug_detected     498.538      491.656
+downlink_parser_0.downlink_buffer[5]     downlink_clock_divider_0.clock_out     DFN0E1C0     E       debug_detected     498.538      491.656
+downlink_parser_0.downlink_buffer[6]     downlink_clock_divider_0.clock_out     DFN0E1C0     E       debug_detected     498.538      491.656
+downlink_parser_0.downlink_buffer[7]     downlink_clock_divider_0.clock_out     DFN0E1C0     E       debug_detected     498.538      491.656
+downlink_parser_0.downlink_buffer[8]     downlink_clock_divider_0.clock_out     DFN0E1C0     E       debug_detected     498.538      491.656
+============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      500.000
+    - Setup time:                            1.462
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         498.538
+
+    - Propagation time:                      9.405
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 489.133
+
+    Number of logic level(s):                3
+    Starting point:                          downlink_parser_0.downlink_buffer[10] / Q
+    Ending point:                            downlink_parser_0.resolution / E
+    The start point is clocked by            downlink_clock_divider_0.clock_out [falling] on pin CLK
+    The end   point is clocked by            downlink_clock_divider_0.clock_out [rising] on pin CLK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+downlink_parser_0.downlink_buffer[10]     DFN0E1C0     Q        Out     1.570     1.570       -         
+downlink_buffer[10]                       Net          -        -       0.927     -           2         
+downlink_parser_0.resolution_RNO_3        NOR2B        B        In      -         2.498       -         
+downlink_parser_0.resolution_RNO_3        NOR2B        Y        Out     1.508     4.005       -         
+resolution5_1                             Net          -        -       0.773     -           1         
+downlink_parser_0.resolution_RNO_2        NOR3C        C        In      -         4.778       -         
+downlink_parser_0.resolution_RNO_2        NOR3C        Y        Out     1.541     6.319       -         
+resolution5_4                             Net          -        -       0.773     -           1         
+downlink_parser_0.resolution_RNO          NOR3C        C        In      -         7.091       -         
+downlink_parser_0.resolution_RNO          NOR3C        Y        Out     1.541     8.632       -         
+resolution5                               Net          -        -       0.773     -           1         
+downlink_parser_0.resolution              DFN1E1C0     E        In      -         9.405       -         
+========================================================================================================
+Total path delay (propagation time + setup) of 10.867 is 7.622(70.1%) logic and 3.245(29.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: pclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                    Starting                                                                 Arrival            
+Instance                            Reference     Type         Pin     Net                                   Time        Slack  
+                                    Clock                                                                                       
+--------------------------------------------------------------------------------------------------------------------------------
+camera_adapter_0.write_en           pclk          DFN1C0       Q       cam_write_en_net_0                    1.771       459.323
+camera_adapter_0.output_data[0]     pclk          DFN1E0C0     Q       camera_adapter_0_output_data_3[0]     1.771       496.751
+camera_adapter_0.output_data[1]     pclk          DFN1E0C0     Q       camera_adapter_0_output_data_3[1]     1.771       496.751
+camera_adapter_0.output_data[2]     pclk          DFN1E0C0     Q       camera_adapter_0_output_data_3[2]     1.771       496.751
+camera_adapter_0.output_data[3]     pclk          DFN1E0C0     Q       camera_adapter_0_output_data_3[3]     1.771       496.751
+camera_adapter_0.output_data[4]     pclk          DFN1E0C0     Q       camera_adapter_0_output_data_3[4]     1.771       496.751
+camera_adapter_0.output_data[5]     pclk          DFN1E0C0     Q       camera_adapter_0_output_data_3[5]     1.771       496.751
+camera_adapter_0.output_data[6]     pclk          DFN1E0C0     Q       camera_adapter_0_output_data_3[6]     1.771       496.751
+camera_adapter_0.output_data[7]     pclk          DFN1E0C0     Q       camera_adapter_0_output_data_3[7]     1.771       496.751
+input_buffer_0.DFN1C0_FULL          pclk          DFN1C0       Q       FULL                                  1.395       958.024
+================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                          Starting                                                Required            
+Instance                                  Reference     Type       Pin     Net                    Time         Slack  
+                                          Clock                                                                       
+----------------------------------------------------------------------------------------------------------------------
+input_buffer_0.DFN1C0_FULL                pclk          DFN1C0     D       FULLINT                498.705      459.323
+input_buffer_0.DFN1C0_WGRY\[10\]          pclk          DFN1C0     D       XOR2_39_Y              498.705      465.654
+input_buffer_0.DFN1C0_WGRY\[11\]          pclk          DFN1C0     D       XOR2_2_Y               498.705      466.732
+input_buffer_0.DFN1C0_WGRY\[9\]           pclk          DFN1C0     D       XOR2_15_Y              498.705      467.864
+input_buffer_0.DFN1C0_WGRY\[8\]           pclk          DFN1C0     D       XOR2_45_Y              498.705      468.018
+input_buffer_0.DFN1C0_MEM_WADDR\[11\]     pclk          DFN1C0     D       WBINNXTSHIFT\[11\]     498.705      468.678
+input_buffer_0.DFN1C0_WGRY\[12\]          pclk          DFN1C0     D       XOR2_52_Y              498.705      469.096
+input_buffer_0.DFN1C0_WGRY\[6\]           pclk          DFN1C0     D       XOR2_37_Y              498.705      469.935
+input_buffer_0.DFN1C0_WGRY\[7\]           pclk          DFN1C0     D       XOR2_44_Y              498.705      470.227
+input_buffer_0.DFN1C0_MEM_WADDR\[10\]     pclk          DFN1C0     D       WBINNXTSHIFT\[10\]     498.705      470.887
+======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      500.000
+    - Setup time:                            1.295
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         498.705
+
+    - Propagation time:                      39.382
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 459.323
+
+    Number of logic level(s):                12
+    Starting point:                          camera_adapter_0.write_en / Q
+    Ending point:                            input_buffer_0.DFN1C0_FULL / D
+    The start point is clocked by            pclk [rising] on pin CLK
+    The end   point is clocked by            pclk [falling] on pin CLK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                       Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+camera_adapter_0.write_en                  DFN1C0     Q        Out     1.771     1.771       -         
+cam_write_en_net_0                         Net        -        -       0.773     -           1         
+input_buffer_0.AND2_MEMORYWE               AND2       B        In      -         2.543       -         
+input_buffer_0.AND2_MEMORYWE               AND2       Y        Out     1.508     4.051       -         
+MEMORYWE                                   Net        -        -       1.938     -           3         
+input_buffer_0.AND2_27                     AND2       B        In      -         5.989       -         
+input_buffer_0.AND2_27                     AND2       Y        Out     1.508     7.496       -         
+AND2_27_Y                                  Net        -        -       0.927     -           2         
+input_buffer_0.AO1_1                       AO1        B        In      -         8.424       -         
+input_buffer_0.AO1_1                       AO1        Y        Out     1.437     9.860       -         
+AO1_1_Y                                    Net        -        -       1.938     -           3         
+input_buffer_0.AO1_25                      AO1        B        In      -         11.798      -         
+input_buffer_0.AO1_25                      AO1        Y        Out     1.437     13.235      -         
+AO1_25_Y                                   Net        -        -       2.844     -           4         
+input_buffer_0.AO1_5                       AO1        B        In      -         16.079      -         
+input_buffer_0.AO1_5                       AO1        Y        Out     1.437     17.515      -         
+AO1_5_Y                                    Net        -        -       2.844     -           4         
+input_buffer_0.AO1_12                      AO1        B        In      -         20.359      -         
+input_buffer_0.AO1_12                      AO1        Y        Out     1.437     21.796      -         
+AO1_12_Y                                   Net        -        -       0.927     -           2         
+input_buffer_0.AO1_29                      AO1        B        In      -         22.723      -         
+input_buffer_0.AO1_29                      AO1        Y        Out     1.437     24.160      -         
+AO1_29_Y                                   Net        -        -       0.773     -           1         
+input_buffer_0.XOR2_WBINNXTSHIFT\[11\]     XOR2       B        In      -         24.932      -         
+input_buffer_0.XOR2_WBINNXTSHIFT\[11\]     XOR2       Y        Out     2.251     27.183      -         
+WBINNXTSHIFT\[11\]                         Net        -        -       2.844     -           4         
+input_buffer_0.XNOR2_11                    XNOR2      B        In      -         30.027      -         
+input_buffer_0.XNOR2_11                    XNOR2      Y        Out     2.251     32.278      -         
+XNOR2_11_Y                                 Net        -        -       0.773     -           1         
+input_buffer_0.AND2_65                     AND2       B        In      -         33.051      -         
+input_buffer_0.AND2_65                     AND2       Y        Out     1.240     34.291      -         
+AND2_65_Y                                  Net        -        -       0.773     -           1         
+input_buffer_0.AND3_1                      AND3       C        In      -         35.064      -         
+input_buffer_0.AND3_1                      AND3       Y        Out     1.599     36.663      -         
+AND3_1_Y                                   Net        -        -       0.773     -           1         
+input_buffer_0.AND2_FULLINT                AND2       A        In      -         37.436      -         
+input_buffer_0.AND2_FULLINT                AND2       Y        Out     1.174     38.609      -         
+FULLINT                                    Net        -        -       0.773     -           1         
+input_buffer_0.DFN1C0_FULL                 DFN1C0     D        In      -         39.382      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 40.677 is 21.779(53.5%) logic and 18.898(46.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: pll_core_0.GLA
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                     Starting                                                     Arrival           
+Instance                             Reference          Type         Pin     Net                  Time        Slack 
+                                     Clock                                                                          
+--------------------------------------------------------------------------------------------------------------------
+clock_control_0.counter[4]           pll_core_0.GLA     DFN1C0       Q       counter[4]           1.771       -0.957
+clock_control_0.counter[2]           pll_core_0.GLA     DFN1C0       Q       counter[2]           1.771       -0.944
+clock_control_0.counter[3]           pll_core_0.GLA     DFN1C0       Q       counter[3]           1.771       -0.685
+clock_control_0.counter[1]           pll_core_0.GLA     DFN1C0       Q       counter[1]           1.771       -0.660
+clock_control_0.counter[5]           pll_core_0.GLA     DFN1C0       Q       counter[5]           1.771       -0.626
+clock_control_0.delay_counter[6]     pll_core_0.GLA     DFN1E1C0     Q       delay_counter[6]     1.771       0.818 
+clock_control_0.delay_counter[3]     pll_core_0.GLA     DFN1E1C0     Q       delay_counter[3]     1.771       0.860 
+clock_control_0.delay_counter[2]     pll_core_0.GLA     DFN1E1C0     Q       delay_counter[2]     1.771       1.090 
+clock_control_0.delay_counter[0]     pll_core_0.GLA     DFN1E1C0     Q       delay_counter[0]     1.771       1.833 
+clock_control_0.counter_ret_1        pll_core_0.GLA     DFN1C0       Q       N_58_reto            1.771       2.159 
+====================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                      Starting                                                      Required           
+Instance                              Reference          Type         Pin     Net                   Time         Slack 
+                                      Clock                                                                            
+-----------------------------------------------------------------------------------------------------------------------
+clock_control_0.counter[1]            pll_core_0.GLA     DFN1C0       D       counter_n1            18.705       -0.957
+clock_control_0.counter[3]            pll_core_0.GLA     DFN1C0       D       counter_n3            18.622       -0.472
+clock_control_0.counter[4]            pll_core_0.GLA     DFN1C0       D       counter_n4            18.622       -0.472
+clock_control_0.counter[5]            pll_core_0.GLA     DFN1C0       D       counter_n5            18.622       -0.472
+clock_control_0.counter[2]            pll_core_0.GLA     DFN1C0       D       counter_n2            18.622       0.004 
+clock_control_0.delay_counter[10]     pll_core_0.GLA     DFN1E1C0     D       delay_counter_n10     18.705       0.818 
+clock_control_0.delay_counter[6]      pll_core_0.GLA     DFN1E1C0     D       delay_counter_n6      18.705       1.691 
+clock_control_0.delay_counter[8]      pll_core_0.GLA     DFN1E1C0     D       delay_counter_n8      18.705       1.833 
+clock_control_0.delay_counter[9]      pll_core_0.GLA     DFN1E1C0     D       delay_counter_n9      18.705       1.833 
+clock_control_0.delay_counter_ret     pll_core_0.GLA     DFN1E1C1     D       delay_counter_c9      18.789       1.996 
+=======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.000
+    - Setup time:                            1.295
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         18.705
+
+    - Propagation time:                      19.662
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.956
+
+    Number of logic level(s):                4
+    Starting point:                          clock_control_0.counter[4] / Q
+    Ending point:                            clock_control_0.counter[1] / D
+    The start point is clocked by            pll_core_0.GLA [rising] on pin CLK
+    The end   point is clocked by            pll_core_0.GLA [rising] on pin CLK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                    Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+clock_control_0.counter[4]              DFN1C0     Q        Out     1.771     1.771       -         
+counter[4]                              Net        -        -       2.844     -           4         
+clock_control_0.counter_RNI9OVE[3]      NOR2B      B        In      -         4.615       -         
+clock_control_0.counter_RNI9OVE[3]      NOR2B      Y        Out     1.508     6.122       -         
+counter20_1                             Net        -        -       0.927     -           2         
+clock_control_0.counter_RNI4AF51[5]     NOR2B      B        In      -         7.050       -         
+clock_control_0.counter_RNI4AF51[5]     NOR2B      Y        Out     1.508     8.557       -         
+N_60                                    Net        -        -       3.667     -           7         
+clock_control_0.counter_RNI90NG1[5]     NOR2A      B        In      -         12.224      -         
+clock_control_0.counter_RNI90NG1[5]     NOR2A      Y        Out     0.977     13.201      -         
+N_58                                    Net        -        -       3.420     -           6         
+clock_control_0.counter_RNO[1]          AX1C       A        In      -         16.622      -         
+clock_control_0.counter_RNO[1]          AX1C       Y        Out     2.268     18.889      -         
+counter_n1                              Net        -        -       0.773     -           1         
+clock_control_0.counter[1]              DFN1C0     D        In      -         19.662      -         
+====================================================================================================
+Total path delay (propagation time + setup) of 20.956 is 9.325(44.5%) logic and 11.631(55.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      20.000
+    - Setup time:                            1.295
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         18.705
+
+    - Propagation time:                      19.649
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.944
+
+    Number of logic level(s):                4
+    Starting point:                          clock_control_0.counter[2] / Q
+    Ending point:                            clock_control_0.counter[1] / D
+    The start point is clocked by            pll_core_0.GLA [rising] on pin CLK
+    The end   point is clocked by            pll_core_0.GLA [rising] on pin CLK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                    Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+clock_control_0.counter[2]              DFN1C0     Q        Out     1.771     1.771       -         
+counter[2]                              Net        -        -       3.074     -           5         
+clock_control_0.counter_RNIRHFM[5]      NOR3       C        In      -         4.845       -         
+clock_control_0.counter_RNIRHFM[5]      NOR3       Y        Out     1.804     6.649       -         
+counter20_1_0                           Net        -        -       0.773     -           1         
+clock_control_0.counter_RNI4AF51[5]     NOR2B      A        In      -         7.421       -         
+clock_control_0.counter_RNI4AF51[5]     NOR2B      Y        Out     1.174     8.595       -         
+N_60                                    Net        -        -       3.667     -           7         
+clock_control_0.counter_RNI90NG1[5]     NOR2A      B        In      -         12.262      -         
+clock_control_0.counter_RNI90NG1[5]     NOR2A      Y        Out     0.927     13.189      -         
+N_58                                    Net        -        -       3.420     -           6         
+clock_control_0.counter_RNO[1]          AX1C       A        In      -         16.609      -         
+clock_control_0.counter_RNO[1]          AX1C       Y        Out     2.268     18.877      -         
+counter_n1                              Net        -        -       0.773     -           1         
+clock_control_0.counter[1]              DFN1C0     D        In      -         19.649      -         
+====================================================================================================
+Total path delay (propagation time + setup) of 20.944 is 9.238(44.1%) logic and 11.706(55.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      20.000
+    - Setup time:                            1.295
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         18.705
+
+    - Propagation time:                      19.390
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.685
+
+    Number of logic level(s):                4
+    Starting point:                          clock_control_0.counter[3] / Q
+    Ending point:                            clock_control_0.counter[1] / D
+    The start point is clocked by            pll_core_0.GLA [rising] on pin CLK
+    The end   point is clocked by            pll_core_0.GLA [rising] on pin CLK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                    Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+clock_control_0.counter[3]              DFN1C0     Q        Out     1.771     1.771       -         
+counter[3]                              Net        -        -       2.844     -           4         
+clock_control_0.counter_RNI9OVE[3]      NOR2B      A        In      -         4.615       -         
+clock_control_0.counter_RNI9OVE[3]      NOR2B      Y        Out     1.236     5.851       -         
+counter20_1                             Net        -        -       0.927     -           2         
+clock_control_0.counter_RNI4AF51[5]     NOR2B      B        In      -         6.778       -         
+clock_control_0.counter_RNI4AF51[5]     NOR2B      Y        Out     1.508     8.286       -         
+N_60                                    Net        -        -       3.667     -           7         
+clock_control_0.counter_RNI90NG1[5]     NOR2A      B        In      -         11.953      -         
+clock_control_0.counter_RNI90NG1[5]     NOR2A      Y        Out     0.977     12.930      -         
+N_58                                    Net        -        -       3.420     -           6         
+clock_control_0.counter_RNO[1]          AX1C       A        In      -         16.350      -         
+clock_control_0.counter_RNO[1]          AX1C       Y        Out     2.268     18.618      -         
+counter_n1                              Net        -        -       0.773     -           1         
+clock_control_0.counter[1]              DFN1C0     D        In      -         19.390      -         
+====================================================================================================
+Total path delay (propagation time + setup) of 20.685 is 9.054(43.8%) logic and 11.631(56.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      20.000
+    - Setup time:                            1.295
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         18.705
+
+    - Propagation time:                      19.365
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.660
+
+    Number of logic level(s):                4
+    Starting point:                          clock_control_0.counter[1] / Q
+    Ending point:                            clock_control_0.counter[1] / D
+    The start point is clocked by            pll_core_0.GLA [rising] on pin CLK
+    The end   point is clocked by            pll_core_0.GLA [rising] on pin CLK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                    Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+clock_control_0.counter[1]              DFN1C0     Q        Out     1.771     1.771       -         
+counter[1]                              Net        -        -       3.420     -           6         
+clock_control_0.counter_RNIRHFM[5]      NOR3       A        In      -         5.191       -         
+clock_control_0.counter_RNIRHFM[5]      NOR3       Y        Out     1.174     6.365       -         
+counter20_1_0                           Net        -        -       0.773     -           1         
+clock_control_0.counter_RNI4AF51[5]     NOR2B      A        In      -         7.137       -         
+clock_control_0.counter_RNI4AF51[5]     NOR2B      Y        Out     1.174     8.311       -         
+N_60                                    Net        -        -       3.667     -           7         
+clock_control_0.counter_RNI90NG1[5]     NOR2A      B        In      -         11.977      -         
+clock_control_0.counter_RNI90NG1[5]     NOR2A      Y        Out     0.927     12.905      -         
+N_58                                    Net        -        -       3.420     -           6         
+clock_control_0.counter_RNO[1]          AX1C       A        In      -         16.325      -         
+clock_control_0.counter_RNO[1]          AX1C       Y        Out     2.268     18.593      -         
+counter_n1                              Net        -        -       0.773     -           1         
+clock_control_0.counter[1]              DFN1C0     D        In      -         19.365      -         
+====================================================================================================
+Total path delay (propagation time + setup) of 20.660 is 8.607(41.7%) logic and 12.053(58.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      20.000
+    - Setup time:                            1.295
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         18.705
+
+    - Propagation time:                      19.332
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.627
+
+    Number of logic level(s):                4
+    Starting point:                          clock_control_0.counter[5] / Q
+    Ending point:                            clock_control_0.counter[1] / D
+    The start point is clocked by            pll_core_0.GLA [rising] on pin CLK
+    The end   point is clocked by            pll_core_0.GLA [rising] on pin CLK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                    Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+clock_control_0.counter[5]              DFN1C0     Q        Out     1.771     1.771       -         
+counter[5]                              Net        -        -       2.844     -           4         
+clock_control_0.counter_RNIRHFM[5]      NOR3       B        In      -         4.615       -         
+clock_control_0.counter_RNIRHFM[5]      NOR3       Y        Out     1.716     6.331       -         
+counter20_1_0                           Net        -        -       0.773     -           1         
+clock_control_0.counter_RNI4AF51[5]     NOR2B      A        In      -         7.104       -         
+clock_control_0.counter_RNI4AF51[5]     NOR2B      Y        Out     1.174     8.277       -         
+N_60                                    Net        -        -       3.667     -           7         
+clock_control_0.counter_RNI90NG1[5]     NOR2A      B        In      -         11.944      -         
+clock_control_0.counter_RNI90NG1[5]     NOR2A      Y        Out     0.927     12.871      -         
+N_58                                    Net        -        -       3.420     -           6         
+clock_control_0.counter_RNO[1]          AX1C       A        In      -         16.292      -         
+clock_control_0.counter_RNO[1]          AX1C       Y        Out     2.268     18.559      -         
+counter_n1                              Net        -        -       0.773     -           1         
+clock_control_0.counter[1]              DFN1C0     D        In      -         19.332      -         
+====================================================================================================
+Total path delay (propagation time + setup) of 20.627 is 9.150(44.4%) logic and 11.477(55.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 114MB peak: 116MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 114MB peak: 116MB)
+
+--------------------------------------------------------------------------------
+Target Part: AGLN250V2_VQFP100_STD
+Report for cell top.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2    46      1.0       46.0
+             AND2A     1      1.0        1.0
+              AND3    16      1.0       16.0
+               AO1    50      1.0       50.0
+              AO1A     8      1.0        8.0
+              AO1B     1      1.0        1.0
+              AOI1     3      1.0        3.0
+             AOI1B     6      1.0        6.0
+               AX1     8      1.0        8.0
+              AX1A     1      1.0        1.0
+              AX1C    13      1.0       13.0
+              BUFF     3      1.0        3.0
+            CLKINT     4      0.0        0.0
+               GND    13      0.0        0.0
+               INV     7      1.0        7.0
+               MX2    12      1.0       12.0
+              MX2B     3      1.0        3.0
+              MX2C     1      1.0        1.0
+             NAND2     2      1.0        2.0
+              NOR2    15      1.0       15.0
+             NOR2A    39      1.0       39.0
+             NOR2B    71      1.0       71.0
+              NOR3     8      1.0        8.0
+             NOR3A    11      1.0       11.0
+             NOR3B    21      1.0       21.0
+             NOR3C    36      1.0       36.0
+               OA1     9      1.0        9.0
+              OA1A     2      1.0        2.0
+              OA1B     2      1.0        2.0
+               OR2    11      1.0       11.0
+              OR2A    13      1.0       13.0
+              OR2B     6      1.0        6.0
+               OR3     7      1.0        7.0
+              OR3A     1      1.0        1.0
+              OR3B     5      1.0        5.0
+              OR3C     1      1.0        1.0
+               PLL     1      0.0        0.0
+            PLLINT     1      0.0        0.0
+               VCC    13      0.0        0.0
+               XA1    26      1.0       26.0
+              XA1A    11      1.0       11.0
+              XA1B     4      1.0        4.0
+             XNOR2    41      1.0       41.0
+             XNOR3    62      1.0       62.0
+              XOR2   127      1.0      127.0
+              XOR3    11      1.0       11.0
+
+
+          DFN0E1C0    15      1.0       15.0
+            DFN1C0   196      1.0      196.0
+          DFN1E0C0    33      1.0       33.0
+            DFN1E1     1      1.0        1.0
+          DFN1E1C0    47      1.0       47.0
+          DFN1E1C1     3      1.0        3.0
+            DFN1P0     3      1.0        3.0
+            RAM4K9     8      0.0        0.0
+                   -----          ----------
+             TOTAL  1059              1019.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     9
+            OUTBUF     5
+                   -----
+             TOTAL    15
+
+
+Core Cells         : 1019 of 6144 (17%)
+IO Cells           : 15
+
+  RAM/ROM Usage Summary
+Block Rams : 8 of 8 (100%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 27MB peak: 116MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Wed Mar 21 13:51:12 2018
+
+###########################################################]

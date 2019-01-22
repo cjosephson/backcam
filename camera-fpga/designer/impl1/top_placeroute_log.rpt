@@ -1,0 +1,98 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+Info: The design top.adb was last modified by software version 11.8.0.26.
+Opened an existing Libero design top.adb.
+'BA_NAME' set to 'top_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Users\pyzhang\Desktop\working\backscatter-fpga\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: FIX
+Incremental Route: ON
+High Effort Layout Mode: ON
+Repair Hold Violations: ON
+
+
+Warning: The advanced layout option 'High Effort Layout Mode' is active.
+Info: I/O Bank Assigner detected (4) out of (4) I/O Bank(s) with locked I/O technologies.
+Info: I/O Bank Assigner is running in incremental mode. All pre-assigned I/O Bank technologies
+      will not be changed.
+Info: All I/O Banks have locked technologies. Skipping I/O Bank Assigner.
+
+Planning global net placement...
+Info: PLC008: Global net clock_control_0_clock_out drives a CCC macro
+      input_buffer_0/RCLKBUBBLE_RNIURM3/U_GL. Therefore it must be assigned to a chip global
+      resource.
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Wed Mar 21 13:51:30 2018
+
+Placer Finished: Wed Mar 21 13:51:33 2018
+Total Placer CPU Time:     00:00:03
+
+                        o - o - o - o - o - o
+
+INFO: Writing the file:
+C:\Users\pyzhang\Desktop\working\backscatter-fpga\designer\impl1\top.dtf\swloc
+
+Timing-driven Router 
+Design: top                             Started: Wed Mar 21 13:51:35 2018
+
+319 nets of 815 have to be routed incrementally.
+ 
+Repairing minimum delay violations ...
+
+  Initial analysis:
+    Number of violating paths:        0
+    Number of violating paths:        0
+Balancing the clock successfully done.
+
+Timing-driven Router completed successfully.
+
+Design: top                             
+Finished: Wed Mar 21 13:51:44 2018
+Total CPU Time:     00:00:08            Total Elapsed Time: 00:00:09
+Total Memory Usage: 169.8 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+TIMER: Max delay timing requirements have been met.
+TIMER: Min delay timing requirements have been met.
+
+The Layout command succeeded ( 00:00:20 )
+Wrote status report to file: top_place_and_route_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote globalnet report to file: top_globalnet_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote globalusage report to file: top_globalusage_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote iobank report to file: top_iobank_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote pin report to file: top_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote pin report to file: top_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+Design saved to file C:\Users\pyzhang\Desktop\working\backscatter-fpga\designer\impl1\top.adb.
+
+The Execute Script command succeeded ( 00:00:23 )
+Design closed.
+

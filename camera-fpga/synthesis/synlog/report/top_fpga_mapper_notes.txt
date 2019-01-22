@@ -1,0 +1,41 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":1:0:1:0|Assigning clock "pclk" to command: define_clock p:pclk -freq 1 -clockgroup camera 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":2:0:2:0|Assigning clock "pll_core_0_GLA" to command: define_clock n:pll_core_0.GLA -freq 50 -clockgroup main 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":3:0:3:0|Assigning clock "downlink_clock_divider_0.clock_out" to command: define_clock n:downlink_clock_divider_0.clock_out -freq 1 -clockgroup downlink 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":4:0:4:0|Assigning clock "clock_control_0.clock_out" to command: define_clock n:clock_control_0.clock_out -freq 1 -clockgroup main 
+@N: BN362 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\camera_adapter.v":36:0:36:5|Removing sequential instance last_pixel[7:0] (in view: work.camera_adapter(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\camera_adapter.v":36:0:36:5|Removing sequential instance pixel_idx[7:0] (in view: work.camera_adapter(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MF238 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\camera_clock.v":26:23:26:34|Found 6-bit incrementor, 'un3_counter[5:0]'
+@N: MO231 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\clock_control.v":18:0:18:5|Found counter in view:work.clock_control(verilog) instance counter[5:0] 
+@N: MO231 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\clock_control.v":18:0:18:5|Found counter in view:work.clock_control(verilog) instance delay_counter[11:0] 
+@N: MF238 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\downlink_clock_divider.v":28:31:28:50|Found 6-bit incrementor, 'un3_divider_counter_1[5:0]'
+@N: MO231 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\downlink_decoder.v":22:0:22:5|Found counter in view:work.downlink_decoder(verilog) instance packet_length[11:0] 
+@N: MO231 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\packet_encoder.v":24:0:24:5|Found counter in view:work.packet_encoder(verilog) instance bit_state[4:0] 
+@N: MO231 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\packet_encoder.v":24:0:24:5|Found counter in view:work.packet_encoder(verilog) instance byte_counter[15:0] 
+@N: MO231 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\packet_encoder.v":24:0:24:5|Found counter in view:work.packet_encoder(verilog) instance payload_size[7:0] 
+@N: MO231 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\packet_encoder.v":24:0:24:5|Found counter in view:work.packet_encoder(verilog) instance seq_number[23:0] 
+@N: MF322 |Retiming summary: 12 registers retimed to 33 
+@N: FP130 |Promoting Net reset_c on CLKBUF  reset_pad 
+@N: FP130 |Promoting Net clock_control_0_clock_out on CLKINT  clock_control_0.clock_out_keep 
+@N: FP130 |Promoting Net input_buffer_0.RCLOCKP on CLKINT  I_39 
+@N: FP130 |Promoting Net cam_write_en_2 on CLKINT  I_40 
+@N: FP130 |Promoting Net input_buffer_0.WCLOCKP on CLKINT  I_41 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":1:0:1:0|Assigning clock "pclk" to command: define_clock p:pclk -freq 1 -clockgroup camera 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":2:0:2:0|Assigning clock "pll_core_0.GLA" to command: define_clock n:pll_core_0.GLA -freq 50 -clockgroup main 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":3:0:3:0|Assigning clock "downlink_clock_divider_0.clock_out" to command: define_clock n:downlink_clock_divider_0.clock_out -freq 1 -clockgroup downlink 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":4:0:4:0|Assigning clock "clock_control_0.clock_out_RNICHN5" to command: define_clock n:clock_control_0.clock_out -freq 1 -clockgroup main 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":1:0:1:0|Assigning clock "pclk" to command: define_clock p:pclk -freq 1 -clockgroup camera 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":2:0:2:0|Assigning clock "pll_core_0.GLA" to command: define_clock n:pll_core_0.GLA -freq 50 -clockgroup main 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":3:0:3:0|Assigning clock "downlink_clock_divider_0.clock_out" to command: define_clock n:downlink_clock_divider_0.clock_out -freq 1 -clockgroup downlink 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":4:0:4:0|Assigning clock "clock_control_0.clock_out_RNICHN5" to command: define_clock n:clock_control_0.clock_out -freq 1 -clockgroup main 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":1:0:1:0|Assigning clock "pclk" to command: define_clock p:pclk -freq 1 -clockgroup camera 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":2:0:2:0|Assigning clock "pll_core_0.GLA" to command: define_clock n:pll_core_0.GLA -freq 50 -clockgroup main 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":3:0:3:0|Assigning clock "downlink_clock_divider_0.clock_out" to command: define_clock n:downlink_clock_divider_0.clock_out -freq 1 -clockgroup downlink 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":4:0:4:0|Assigning clock "clock_control_0.clock_out_RNICHN5" to command: define_clock n:clock_control_0.clock_out -freq 1 -clockgroup main 
+@N: MT615 |Found clock pclk with period 1000.00ns 
+@N: MT615 |Found clock pll_core_0.GLA with period 20.00ns 
+@N: MT615 |Found clock downlink_clock_divider_0.clock_out with period 1000.00ns 
+@N: MT615 |Found clock clock_control_0.clock_out_RNICHN5 with period 1000.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

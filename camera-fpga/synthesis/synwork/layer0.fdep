@@ -1,0 +1,77 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\pyzhang\\Desktop\\working\\backscatter-fpga\\synthesis\\synwork\\top_comp.srs|-top|top|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\pyzhang\\Desktop\\working\\backscatter-fpga\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\proasic\\igloo.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\bin64\\c_ver.exe":1480007424
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\proasic\\igloo.v":1487970450
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\hypermods.v":1487970586
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\umr_capim.v":1487970586
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1487970586
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1487970586
+#CUR:"C:\\Users\\pyzhang\\Desktop\\working\\backscatter-fpga\\hdl\\camera_adapter.v":1513066438
+#CUR:"C:\\Users\\pyzhang\\Desktop\\working\\backscatter-fpga\\hdl\\camera_clock.v":1513066438
+#CUR:"C:\\Users\\pyzhang\\Desktop\\working\\backscatter-fpga\\hdl\\clock_control.v":1520986219
+#CUR:"C:\\Users\\pyzhang\\Desktop\\working\\backscatter-fpga\\hdl\\dbpsk_modulator.v":1513066438
+#CUR:"C:\\Users\\pyzhang\\Desktop\\working\\backscatter-fpga\\hdl\\downlink_clock_divider.v":1521606711
+#CUR:"C:\\Users\\pyzhang\\Desktop\\working\\backscatter-fpga\\hdl\\downlink_decoder.v":1521606736
+#CUR:"C:\\Users\\pyzhang\\Desktop\\working\\backscatter-fpga\\hdl\\downlink_parser.v":1521606748
+#CUR:"C:\\Users\\pyzhang\\Desktop\\working\\backscatter-fpga\\smartgen\\input_buffer\\input_buffer.v":1521004758
+#CUR:"C:\\Users\\pyzhang\\Desktop\\working\\backscatter-fpga\\hdl\\packet_encoder.v":1513066438
+#CUR:"C:\\Users\\pyzhang\\Desktop\\working\\backscatter-fpga\\smartgen\\pll_core\\pll_core.v":1520879403
+#CUR:"C:\\Users\\pyzhang\\Desktop\\working\\backscatter-fpga\\hdl\\switch_encoder.v":1513066438
+#CUR:"C:\\Users\\pyzhang\\Desktop\\working\\backscatter-fpga\\hdl\\whitening.v":1513066438
+#CUR:"C:\\Users\\pyzhang\\Desktop\\working\\backscatter-fpga\\component\\work\\top\\top.v":1521611352
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\camera_adapter.v" verilog
+1			"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\camera_clock.v" verilog
+2			"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\clock_control.v" verilog
+3			"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\dbpsk_modulator.v" verilog
+4			"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_clock_divider.v" verilog
+5			"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_decoder.v" verilog
+6			"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v" verilog
+7			"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v" verilog
+8			"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\packet_encoder.v" verilog
+9			"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\pll_core\pll_core.v" verilog
+10			"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\switch_encoder.v" verilog
+11			"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\whitening.v" verilog
+12			"C:\Users\pyzhang\Desktop\working\backscatter-fpga\component\work\top\top.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 0 1 2 3 4 5 6 7 8 9 10 11
+#Dependency Lists(Users Of)
+0 12
+1 12
+2 12
+3 12
+4 12
+5 12
+6 12
+7 12
+8 12
+9 12
+10 12
+11 12
+12 -1
+#Design Unit to File Association
+module work camera_adapter 0
+module work camera_clock 1
+module work clock_control 2
+module work dbpsk_modulator 3
+module work downlink_clock_divider 4
+module work downlink_decoder 5
+module work downlink_parser 6
+module work input_buffer 7
+module work packet_encoder 8
+module work pll_core 9
+module work switch_encoder 10
+module work whitening 11
+module work top 12

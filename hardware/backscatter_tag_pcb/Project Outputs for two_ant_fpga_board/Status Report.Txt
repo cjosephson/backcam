@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [two_ant_fpga_board.PrjPcb]
+   Generated File[backscatter_tag_pcb.TXT]
+   Generated File[backscatter_tag_pcb.LDP]
+   Generated File[backscatter_tag_pcb.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 7:36:49 PM On 9/19/2017

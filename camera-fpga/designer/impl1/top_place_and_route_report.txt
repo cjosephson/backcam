@@ -1,0 +1,444 @@
+***************************************************************************
+                               Status Report
+                          Wed Mar 21 13:51:47 2018 ***************************************************************************
+
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+File Name: C:\Users\pyzhang\Desktop\working\backscatter-fpga\designer\impl1\top.adb
+Design Name: Top  Design State: layout
+Last Saved: Wed Mar 21 13:51:25 2018
+
+***** Device Data **************************************************
+
+Family: IGLOO  Die: AGLN250V2  Package: 100 VQFP
+Speed: STD  Voltage: 1.2
+
+Restrict JTAG Pins: YES
+Restrict Probe Pins: YES
+
+Junction Temperature Range:   COM
+Voltage Range:   COM
+
+***** Import Variables *********************************************
+
+Source File(s) Imported on Wed Mar 21 13:51:18 2018:
+        C:\Users\pyzhang\Desktop\working\backscatter-fpga\synthesis\top.edn
+
+
+***** CAE Variables ************************************************
+
+Back Annotation File: N/A
+
+
+***** Bitstream Variables ******************************************
+
+Bitstream File: N/A
+     Lock Mode: off
+
+
+***** Compile Variables ********************************************
+
+Netlist PIN properties overwrite existing properties: 0
+
+Compile Output:
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : IGLOO
+Device      : AGLN250V2
+Package     : 100 VQFP
+Source      : C:\Users\pyzhang\Desktop\working\backscatter-fpga\synthesis\top.edn
+Format      : EDIF
+Topcell     : top
+Speed grade : STD
+Temp        : 0:25:70
+Voltage     : 1.26:1.20:1.14
+
+Keep Existing Physical Constraints : Yes
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+Warning: CMP201: Net pll_core_0/Core_GLB drives no load.
+Warning: CMP201: Net pll_core_0/Core_GLC drives no load.
+Warning: CMP201: Net pll_core_0/LOCK drives no load.
+Warning: CMP201: Net pll_core_0/Core_YB drives no load.
+Warning: CMP201: Net pll_core_0/Core_YC drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[3]_DOUTA0 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[3]_DOUTA1 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[3]_DOUTA2 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[3]_DOUTA3 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[3]_DOUTA4 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[3]_DOUTA5 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[3]_DOUTA6 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[3]_DOUTA7 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[3]_DOUTA8 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[3]_DOUTB1 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[3]_DOUTB2 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[3]_DOUTB3 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[3]_DOUTB4 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[3]_DOUTB5 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[3]_DOUTB6 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[3]_DOUTB7 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[3]_DOUTB8 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[5]_DOUTA0 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[5]_DOUTA1 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[5]_DOUTA2 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[5]_DOUTA3 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[5]_DOUTA4 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[5]_DOUTA5 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[5]_DOUTA6 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[5]_DOUTA7 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[5]_DOUTA8 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[5]_DOUTB1 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[5]_DOUTB2 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[5]_DOUTB3 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[5]_DOUTB4 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[5]_DOUTB5 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[5]_DOUTB6 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[5]_DOUTB7 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[5]_DOUTB8 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[4]_DOUTA0 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[4]_DOUTA1 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[4]_DOUTA2 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[4]_DOUTA3 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[4]_DOUTA4 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[4]_DOUTA5 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[4]_DOUTA6 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[4]_DOUTA7 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[4]_DOUTA8 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[4]_DOUTB1 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[4]_DOUTB2 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[4]_DOUTB3 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[4]_DOUTB4 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[4]_DOUTB5 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[4]_DOUTB6 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[4]_DOUTB7 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[4]_DOUTB8 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[0]_DOUTA0 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[0]_DOUTA1 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[0]_DOUTA2 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[0]_DOUTA3 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[0]_DOUTA4 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[0]_DOUTA5 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[0]_DOUTA6 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[0]_DOUTA7 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[0]_DOUTA8 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[0]_DOUTB1 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[0]_DOUTB2 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[0]_DOUTB3 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[0]_DOUTB4 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[0]_DOUTB5 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[0]_DOUTB6 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[0]_DOUTB7 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[0]_DOUTB8 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[7]_DOUTA0 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[7]_DOUTA1 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[7]_DOUTA2 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[7]_DOUTA3 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[7]_DOUTA4 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[7]_DOUTA5 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[7]_DOUTA6 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[7]_DOUTA7 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[7]_DOUTA8 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[7]_DOUTB1 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[7]_DOUTB2 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[7]_DOUTB3 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[7]_DOUTB4 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[7]_DOUTB5 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[7]_DOUTB6 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[7]_DOUTB7 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[7]_DOUTB8 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[1]_DOUTA0 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[1]_DOUTA1 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[1]_DOUTA2 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[1]_DOUTA3 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[1]_DOUTA4 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[1]_DOUTA5 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[1]_DOUTA6 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[1]_DOUTA7 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[1]_DOUTA8 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[1]_DOUTB1 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[1]_DOUTB2 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[1]_DOUTB3 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[1]_DOUTB4 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[1]_DOUTB5 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[1]_DOUTB6 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[1]_DOUTB7 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[1]_DOUTB8 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[2]_DOUTA0 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[2]_DOUTA1 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[2]_DOUTA2 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[2]_DOUTA3 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[2]_DOUTA4 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[2]_DOUTA5 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[2]_DOUTA6 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[2]_DOUTA7 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[2]_DOUTA8 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[2]_DOUTB1 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[2]_DOUTB2 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[2]_DOUTB3 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[2]_DOUTB4 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[2]_DOUTB5 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[2]_DOUTB6 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[2]_DOUTB7 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[2]_DOUTB8 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[6]_DOUTA0 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[6]_DOUTA1 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[6]_DOUTA2 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[6]_DOUTA3 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[6]_DOUTA4 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[6]_DOUTA5 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[6]_DOUTA6 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[6]_DOUTA7 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[6]_DOUTA8 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[6]_DOUTB1 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[6]_DOUTB2 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[6]_DOUTB3 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[6]_DOUTB4 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[6]_DOUTB5 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[6]_DOUTB6 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[6]_DOUTB7 drives no load.
+Warning: CMP201: Net input_buffer_0/RAM4K9_QXI[6]_DOUTB8 drives no load.
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   109
+  - Buffers:                1
+  - Inverters:              2
+  - Tieoff:                 37
+  - Logic combining:        89
+
+    Total macros optimized  238
+
+Warning: CMP503: Remapped 8 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
+         pin on the enable flip-flop is not being driven by a global net.
+
+There were 0 error(s) and 142 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:    790  Total:   6144   (12.86%)
+    IO (W/ clocks)             Used:     15  Total:     68   (22.06%)
+    GLOBAL (Chip+Quadrant)     Used:      6  Total:     18   (33.33%)
+    PLL                        Used:      1  Total:      1   (100.00%)
+    RAM/FIFO                   Used:      8  Total:      8   (100.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 6      | 6  (100.00%)*
+    Quadrant global | 0      | 12 (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 533          | 533
+    SEQ     | 257          | 257
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 10            | 0            | 0
+    Output I/O                            | 5             | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVCMOS12                        | 1.20v | N/A   | 10    | 5      | 0
+
+I/O Placement:
+
+    Locked  :  15 ( 100.00% )
+    Placed  :   0
+    UnPlaced:   0
+
+Net information report:
+=======================
+
+The following nets drive enable flip-flops that have been remapped to a 2-tile implementation:
+    EffCnt  Type          Name
+    --------------------------
+    8       SET/RESET_NET Net   : input_buffer_0/READ_RESET_P_0
+                          Driver: input_buffer_0/DFN1C0_READ_RESET_P_0
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    182     SET/RESET_NET Net   : reset_c
+                          Driver: reset_pad
+                          Source: NETLIST
+    93      CLK_NET       Net   : clock_control_0_clock_out
+                          Driver: clock_control_0/clock_out_RNICHN5
+                          Source: NETLIST
+    67      INT_NET       Net   : cam_write_en_2
+                          Driver: clock_control_0/switch_RNIRSV3
+                          Source: NETLIST
+    61      CLK_NET       Net   : input_buffer_0/RCLOCKP
+                          Driver: input_buffer_0/RCLKBUBBLE_RNIURM3
+                          Source: NETLIST
+    38      CLK_NET       Net   : GLA
+                          Driver: pll_core_0/Core
+                          Source: ESSENTIAL
+    37      CLK_NET       Net   : input_buffer_0/WCLOCKP
+                          Driver: input_buffer_0/WCLKBUBBLE_RNI39CD
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    32      CLK_NET       Net   : clock_out
+                          Driver: downlink_clock_divider_0/clock_out
+    21      SET/RESET_NET Net   : input_buffer_0/READ_RESET_P_1
+                          Driver: input_buffer_0/DFN1C0_READ_RESET_P_1
+    21      SET/RESET_NET Net   : input_buffer_0/READ_RESET_P_0
+                          Driver: input_buffer_0/DFN1C0_READ_RESET_P_0
+    21      INT_NET       Net   : packet_encoder_0/byte_countere
+                          Driver: packet_encoder_0/bit_state_RNIRH4R1[4]
+    19      INT_NET       Net   : trigger_signal_c
+                          Driver: trigger_signal_pad
+    18      INT_NET       Net   : trigger_signal_c_0
+                          Driver: trigger_signal_pad_RNI5M7B
+    18      INT_NET       Net   : input_buffer_0/WRITE_RESET_P_0
+                          Driver: input_buffer_0/DFN1C0_WRITE_RESET_P_0
+    17      CLK_NET       Net   : pclk_c
+                          Driver: pclk_pad
+    16      INT_NET       Net   : clock_control_0/delay_countere
+                          Driver: clock_control_0/counter_RNIVOIA2[2]
+    16      SET/RESET_NET Net   : input_buffer_0/WRITE_RESET_P
+                          Driver: input_buffer_0/DFN1C0_WRITE_RESET_P
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    36      INT_NET       Net   : trigger_signal_c
+                          Driver: trigger_signal_pad
+    32      CLK_NET       Net   : clock_out
+                          Driver: downlink_clock_divider_0/clock_out
+    21      SET/RESET_NET Net   : input_buffer_0/READ_RESET_P_1
+                          Driver: input_buffer_0/DFN1C0_READ_RESET_P_1
+    21      SET/RESET_NET Net   : input_buffer_0/READ_RESET_P_0
+                          Driver: input_buffer_0/DFN1C0_READ_RESET_P_0
+    21      INT_NET       Net   : packet_encoder_0/byte_countere
+                          Driver: packet_encoder_0/bit_state_RNIRH4R1[4]
+    18      INT_NET       Net   : input_buffer_0/WRITE_RESET_P_0
+                          Driver: input_buffer_0/DFN1C0_WRITE_RESET_P_0
+    17      CLK_NET       Net   : pclk_c
+                          Driver: pclk_pad
+    16      INT_NET       Net   : clock_control_0/delay_countere
+                          Driver: clock_control_0/counter_RNIVOIA2[2]
+    16      SET/RESET_NET Net   : input_buffer_0/WRITE_RESET_P
+                          Driver: input_buffer_0/DFN1C0_WRITE_RESET_P
+    16      INT_NET       Net   : packet_encoder_0/byte_counter[0]
+                          Driver: packet_encoder_0/byte_counter[0]
+====================
+Flash*Freeze report:
+====================
+
+The design does not use the Flash*Freeze feature.
+
+====================
+
+
+Layout Output:
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: FIX
+Incremental Route: ON
+High Effort Layout Mode: ON
+Repair Hold Violations: ON
+
+
+Warning: The advanced layout option 'High Effort Layout Mode' is active.
+Info: I/O Bank Assigner detected (4) out of (4) I/O Bank(s) with locked I/O technologies.
+Info: I/O Bank Assigner is running in incremental mode. All pre-assigned I/O Bank technologies
+      will not be changed.
+Info: All I/O Banks have locked technologies. Skipping I/O Bank Assigner.
+
+Planning global net placement...
+Info: PLC008: Global net clock_control_0_clock_out drives a CCC macro
+      input_buffer_0/RCLKBUBBLE_RNIURM3/U_GL. Therefore it must be assigned to a chip global
+      resource.
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Wed Mar 21 13:51:30 2018
+
+Placer Finished: Wed Mar 21 13:51:33 2018
+Total Placer CPU Time:     00:00:03
+
+                        o - o - o - o - o - o
+
+INFO: Writing the file:
+C:\Users\pyzhang\Desktop\working\backscatter-fpga\designer\impl1\top.dtf\swloc
+
+Timing-driven Router 
+Design: top                             Started: Wed Mar 21 13:51:35 2018
+
+319 nets of 815 have to be routed incrementally.
+ 
+Repairing minimum delay violations ...
+
+  Initial analysis:
+    Number of violating paths:        0
+    Number of violating paths:        0
+Balancing the clock successfully done.
+
+Timing-driven Router completed successfully.
+
+Design: top                             
+Finished: Wed Mar 21 13:51:44 2018
+Total CPU Time:     00:00:08            Total Elapsed Time: 00:00:09
+Total Memory Usage: 169.8 Mbytes
+                        o - o - o - o - o - o
+
+
+

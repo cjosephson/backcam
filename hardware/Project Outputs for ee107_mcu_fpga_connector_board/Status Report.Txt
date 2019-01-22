@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [ee107_mcu_fpga_connector_board.PrjPcb]
+   Generated File[ee107_mcu_fpga_connector_board.TXT]
+   Generated File[ee107_mcu_fpga_connector_board.LDP]
+   Generated File[ee107_mcu_fpga_connector_board.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:13:54 AM On 11/3/2017

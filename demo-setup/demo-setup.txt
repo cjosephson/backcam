@@ -1,0 +1,56 @@
+Microcontroller
+===============
+
+1. pull code from https://github.com/cjosephson/backscatter, use master branch
+2. import msp430/himax-driver/ into TI CCS
+3. modify line 40 to line 46 to
+    #define DEBUG
+    //#define HIRES
+    //#define TESTPATTERN
+    //#define SDCARD
+    #define REFVOLTAGE
+    #define MCLOCK
+    #define CAMTRIG
+4. flash the MCU, powercycle the board by unplugging and plugging the USB cable
+
+FPGA
+====
+
+1. import FPGA-code-image/ into LiberoSoC
+2. tie 'compress_command[2:0]' in module 'camera_adapter_0' to constant 0x00
+3. go to 'design flow', double click 'Create/Edit I/O Attributes'
+4. remap I/O pins so that signal names match the signal from the camera board
+5. flash the FPGA
+6. connect the two boards, make sure the singal names match and use the MCU board to power the FPGA board (signals that are required are:
+    - FD0-FD4
+    - FVLD (frame sync)
+    - LVLD (line sync)
+    - PCLK
+    - REF (reference V)
+
+Tuning
+======
+
+1. connect the COMP pin on FPGA board to logic analyzer
+2. connect the MCU board to computer through the programmer
+2. turn on siggen, set payload size to 200bytes and interval to 200us
+3. place the tag in position, use the logic analyzer to check the packet detection rate
+4. adjust the value in line 111 (dac_write(17600);) so that the envelope detector can detect almost all packets from the siggen, while filtering out interference
+
+Test
+====
+1. use the code from https://gist.github.com/yangl1996/3d5ad89b15eb9bb27c328dfd164e3cb5
+2. execute `rm IMG*`
+3. execute `bash demo.sh`
+4. execute `tshark -r dump.pcap -T fields -e data > dump.txt`
+5. execute `cat dump.txt | python3 newprocess.py`
+6. check the output image IMG*.png
+7. if clear image is obtained, proceed to next step; or use dump.pcap to debug
+
+Demo
+====
+1. go to cloud_processing/RX/image-stream-decoding/
+2. execute `demo.sh`
+3. open a new windows in this directory, images should appear automatically
+4. to exit, hit ^C and wait for it to exit (will take some time to process the remaining packets in the buffer)
+

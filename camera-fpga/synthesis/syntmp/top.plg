@@ -1,0 +1,36 @@
+@P:  Worst Slack : -0.957
+@P:  clock_control_0.clock_out_RNICHN5 - Estimated Frequency : 1.2 MHz
+@P:  clock_control_0.clock_out_RNICHN5 - Requested Frequency : 1.0 MHz
+@P:  clock_control_0.clock_out_RNICHN5 - Estimated Period : 834.420
+@P:  clock_control_0.clock_out_RNICHN5 - Requested Period : 1000.000
+@P:  clock_control_0.clock_out_RNICHN5 - Slack : 460.083
+@P:  downlink_clock_divider_0.clock_out - Estimated Frequency : 33.8 MHz
+@P:  downlink_clock_divider_0.clock_out - Requested Frequency : 1.0 MHz
+@P:  downlink_clock_divider_0.clock_out - Estimated Period : 29.606
+@P:  downlink_clock_divider_0.clock_out - Requested Period : 1000.000
+@P:  downlink_clock_divider_0.clock_out - Slack : 489.133
+@P:  pclk - Estimated Frequency : 12.3 MHz
+@P:  pclk - Requested Frequency : 1.0 MHz
+@P:  pclk - Estimated Period : 81.353
+@P:  pclk - Requested Period : 1000.000
+@P:  pclk - Slack : 459.323
+@P:  pll_core_0.GLA - Estimated Frequency : 47.7 MHz
+@P:  pll_core_0.GLA - Requested Frequency : 50.0 MHz
+@P:  pll_core_0.GLA - Estimated Period : 20.956
+@P:  pll_core_0.GLA - Requested Period : 20.000
+@P:  pll_core_0.GLA - Slack : -0.957
+@P:  Total Area : 1019.0
+@P:  Total Area : 17.0
+@P:  Total Area : 1.0
+@P:  Total Area : 0.0
+@P:  Total Area : 283.0
+@P:  Total Area : 430.0
+@P:  Total Area : 21.0
+@P:  Total Area : 60.0
+@P:  Total Area : 25.0
+@P:  Total Area : 3.0
+@P:  Total Area : 88.0
+@P:  Total Area : 25.0
+@P:  Total Area : 64.0
+@P:  Total Area : 1019.0
+@P:  CPU Time : 0h:00m:03s

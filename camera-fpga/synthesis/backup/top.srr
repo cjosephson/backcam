@@ -1,0 +1,27 @@
+#Build: Synplify Pro I-2014.03M-SP1, Build 097R, Oct  9 2014
+#install: C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1
+#OS: Windows XP 5.1
+#Hostname: PENGYU-7BE0EE31
+
+#Implementation: synthesis
+
+Synopsys Verilog Compiler, version comp201403sp1p1, Build 095R, built Oct  9 2014
+@N|Running in 32-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v"
+@I::"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vlog\umr_capim.v"
+@I::"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vlog\scemi_objects.v"
+@I::"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vlog\scemi_pipes.svh"
+@I::"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vlog\hypermods.v"
+@I::"Z:\fpga_vision\test_tmp\hdl\counter_tmp.v"
+@I::"Z:\fpga_vision\test_tmp\component\work\top\top.v"
+Verilog syntax check successful!
+Selecting top level module top
+@N: CG364 :"Z:\fpga_vision\test_tmp\hdl\counter_tmp.v":20:7:20:17|Synthesizing module counter_tmp
+
+@E: CS153 :"Z:\fpga_vision\test_tmp\hdl\counter_tmp.v":31:20:31:20|Can't mix blocking and non-blocking assignments to a variable
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 02 09:48:12 2015
+
+###########################################################]

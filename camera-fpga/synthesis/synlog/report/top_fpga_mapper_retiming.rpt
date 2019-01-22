@@ -1,0 +1,57 @@
+
+		#####  BEGIN RETIMING REPORT  #####
+
+Retiming summary : 12 registers retimed to 33
+
+Original and Pipelined registers replaced by retiming :
+		clock_control_0.counter[0]
+		clock_control_0.delay_counter[11]
+		packet_encoder_0.bit_state[0]
+		packet_encoder_0.current[0]
+		packet_encoder_0.current[1]
+		packet_encoder_0.current[2]
+		packet_encoder_0.current[3]
+		packet_encoder_0.current[4]
+		packet_encoder_0.current[5]
+		packet_encoder_0.current[6]
+		packet_encoder_0.current[7]
+		packet_encoder_0.seq_number[0]
+
+New registers created by retiming :
+		clock_control_0.counter_ret
+		clock_control_0.counter_ret_1
+		clock_control_0.delay_counter_ret
+		clock_control_0.delay_counter_ret_1
+		clock_control_0.delay_counter_ret_2
+		packet_encoder_0.bit_state_ret
+		packet_encoder_0.bit_state_ret_1
+		packet_encoder_0.current_ret
+		packet_encoder_0.current_ret_0
+		packet_encoder_0.current_ret_1
+		packet_encoder_0.current_ret_2
+		packet_encoder_0.current_ret_3
+		packet_encoder_0.current_ret_4
+		packet_encoder_0.current_ret_5
+		packet_encoder_0.current_ret_6
+		packet_encoder_0.current_ret_7
+		packet_encoder_0.current_ret_8
+		packet_encoder_0.current_ret_9
+		packet_encoder_0.current_ret_10
+		packet_encoder_0.current_ret_11
+		packet_encoder_0.current_ret_12
+		packet_encoder_0.current_ret_13
+		packet_encoder_0.current_ret_14
+		packet_encoder_0.current_ret_15
+		packet_encoder_0.current_ret_16
+		packet_encoder_0.current_ret_17
+		packet_encoder_0.current_ret_18
+		packet_encoder_0.current_ret_19
+		packet_encoder_0.current_ret_20
+		packet_encoder_0.current_ret_21
+		packet_encoder_0.current_ret_22
+		packet_encoder_0.seq_number_ret
+		packet_encoder_0.seq_number_ret_1
+
+
+		#####   END RETIMING REPORT  #####
+

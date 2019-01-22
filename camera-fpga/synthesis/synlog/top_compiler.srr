@@ -1,0 +1,166 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\camera_adapter.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\camera_clock.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\clock_control.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\dbpsk_modulator.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_clock_divider.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_decoder.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\packet_encoder.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\pll_core\pll_core.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\switch_encoder.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\whitening.v" (library work)
+@I::"C:\Users\pyzhang\Desktop\working\backscatter-fpga\component\work\top\top.v" (library work)
+Verilog syntax check successful!
+File C:\Users\pyzhang\Desktop\working\backscatter-fpga\component\work\top\top.v changed - recompiling
+Selecting top level module top
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\camera_adapter.v":1:7:1:20|Synthesizing module camera_adapter in library work.
+
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\camera_clock.v":5:7:5:18|Synthesizing module camera_clock in library work.
+
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\clock_control.v":7:7:7:19|Synthesizing module clock_control in library work.
+
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\dbpsk_modulator.v":1:7:1:21|Synthesizing module dbpsk_modulator in library work.
+
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\dbpsk_modulator.v":16:28:16:39|Removing redundant assignment.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_clock_divider.v":5:7:5:28|Synthesizing module downlink_clock_divider in library work.
+
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_clock_divider.v":32:25:32:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_clock_divider.v":37:25:37:33|Removing redundant assignment.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_decoder.v":11:7:11:22|Synthesizing module downlink_decoder in library work.
+
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":6:7:6:21|Synthesizing module downlink_parser in library work.
+
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":34:27:34:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":56:26:56:35|Removing redundant assignment.
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":57:27:57:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":58:26:58:35|Removing redundant assignment.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1911:7:1911:11|Synthesizing module XNOR3 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":929:7:929:12|Synthesizing module DFN1C0 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2:7:2:10|Synthesizing module AND2 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":20:7:20:10|Synthesizing module AND3 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1935:7:1935:10|Synthesizing module XOR3 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1905:7:1905:11|Synthesizing module XNOR2 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":86:7:86:9|Synthesizing module AO1 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1929:7:1929:10|Synthesizing module XOR2 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1996:7:1996:12|Synthesizing module RAM4K9 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":977:7:977:14|Synthesizing module DFN1E1C0 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1953:7:1953:10|Synthesizing module BUFF in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1283:7:1283:9|Synthesizing module INV in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1349:7:1349:11|Synthesizing module NAND2 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":8:7:8:11|Synthesizing module AND2A in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1001:7:1001:12|Synthesizing module DFN1P0 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1163:7:1163:9|Synthesizing module GND in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1864:7:1864:9|Synthesizing module VCC in library work.
+
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":5:7:5:18|Synthesizing module input_buffer in library work.
+
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":1090:9:1090:15|Removing instance AND2_28 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":1089:9:1089:15|Removing instance XOR2_71 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":1067:9:1067:15|Removing instance AND2_37 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":1043:9:1043:15|Removing instance AND2_21 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":930:9:930:15|Removing instance AND2_42 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":924:9:924:15|Removing instance AND2_40 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":838:9:838:14|Removing instance AND2_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":808:9:808:15|Removing instance XOR2_35 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":781:9:781:15|Removing instance AND2_36 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":744:9:744:15|Removing instance AND2_39 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":742:11:742:22|Removing instance DFN1C0_DVLDX because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":719:9:719:15|Removing instance AND2_63 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":709:9:709:15|Removing instance AND2_34 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":699:8:699:13|Removing instance AO1_22 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":696:9:696:15|Removing instance XOR2_25 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":609:9:609:15|Removing instance AND2_55 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":594:9:594:15|Removing instance AND2_16 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":583:9:583:15|Removing instance AND2_47 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":582:9:582:15|Removing instance AND2_64 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":579:9:579:15|Removing instance AND2_51 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":529:9:529:15|Removing instance AND2_23 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":456:9:456:15|Removing instance AND2_29 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":449:9:449:15|Removing instance AND2_38 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":387:9:387:15|Removing instance AND2_62 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":384:9:384:15|Removing instance XOR2_57 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":380:9:380:15|Removing instance AND2_60 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":308:9:308:15|Removing instance AND2_57 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":256:9:256:14|Removing instance AND2_7 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":219:9:219:15|Removing instance AND2_18 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":195:8:195:13|Removing instance AO1_31 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":158:9:158:15|Removing instance AND2_22 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":151:9:151:15|Removing instance AND2_11 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":147:9:147:15|Removing instance AND2_20 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\packet_encoder.v":3:7:3:20|Synthesizing module packet_encoder in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2447:7:2447:9|Synthesizing module PLL in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":276:7:276:12|Synthesizing module PLLINT in library work.
+
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\pll_core\pll_core.v":5:7:5:14|Synthesizing module pll_core in library work.
+
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\switch_encoder.v":3:7:3:20|Synthesizing module switch_encoder in library work.
+
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\whitening.v":1:7:1:15|Synthesizing module whitening in library work.
+
+@A: CL282 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\whitening.v":9:0:9:5|Feedback mux created for signal output_whitening. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\component\work\top\top.v":9:7:9:9|Synthesizing module top in library work.
+
+@W: CL138 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":38:0:38:5|Removing register 'compression' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":38:0:38:5|Removing register 'repetition' because it is only assigned 0 or its original value.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Mar 21 13:51:06 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Mar 21 13:51:07 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Mar 21 13:51:07 2018
+
+###########################################################]

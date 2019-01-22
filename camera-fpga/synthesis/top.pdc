@@ -1,0 +1,9 @@
+# Microsemi Physical design constraints file
+# Version: 7.2 7.2.0.103
+# Input Netlist Format: edif
+
+
+#
+# I/O Constraints
+#
+

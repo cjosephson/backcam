@@ -1,0 +1,4 @@
+CKID0001:@|S:clock_control_0.clock_out_RNICHN5@|E:whitening_0.state[6]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:pclk@|E:camera_adapter_0.repeat_counter[1]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0003:@|S:pll_core_0@|E:downlink_clock_divider_0.divider_counter[5]@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 
+CKID0004:@|S:downlink_clock_divider_0@|E:downlink_parser_0.downlink_buffer[14]@|F:@syn_sample_clock_path==CKID0004@|M:ClockId0004 

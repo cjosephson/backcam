@@ -1,0 +1,119 @@
+*****************************************************************
+Pin Report - Date: Wed Mar 21 13:51:49 2018 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Design Name: Top
+Family: IGLOO
+Die: AGLN250V2
+Package: 100 VQFP
+*****************************************************************
+
+-----------------------------------------------------------------
+Flash*Freeze information
+        Pin name  : 27
+        Pin usage : Available as a regular pin
+-----------------------------------------------------------------
+
+Number |Port               |Function         |State       |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Output Load (pF) |Use I/O Reg |Hot Swappable |Schmitt Trigger |Hold previous I/O state in Flash*Freeze mode |
+-------|-------------------|-----------------|------------|---------|------------------|-----|--------------|-----------------|------------|--------------|----------------|---------------------------------------------|
+1                           GND               Reserved
+2                           GAA2/IO67RSB3     Special
+3                           IO66RSB3          Unassigned
+4                           GAB2/IO65RSB3     Special
+5                           IO64RSB3          Unassigned
+6                           GAC2/IO63RSB3     Special
+7                           IO62RSB3          Unassigned
+8                           IO61RSB3          Unassigned
+9                           GND               Reserved
+10      reset               GFB1/IO60RSB3     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
+11                          GFB0/IO59RSB3     Special
+12                          VCOMPLF           Reserved
+13                          GFA0/IO57RSB3     Special
+14                          VCCPLF            Reserved
+15      clock               GFA1/IO58RSB3     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
+16                          GFA2/IO56RSB3     Special
+17                          VCC               Reserved
+18                          VCCIB3            Reserved
+19                          GFC2/IO55RSB3     Special
+20                          GEC1/IO54RSB3     Special
+21                          GEC0/IO53RSB3     Special
+22                          GEA1/IO52RSB3     Special
+23                          GEA0/IO51RSB3     Special
+24                          VMV3              Reserved
+25                          GNDQ              Reserved
+26                          GEA2/IO50RSB2     Special
+27                          FF/GEB2/IO49RSB2  Special
+28                          GEC2/IO48RSB2     Special
+29                          IO47RSB2          Unassigned
+30                          IO46RSB2          Unassigned
+31                          IO45RSB2          Unassigned
+32                          IO44RSB2          Unassigned
+33                          IO43RSB2          Unassigned
+34                          IO42RSB2          Unassigned
+35                          IO41RSB2          Unassigned
+36                          IO40RSB2          Unassigned
+37                          VCC               Reserved
+38                          GND               Reserved
+39                          VCCIB2            Reserved
+40                          IO39RSB2          Unassigned
+41                          IO38RSB2          Unassigned
+42                          IO37RSB2          Unassigned
+43                          GDC2/IO36RSB2     Special
+44                          GDB2/IO35RSB2     Special
+45                          GDA2/IO34RSB2     Special
+46                          GNDQ              Reserved
+47                          TCK               Reserved
+48                          TDI               Reserved
+49                          TMS               Reserved
+50                          VMV2              Reserved
+51                          GND               Reserved
+52                          VPUMP             Reserved
+53                          Not Bonded        Unconnected
+54                          TDO               Reserved
+55                          TRST              Reserved
+56                          VJTAG             Reserved
+57                          GDA1/IO33RSB1     Special
+58                          GDC0/IO32RSB1     Special
+59                          GDC1/IO31RSB1     Special
+60                          IO30RSB1          Unassigned
+61                          GCB2/IO29RSB1     Special
+62                          GCA1/IO27RSB1     Special
+63                          GCA0/IO28RSB1     Special
+64                          GCC0/IO26RSB1     Special
+65      input_data[0]       GCC1/IO25RSB1     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
+66                          VCCIB1            Reserved
+67                          GND               Reserved
+68                          VCC               Reserved
+69      input_data[1]       IO24RSB1          Fixed        LVCMOS12  ---                ---   None           ---               No           No             No               No
+70      input_data[2]       GBC2/IO23RSB1     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
+71      input_data[3]       GBB2/IO22RSB1     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
+72      camera_res          IO21RSB1          Fixed        LVCMOS12  2                  High  None           5                 No           No             ---              No
+73      camera_res_dup      GBA2/IO20RSB1     Special      LVCMOS12  2                  High  None           5                 No           No             ---              No
+74                          VMV1              Reserved
+75                          GNDQ              Reserved
+76      cam_write_en        GBA1/IO19RSB0     Special      LVCMOS12  2                  High  None           5                 No           No             ---              No
+77                          GBA0/IO18RSB0     Special
+78      pclk                GBB1/IO17RSB0     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
+79      camera_mclk         GBB0/IO16RSB0     Special      LVCMOS12  2                  High  None           5                 No           No             ---              No
+80      hsync               GBC1/IO15RSB0     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
+81      vsync               GBC0/IO14RSB0     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
+82                          IO13RSB0          Unassigned
+83                          IO12RSB0          Unassigned
+84                          IO11RSB0          Unassigned
+85                          IO10RSB0          Unassigned
+86                          IO09RSB0          Unassigned
+87                          VCCIB0            Reserved
+88                          GND               Reserved
+89                          VCC               Reserved
+90                          IO08RSB0          Unassigned
+91                          IO07RSB0          Unassigned
+92                          IO06RSB0          Unassigned
+93                          GAC1/IO05RSB0     Special
+94                          GAC0/IO04RSB0     Special
+95                          GAB1/IO03RSB0     Special
+96                          GAB0/IO02RSB0     Special
+97      trigger_signal      GAA1/IO01RSB0     Special      LVCMOS12  ---                ---   None           ---               No           No             No               No
+98      signal_into_switch  GAA0/IO00RSB0     Special      LVCMOS12  2                  High  None           5                 No           No             ---              No
+99                          GNDQ              Reserved
+100                         VMV0              Reserved

@@ -1,0 +1,43 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\camera_adapter.v":1:7:1:20|Synthesizing module camera_adapter in library work.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\camera_clock.v":5:7:5:18|Synthesizing module camera_clock in library work.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\clock_control.v":7:7:7:19|Synthesizing module clock_control in library work.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\dbpsk_modulator.v":1:7:1:21|Synthesizing module dbpsk_modulator in library work.
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\dbpsk_modulator.v":16:28:16:39|Removing redundant assignment.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_clock_divider.v":5:7:5:28|Synthesizing module downlink_clock_divider in library work.
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_clock_divider.v":32:25:32:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_clock_divider.v":37:25:37:33|Removing redundant assignment.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_decoder.v":11:7:11:22|Synthesizing module downlink_decoder in library work.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":6:7:6:21|Synthesizing module downlink_parser in library work.
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":34:27:34:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":56:26:56:35|Removing redundant assignment.
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":57:27:57:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v":58:26:58:35|Removing redundant assignment.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1911:7:1911:11|Synthesizing module XNOR3 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":929:7:929:12|Synthesizing module DFN1C0 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2:7:2:10|Synthesizing module AND2 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":20:7:20:10|Synthesizing module AND3 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1935:7:1935:10|Synthesizing module XOR3 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1905:7:1905:11|Synthesizing module XNOR2 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":86:7:86:9|Synthesizing module AO1 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1929:7:1929:10|Synthesizing module XOR2 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1996:7:1996:12|Synthesizing module RAM4K9 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":977:7:977:14|Synthesizing module DFN1E1C0 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1953:7:1953:10|Synthesizing module BUFF in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1283:7:1283:9|Synthesizing module INV in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1349:7:1349:11|Synthesizing module NAND2 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":8:7:8:11|Synthesizing module AND2A in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1001:7:1001:12|Synthesizing module DFN1P0 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1163:7:1163:9|Synthesizing module GND in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1864:7:1864:9|Synthesizing module VCC in library work.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v":5:7:5:18|Synthesizing module input_buffer in library work.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\packet_encoder.v":3:7:3:20|Synthesizing module packet_encoder in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2447:7:2447:9|Synthesizing module PLL in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":276:7:276:12|Synthesizing module PLLINT in library work.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\pll_core\pll_core.v":5:7:5:14|Synthesizing module pll_core in library work.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\switch_encoder.v":3:7:3:20|Synthesizing module switch_encoder in library work.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\whitening.v":1:7:1:15|Synthesizing module whitening in library work.
+@N: CG364 :"C:\Users\pyzhang\Desktop\working\backscatter-fpga\component\work\top\top.v":9:7:9:9|Synthesizing module top in library work.
+@N|Running in 64-bit mode
+

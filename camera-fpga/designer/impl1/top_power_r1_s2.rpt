@@ -1,0 +1,182 @@
+
+Power Report for design Top with the following settings:
+
+ Vendor:    Microsemi Corporation                                         
+ Program:   Microsemi Libero Software, Release v11.8 (Version 11.8.0.26)  
+            Copyright (C) 1989-2017                                       
+ Date:      Tue Mar 13 23:50:08 2018                                      
+ Version:   3.0                                                           
+
+
+ Design:                 Top               
+ Family:                 IGLOO             
+ Die:                    AGLN250V2         
+ Package:                100 VQFP          
+ Temperature Range:      COM               
+ Voltage Range:          COM               
+ Operating Conditions:   Typical           
+ Operating Mode:         Active            
+ Data Source:            Silicon verified  
+
+
+Power Summary
++---------------+------------+------------+
+|               | Power (mW) | Percentage |
++---------------+------------+------------+
+| Total Power   |      2.963 |     100.0% |
+| Static Power  |      0.028 |       0.9% |
+| Dynamic Power |      2.935 |      99.1% |
++---------------+------------+------------+
+
+
+Annotation Coverage: Frequency Annotation
++-----------------------+------------+------------+--------------+---------------+-------------+-------+
+| Frequency>=0          | VCD        | Manual     | SmartTime    | Vectorless    | Fixed       | Total |
+|                       | Annotation | Annotation | Constraint   | Estimation    | Values      |       |
++-----------------------+------------+------------+--------------+---------------+-------------+-------+
+| Clocks                | 0 (0.00%)  | 0 (0.00%)  | 18 (100.00%) | 0 (0.00%)     | 0 (0.00%)   | 18    |
+| Register outputs      | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 254 (100.00%) | 0 (0.00%)   | 254   |
+| Combinational outputs | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 539 (100.00%) | 0 (0.00%)   | 539   |
+| Set/Reset nets        | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 0 (0.00%)     | 3 (100.00%) | 3     |
+| Primary inputs        | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 0 (0.00%)     | 7 (100.00%) | 7     |
+| Enable pins           | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 2 (100.00%)   | 0 (0.00%)   | 2     |
+| Other pins            | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 0 (0.00%)     | 0 (0.00%)   | 0     |
++-----------------------+------------+------------+--------------+---------------+-------------+-------+
+
++-----------------------+------------+------------+------------+---------------+-------------+-------+
+| Frequency=0           | VCD        | Manual     | SmartTime  | Vectorless    | Fixed       | Total |
+|                       | Annotation | Annotation | Constraint | Estimation    | Values      |       |
++-----------------------+------------+------------+------------+---------------+-------------+-------+
+| Clocks                | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)     | 0 (0.00%)   | 0     |
+| Register outputs      | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)  | 166 (100.00%) | 0 (0.00%)   | 166   |
+| Combinational outputs | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)  | 275 (100.00%) | 0 (0.00%)   | 275   |
+| Set/Reset nets        | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)     | 3 (100.00%) | 3     |
+| Primary inputs        | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)     | 0 (0.00%)   | 0     |
+| Enable pins           | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)     | 0 (0.00%)   | 0     |
+| Other pins            | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)     | 0 (0.00%)   | 0     |
++-----------------------+------------+------------+------------+---------------+-------------+-------+
+
+Annotation Coverage: Probability Annotation
++-----------------------+------------+------------+--------------+---------------+-------------+-------+
+| Probability>=0        | VCD        | Manual     | SmartTime    | Vectorless    | Fixed       | Total |
+|                       | Annotation | Annotation | Constraint   | Estimation    | Values      |       |
++-----------------------+------------+------------+--------------+---------------+-------------+-------+
+| Clocks                | 0 (0.00%)  | 0 (0.00%)  | 18 (100.00%) | 0 (0.00%)     | 0 (0.00%)   | 18    |
+| Register outputs      | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 254 (100.00%) | 0 (0.00%)   | 254   |
+| Combinational outputs | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 539 (100.00%) | 0 (0.00%)   | 539   |
+| Set/Reset nets        | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 0 (0.00%)     | 3 (100.00%) | 3     |
+| Primary inputs        | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 0 (0.00%)     | 7 (100.00%) | 7     |
+| Enable pins           | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 2 (100.00%)   | 0 (0.00%)   | 2     |
+| Other pins            | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 0 (0.00%)     | 0 (0.00%)   | 0     |
++-----------------------+------------+------------+--------------+---------------+-------------+-------+
+
+
+Operating Condition Summary
++----------------------+---------+----------------------------------+
+|                      | Value   | Range Definition                 |
++----------------------+---------+----------------------------------+
+| Junction Temperature | 25.00 C | Design operating range (default) |
+|                      |         |                                  |
+| VCC                  | 1.200 V | Design operating range(default)  |
+| VCCI 1.2             | 1.200 V | Design operating range(default)  |
++----------------------+---------+----------------------------------+
+
+
+Breakdown by Rail
++---------------+------------+-------------+--------------+
+|               | Power (mW) | Voltage (V) | Current (mA) |
++---------------+------------+-------------+--------------+
+| Rail VCC      |      2.118 |      1.200  |      1.765   |
+| Rail VCCI 1.2 |      0.844 |      1.200  |      0.704   |
++---------------+------------+-------------+--------------+
+
+
+Breakdown by Clock
++--------------------------------------------------------------+------------+------------+
+|                                                              | Power (mW) | Percentage |
++--------------------------------------------------------------+------------+------------+
+| clock (clocks)                                               |      0.063 |       2.1% |
+| clock (register outputs)                                     |      0.000 |       0.0% |
+| clock (primary inputs)                                       |      0.000 |       0.0% |
+| clock (combinational outputs)                                |      0.000 |       0.0% |
+| clock (set/reset nets)                                       |      0.000 |       0.0% |
+| pclk (clocks)                                                |      0.051 |       1.7% |
+| pclk (register outputs)                                      |      0.015 |       0.5% |
+| pclk (primary inputs)                                        |      0.000 |       0.0% |
+| pclk (combinational outputs)                                 |      0.023 |       0.8% |
+| pclk (set/reset nets)                                        |      0.000 |       0.0% |
+| downlink_clock_divider_0/clock_out:Q (clocks)                |      0.001 |       0.0% |
+| downlink_clock_divider_0/clock_out:Q (register outputs)      |      0.040 |       1.4% |
+| downlink_clock_divider_0/clock_out:Q (primary inputs)        |      0.000 |       0.0% |
+| downlink_clock_divider_0/clock_out:Q (combinational outputs) |      0.019 |       0.7% |
+| downlink_clock_divider_0/clock_out:Q (set/reset nets)        |      0.000 |       0.0% |
+| clock_control_0/clock_out:Q (clocks)                         |      0.100 |       3.4% |
+| clock_control_0/clock_out:Q (register outputs)               |      0.003 |       0.1% |
+| clock_control_0/clock_out:Q (primary inputs)                 |      0.000 |       0.0% |
+| clock_control_0/clock_out:Q (combinational outputs)          |      0.006 |       0.2% |
+| clock_control_0/clock_out:Q (set/reset nets)                 |      0.000 |       0.0% |
+| pll_core_0/Core:GLA (clocks)                                 |      2.119 |      72.2% |
+| pll_core_0/Core:GLA (register outputs)                       |      0.245 |       8.3% |
+| pll_core_0/Core:GLA (primary inputs)                         |      0.000 |       0.0% |
+| pll_core_0/Core:GLA (combinational outputs)                  |      0.239 |       8.2% |
+| pll_core_0/Core:GLA (set/reset nets)                         |      0.000 |       0.0% |
+| Input to Output                                              |      0.000 |       0.0% |
++--------------------------------------------------------------+------------+------------+
+
+
+Breakdown by Type
++-------------------+------------+------------+
+|                   | Power (mW) | Percentage |
++-------------------+------------+------------+
+| Type Net          |      1.756 |      59.3% |
+| Type Gate         |      0.334 |      11.3% |
+| Type I/O          |      0.838 |      28.3% |
+| Type Memory       |      0.007 |       0.2% |
+| Type Core Static  |      0.022 |       0.7% |
+| Type Banks Static |      0.006 |       0.2% |
++-------------------+------------+------------+
+
+
+Clock Domains Summary: Frequency
++--------------------------------------+--------+-------------------+----------------+-----------------+-------------------+
+| Name                                 | Clocks | Register          | Set/Reset      | Primary         | Combinational     |
+|                                      | (MHz)  | outputs           | nets           | inputs          | outputs           |
+|                                      |        | (MHz)             | (MHz)          | (MHz)           | (MHz)             |
++--------------------------------------+--------+-------------------+----------------+-----------------+-------------------+
+| clock                                | 20.000 | 0.000 (0.00 %)    | 0.000 (0.00 %) | 1.000 (10.00 %) | 0.000 (0.00 %)    |
+| pclk                                 | 1.000  | 0.172 (34.33 %)   | 0.000 (0.00 %) | 0.050 (10.00 %) | 0.291 (58.18 %)   |
+| downlink_clock_divider_0/clock_out:Q | 0.100  | 1.008 (2015.60 %) | 0.000 (0.00 %) | 0.005 (10.00 %) | 1.330 (2660.52 %) |
+| clock_control_0/clock_out:Q          | 1.000  | 0.023 (4.55 %)    | 0.000 (0.00 %) | 0.050 (10.00 %) | 0.041 (8.19 %)    |
+| pll_core_0/Core:GLA                  | 50.000 | 3.598 (14.39 %)   | 0.000 (0.00 %) | 2.500 (10.00 %) | 2.542 (10.17 %)   |
++--------------------------------------+--------+-------------------+----------------+-----------------+-------------------+
+
+Clock Domains Summary: Probability
++--------------------------------------+--------+----------+-----------+---------+---------------+
+| Name                                 | Clocks | Register | Set/Reset | Primary | Combinational |
+|                                      | (%)    | outputs  | nets      | inputs  | outputs       |
+|                                      |        | (%)      | (%)       | (%)     | (%)           |
++--------------------------------------+--------+----------+-----------+---------+---------------+
+| clock                                | 50.000 | 50.000   | 50.000    | 50.000  | 50.000        |
+| pclk                                 | 50.000 | 19.611   | 50.000    | 50.000  | 15.100        |
+| downlink_clock_divider_0/clock_out:Q | 50.000 | 5.595    | 50.000    | 50.000  | 26.526        |
+| clock_control_0/clock_out:Q          | 50.000 | 8.717    | 50.000    | 50.000  | 30.209        |
+| pll_core_0/Core:GLA                  | 50.000 | 20.585   | 50.000    | 50.000  | 17.795        |
++--------------------------------------+--------+----------+-----------+---------+---------------+
+
+Set Of Pins Summary: Frequency
++-------------------+-------+
+| Name              | Data  |
+|                   | (MHz) |
++-------------------+-------+
+| MemoriesEnableSet | 1.248 |
++-------------------+-------+
+
+Set Of Pins Summary: Probability
++-------------------+--------+
+| Name              | Data   |
+|                   | (%)    |
++-------------------+--------+
+| MemoriesEnableSet | 97.384 |
++-------------------+--------+
+
+

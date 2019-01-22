@@ -1,0 +1,89 @@
+#--  Synopsys, Inc.
+#--  Version L-2016.09M-2
+#--  Project file C:\Users\pyzhang\Desktop\working\backscatter-fpga\synthesis\top_syn.prj
+#--  Written on Wed Mar 21 13:51:12 2018
+
+
+#project files
+add_file -verilog "C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/camera_adapter.v"
+add_file -verilog "C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/camera_clock.v"
+add_file -verilog "C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/clock_control.v"
+add_file -verilog "C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/dbpsk_modulator.v"
+add_file -verilog "C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/downlink_clock_divider.v"
+add_file -verilog "C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/downlink_decoder.v"
+add_file -verilog "C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/downlink_parser.v"
+add_file -verilog "C:/Users/pyzhang/Desktop/working/backscatter-fpga/smartgen/input_buffer/input_buffer.v"
+add_file -verilog "C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/packet_encoder.v"
+add_file -verilog "C:/Users/pyzhang/Desktop/working/backscatter-fpga/smartgen/pll_core/pll_core.v"
+add_file -verilog "C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/switch_encoder.v"
+add_file -verilog "C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/whitening.v"
+add_file -verilog "C:/Users/pyzhang/Desktop/working/backscatter-fpga/component/work/top/top.v"
+add_file -constraint "C:/Users/pyzhang/Desktop/working/backscatter-fpga/constraint/userdefined.sdc"
+
+
+
+#implementation: "synthesis"
+impl -add synthesis -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+
+#device options
+set_option -technology IGLOO
+set_option -part AGLN250V2
+set_option -package VQFP100
+set_option -speed_grade STD
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "top"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+
+# mapper_without_write_options
+set_option -frequency 1
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# actel_options
+set_option -rw_check_on_ram 0
+
+# Microsemi 500K
+set_option -run_prop_extract 1
+set_option -maxfan 24
+set_option -disable_io_insertion 0
+set_option -retiming 1
+set_option -report_path 0
+set_option -opcond COMWC
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+
+# Microsemi 500K
+set_option -globalthreshold 50
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./top.edn"
+impl -active "synthesis"

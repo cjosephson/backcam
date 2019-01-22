@@ -1,0 +1,531 @@
+KEY LIBERO "11.5"
+KEY CAPTURE "11.5.0.26"
+KEY DEFAULT_IMPORT_LOC "C:\Documents and Settings\Administrator\spi_accel\stimulus"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VendorTechnology_Family "IGLOO"
+KEY VendorTechnology_Die "UM4X4M1NLPLV"
+KEY VendorTechnology_Package "vq100"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS12"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "Z:\fpga_vision\HitchHike"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "top::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1425307641"
+SIZE="437"
+ENDFILE
+VALUE "<project>\component\work\DESIGN_IO\DESIGN_IO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1425307642"
+SIZE="413"
+ENDFILE
+VALUE "<project>\component\work\top\top.cxf,actgen_cxf"
+STATE="utd"
+TIME="1475014154"
+SIZE="3762"
+ENDFILE
+VALUE "<project>\component\work\top\top.v,hdl"
+STATE="utd"
+TIME="1475014152"
+SIZE="7356"
+PARENT="<project>\component\work\top\top.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\designer\impl1\top.adb,adb"
+STATE="utd"
+TIME="1475014320"
+SIZE="1452032"
+ENDFILE
+VALUE "<project>\designer\impl1\top.ide_des,ide_des"
+STATE="utd"
+TIME="1475014320"
+SIZE="941"
+ENDFILE
+VALUE "<project>\designer\impl1\top.pdb,pdb"
+STATE="utd"
+TIME="1479567258"
+SIZE="67215"
+ENDFILE
+VALUE "<project>\designer\impl1\top_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1475014279"
+SIZE="536398"
+ENDFILE
+VALUE "<project>\designer\impl1\top_ba.v,ba_hdl"
+STATE="utd"
+TIME="1475014279"
+SIZE="224238"
+ENDFILE
+VALUE "<project>\designer\impl1\top_ba_log.rpt,log"
+STATE="utd"
+TIME="1475014280"
+SIZE="746"
+ENDFILE
+VALUE "<project>\designer\impl1\top_compile_log.rpt,log"
+STATE="utd"
+TIME="1475014196"
+SIZE="9118"
+ENDFILE
+VALUE "<project>\designer\impl1\top_fp\projectData\top.pdb,pdb"
+STATE="utd"
+TIME="1478104818"
+SIZE="67215"
+ENDFILE
+VALUE "<project>\designer\impl1\top_fp\top.pro,pro"
+STATE="utd"
+TIME="1478104818"
+SIZE="2577"
+ENDFILE
+VALUE "<project>\designer\impl1\top_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1475014261"
+SIZE="2457"
+ENDFILE
+VALUE "<project>\designer\impl1\top_prgdata_log.rpt,log"
+STATE="utd"
+TIME="1475014320"
+SIZE="633"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timingconstraints_log.rpt,log"
+STATE="utd"
+TIME="1456442044"
+SIZE="364"
+ENDFILE
+VALUE "<project>\designer\impl1\top_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1475014297"
+SIZE="1096"
+ENDFILE
+VALUE "<project>\hdl\clock_divider.v,hdl"
+STATE="utd"
+TIME="1458776229"
+SIZE="1166"
+ENDFILE
+VALUE "<project>\hdl\counter_tmp.v,hdl"
+STATE="utd"
+TIME="1425307710"
+SIZE="914"
+ENDFILE
+VALUE "<project>\hdl\data_dqpsk_generator.v,hdl"
+STATE="utd"
+TIME="1458772511"
+SIZE="2036"
+ENDFILE
+VALUE "<project>\hdl\data_rate.v,hdl"
+STATE="utd"
+TIME="1470761649"
+SIZE="2611"
+ENDFILE
+VALUE "<project>\hdl\data_source.v,hdl"
+STATE="utd"
+TIME="1471303555"
+SIZE="2100"
+ENDFILE
+VALUE "<project>\hdl\dbpsk_modulator.v,hdl"
+STATE="utd"
+TIME="1469923698"
+SIZE="1409"
+ENDFILE
+VALUE "<project>\hdl\dqpsk_modulator.v,hdl"
+STATE="utd"
+TIME="1458778221"
+SIZE="2197"
+ENDFILE
+VALUE "<project>\hdl\main_clock.v,hdl"
+STATE="utd"
+TIME="1461610935"
+SIZE="1151"
+ENDFILE
+VALUE "<project>\hdl\modulator.v,hdl"
+STATE="utd"
+TIME="1469772675"
+SIZE="1640"
+ENDFILE
+VALUE "<project>\hdl\phaser_modulator.v,hdl"
+STATE="utd"
+TIME="1458778861"
+SIZE="4859"
+ENDFILE
+VALUE "<project>\hdl\sigen_trigger.v,hdl"
+STATE="utd"
+TIME="1458604015"
+SIZE="1473"
+ENDFILE
+VALUE "<project>\hdl\ten_mhz_clock.v,hdl"
+STATE="utd"
+TIME="1463091150"
+SIZE="1152"
+ENDFILE
+VALUE "<project>\hdl\trigger_signal_gen.v,hdl"
+STATE="utd"
+TIME="1457161232"
+SIZE="1376"
+ENDFILE
+VALUE "<project>\hdl\two_mhz_clock.v,hdl"
+STATE="utd"
+TIME="1469486298"
+SIZE="1153"
+ENDFILE
+VALUE "<project>\hdl\whitening.v,hdl"
+STATE="utd"
+TIME="1470012461"
+SIZE="2446"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1457226633"
+SIZE="617"
+ENDFILE
+VALUE "<project>\smartgen\delay\delay.cxf,actgen_cxf"
+STATE="utd"
+TIME="1449948971"
+SIZE="1164"
+ENDFILE
+VALUE "<project>\smartgen\delay\delay.gen,gen"
+STATE="utd"
+TIME="1449948970"
+SIZE="383"
+PARENT="<project>\smartgen\delay\delay.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\delay\delay.log,log"
+STATE="utd"
+TIME="1449948970"
+SIZE="1221"
+PARENT="<project>\smartgen\delay\delay.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\delay\delay.v,hdl"
+STATE="utd"
+TIME="1449948970"
+SIZE="1158"
+PARENT="<project>\smartgen\delay\delay.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\delay_five_ns\delay_five_ns.cxf,actgen_cxf"
+STATE="utd"
+TIME="1459874515"
+SIZE="1196"
+ENDFILE
+VALUE "<project>\smartgen\delay_five_ns\delay_five_ns.gen,gen"
+STATE="utd"
+TIME="1459874513"
+SIZE="396"
+PARENT="<project>\smartgen\delay_five_ns\delay_five_ns.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\delay_five_ns\delay_five_ns.log,log"
+STATE="utd"
+TIME="1459874515"
+SIZE="1249"
+PARENT="<project>\smartgen\delay_five_ns\delay_five_ns.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\delay_five_ns\delay_five_ns.v,hdl"
+STATE="utd"
+TIME="1459874515"
+SIZE="1179"
+PARENT="<project>\smartgen\delay_five_ns\delay_five_ns.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\pll_core\pll_core.cxf,actgen_cxf"
+STATE="utd"
+TIME="1469208308"
+SIZE="1480"
+ENDFILE
+VALUE "<project>\smartgen\pll_core\pll_core.gen,gen"
+STATE="utd"
+TIME="1469208305"
+SIZE="537"
+PARENT="<project>\smartgen\pll_core\pll_core.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\pll_core\pll_core.log,log"
+STATE="utd"
+TIME="1469208306"
+SIZE="2658"
+PARENT="<project>\smartgen\pll_core\pll_core.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\pll_core\pll_core.v,hdl"
+STATE="utd"
+TIME="1469208306"
+SIZE="2711"
+PARENT="<project>\smartgen\pll_core\pll_core.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\stimulus\top_tb.v,tb_hdl"
+STATE="utd"
+TIME="1457216635"
+SIZE="1689"
+ENDFILE
+VALUE "<project>\synthesis\synwork\top_comp.so,so"
+STATE="utd"
+TIME="1470179644"
+SIZE="159"
+ENDFILE
+VALUE "<project>\synthesis\top.edn,syn_edn"
+STATE="utd"
+TIME="1475014172"
+SIZE="430210"
+ENDFILE
+VALUE "<project>\synthesis\top.so,so"
+STATE="utd"
+TIME="1475014172"
+SIZE="206"
+ENDFILE
+VALUE "<project>\synthesis\top.v,syn_hdl"
+STATE="ood"
+TIME="1457226623"
+SIZE="19556"
+ENDFILE
+VALUE "<project>\synthesis\top_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1475014172"
+SIZE="310"
+ENDFILE
+VALUE "<project>\synthesis\top_syn.prj,prj"
+STATE="utd"
+TIME="1475014173"
+SIZE="2133"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "top::work"
+FILE "<project>\component\work\top\top.v,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\top_tb.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\top.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\top.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\top_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\top_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST top
+VALUE "<project>\stimulus\top_tb.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=10us
+Resolution=1ps
+VsimOpt=
+EntityName=top_tb
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=true
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_v11.5\Model\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FlashPro"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_v11.5\Designer\bin\FlashPro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_v11.5\Synopsys\Identify_me_J201409M1\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "top::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\top.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\top.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
+ENDLIST
+LIST ModuleSubBlockList
+LIST "clock_divider::work","hdl\clock_divider.v","FALSE","FALSE"
+ENDLIST
+LIST "counter_tmp::work","hdl\counter_tmp.v","FALSE","FALSE"
+ENDLIST
+LIST "data_dqpsk_generator::work","hdl\data_dqpsk_generator.v","FALSE","FALSE"
+ENDLIST
+LIST "data_rate::work","hdl\data_rate.v","FALSE","FALSE"
+ENDLIST
+LIST "data_source::work","hdl\data_source.v","FALSE","FALSE"
+ENDLIST
+LIST "dbpsk_modulator::work","hdl\dbpsk_modulator.v","FALSE","FALSE"
+ENDLIST
+LIST "delay::work","smartgen\delay\delay.v","TRUE","FALSE"
+ENDLIST
+LIST "delay_five_ns::work","smartgen\delay_five_ns\delay_five_ns.v","TRUE","FALSE"
+ENDLIST
+LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
+ENDLIST
+LIST "DESIGN_IO::work","component\work\DESIGN_IO\DESIGN_IO.cxf","TRUE","FALSE"
+ENDLIST
+LIST "dqpsk_modulator::work","hdl\dqpsk_modulator.v","FALSE","FALSE"
+ENDLIST
+LIST "main_clock::work","hdl\main_clock.v","FALSE","FALSE"
+ENDLIST
+LIST "modulator::work","hdl\modulator.v","FALSE","FALSE"
+ENDLIST
+LIST "phaser_modulator::work","hdl\phaser_modulator.v","FALSE","FALSE"
+ENDLIST
+LIST "pll_core::work","smartgen\pll_core\pll_core.v","TRUE","FALSE"
+ENDLIST
+LIST "sigen_trigger::work","hdl\sigen_trigger.v","FALSE","FALSE"
+ENDLIST
+LIST "ten_mhz_clock::work","hdl\ten_mhz_clock.v","FALSE","FALSE"
+ENDLIST
+LIST "top::work","component\work\top\top.v","TRUE","FALSE"
+SUBBLOCK "data_rate::work","hdl\data_rate.v","FALSE","FALSE"
+SUBBLOCK "data_source::work","hdl\data_source.v","FALSE","FALSE"
+SUBBLOCK "dbpsk_modulator::work","hdl\dbpsk_modulator.v","FALSE","FALSE"
+SUBBLOCK "main_clock::work","hdl\main_clock.v","FALSE","FALSE"
+SUBBLOCK "modulator::work","hdl\modulator.v","FALSE","FALSE"
+SUBBLOCK "pll_core::work","smartgen\pll_core\pll_core.v","TRUE","FALSE"
+SUBBLOCK "ten_mhz_clock::work","hdl\ten_mhz_clock.v","FALSE","FALSE"
+SUBBLOCK "two_mhz_clock::work","hdl\two_mhz_clock.v","FALSE","FALSE"
+SUBBLOCK "whitening::work","hdl\whitening.v","FALSE","FALSE"
+ENDLIST
+LIST "trigger_signal_gen::work","hdl\trigger_signal_gen.v","FALSE","FALSE"
+ENDLIST
+LIST "two_mhz_clock::work","hdl\two_mhz_clock.v","FALSE","FALSE"
+ENDLIST
+LIST "whitening::work","hdl\whitening.v","FALSE","FALSE"
+ENDLIST
+LIST "top_tb::work","stimulus\top_tb.v","FALSE","TRUE"
+SUBBLOCK "top::work","component\work\top\top.v","TRUE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST

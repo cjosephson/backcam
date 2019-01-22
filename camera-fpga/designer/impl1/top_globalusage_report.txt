@@ -1,0 +1,31 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Date: Wed Mar 21 13:51:47 2018
+Design Name: Top  Family: IGLOO  Die: AGLN250V2  Package: 100 VQFP
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    38                Net   : GLA
+                      Driver: pll_core_0/Core/U_PLL
+    93                Net   : clock_control_0_clock_out
+                      Driver: clock_control_0/clock_out_RNICHN5/U_GL
+    67                Net   : cam_write_en_2
+                      Driver: clock_control_0/switch_RNIRSV3/U_GL
+    182               Net   : reset_c
+                      Driver: reset_pad/U0/U1/U_GL
+    37                Net   : input_buffer_0/WCLOCKP
+                      Driver: input_buffer_0/WCLKBUBBLE_RNI39CD/U_GL
+    61                Net   : input_buffer_0/RCLOCKP
+                      Driver: input_buffer_0/RCLKBUBBLE_RNIURM3/U_GL
+
+
+
+

@@ -1,0 +1,58 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Sep 27 18:09:32 2016
+#
+
+
+Top view:               top
+Operating conditions:   IGLOO_V2.COMWCSTD
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Wire load model:        igloo
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+                                        Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                          Frequency     Frequency     Period        Period        Slack       Type         Group              
+--------------------------------------------------------------------------------------------------------------------------------------------
+main_clock|clock_out_inferred_clock     1.0 MHz       23.0 MHz      1000.000      43.459        488.995     inferred     Inferred_clkgroup_0
+pll_core|GLA_inferred_clock             1.0 MHz       54.7 MHz      1000.000      18.284        981.716     inferred     Inferred_clkgroup_1
+============================================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                    |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                             Ending                               |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+main_clock|clock_out_inferred_clock  main_clock|clock_out_inferred_clock  |  0.000       False  |  0.000       False  |  500.000     False  |  500.000     False
+pll_core|GLA_inferred_clock          pll_core|GLA_inferred_clock          |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
+================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+

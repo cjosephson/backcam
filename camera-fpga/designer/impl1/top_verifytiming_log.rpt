@@ -1,0 +1,30 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+Info: The design top.adb was last modified by software version 11.8.0.26.
+Opened an existing Libero design top.adb.
+'BA_NAME' set to 'top_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Users\pyzhang\Desktop\working\backscatter-fpga\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+Wrote timing report to file: top_maxdelay_timing_report.txt
+
+The Report command succeeded ( 00:00:03 )
+Wrote timing report to file: top_mindelay_timing_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote timing_violations report to file: top_maxdelay_timingviolations_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote timing_violations report to file: top_mindelay_timingviolations_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Design saved to file C:\Users\pyzhang\Desktop\working\backscatter-fpga\designer\impl1\top.adb.
+
+The Execute Script command succeeded ( 00:00:03 )
+Design closed.
+

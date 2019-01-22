@@ -1,0 +1,39 @@
+Compile
+=======
+
+To compile, execute `make decode` in this directory. The name of the binary is
+'decode'.
+
+Usage
+=====
+
+Feed extracted backscatter payload data to the stdin of the compiled decode
+program. For example:
+
+tshark -I -T fields -e data -i en0 | ./decode   # live streaming
+
+Another example:
+
+tshark -r dump.pcap -T fields -e data > dump.txt
+cat dump.txt | ./decode                         # record and decode
+
+The new program expects exactly the same input as our old 'newprocess.py'
+script.
+
+Scripts
+=======
+
+Continuous Streaming
+--------------------
+
+To run a streaming demo, execute `bash demo.sh`. Images will automatically
+appear in this directory. Stop the demo by Ctrl-C.
+
+Capture and Process
+-------------------
+
+First `bash capture.sh` to collect a raw pcap dump. The default duration
+of the capture is 20 sec. Then execute `bash process.sh` to process the
+captured packets. It will automatically convert the pcap dump to the input
+format of the decoder program, and clean up intermediate files afterwards.
+

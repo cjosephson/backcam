@@ -1,0 +1,16 @@
+*.aux
+*.out
+*.log
+*.pyc
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+.DS_Store
+*.o
+*.a
+*.lst

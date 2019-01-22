@@ -1,0 +1,12 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BN362 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\camera_adapter.v":36:0:36:5|Removing sequential instance hi_nibble[3:0] (in view: work.camera_adapter(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":1:0:1:0|Assigning clock "pclk" to command: define_clock p:pclk -freq 1 -clockgroup camera 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":2:0:2:0|Assigning clock "pll_core_0.GLA" to command: define_clock n:pll_core_0.GLA -freq 50 -clockgroup main 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":3:0:3:0|Assigning clock "downlink_clock_divider_0.clock_out" to command: define_clock n:downlink_clock_divider_0.clock_out -freq 1 -clockgroup downlink 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":4:0:4:0|Assigning clock "clock_control_0.clock_out" to command: define_clock n:clock_control_0.clock_out -freq 1 -clockgroup main 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":1:0:1:0|Assigning clock "pclk" to command: define_clock p:pclk -freq 1 -clockgroup camera 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":2:0:2:0|Assigning clock "pll_core_0.GLA" to command: define_clock n:pll_core_0.GLA -freq 50 -clockgroup main 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":3:0:3:0|Assigning clock "downlink_clock_divider_0.clock_out" to command: define_clock n:downlink_clock_divider_0.clock_out -freq 1 -clockgroup downlink 
+@N: MT480 :"c:/users/pyzhang/desktop/working/backscatter-fpga/constraint/userdefined.sdc":4:0:4:0|Assigning clock "clock_control_0.clock_out" to command: define_clock n:clock_control_0.clock_out -freq 1 -clockgroup main 
+@N: BN225 |Writing default property annotation file C:\Users\pyzhang\Desktop\working\backscatter-fpga\synthesis\top.sap.

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="datasheet.xsl"?>
+<datasheet>
+  <header>top</header>
+  <project-settings>
+    <fam>IGLOO</fam>
+    <die>AGLN250V2</die>
+    <package>100 VQFP</package>
+    <speed-grade>STD</speed-grade>
+    <voltage>1.2</voltage>
+    <hdl-type>Verilog</hdl-type>
+    <project-description>
+    </project-description>
+    <location>C:/Users/pyzhang/Desktop/working/backscatter-fpga/component/work/top</location>
+    <state>GENERATED ( Wed Mar 21 13:49:12 2018 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <fileset>
+    <name>HDL File(s)</name>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\component\work\top\top.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\camera_adapter.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\camera_clock.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\clock_control.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\clock_divider.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\counter_tmp.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\data_dqpsk_generator.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\data_rate.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\data_source.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\dbpsk_modulator.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\dewhitening.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_clock_divider.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_decoder.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\downlink_parser.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\dqpsk_modulator.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\fakedata_gen.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\main_clock.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\modulator.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\packet_encoder.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\phaser_modulator.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\sigen_trigger.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\switch_encoder.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\ten_mhz_clock.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\trigger_signal_gen.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\two_mhz_clock.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\hdl\whitening.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\ccc_core\ccc_core.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\delay\delay.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\delay_five_ns\delay_five_ns.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\input_buffer\input_buffer.v</file>
+    <file>C:\Users\pyzhang\Desktop\working\backscatter-fpga\smartgen\pll_core\pll_core.v</file>
+  </fileset>
+  <io>
+    <port-name>pclk</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>input_data[0]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>camera_mclk</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>cam_write_en</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>input_data[3]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>clock</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>camera_res</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>signal_into_switch</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>input_data[2]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>hsync</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>input_data[1]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>reset</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>vsync</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>trigger_signal</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>camera_res_dup</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>camera_adapter</core-exttype>
+    <core-location>hdl\camera_adapter.v</core-location>
+    <core-name>camera_adapter_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>camera_clock</core-exttype>
+    <core-location>hdl\camera_clock.v</core-location>
+    <core-name>camera_clock_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>clock_control</core-exttype>
+    <core-location>hdl\clock_control.v</core-location>
+    <core-name>clock_control_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>dbpsk_modulator</core-exttype>
+    <core-location>hdl\dbpsk_modulator.v</core-location>
+    <core-name>dbpsk_modulator_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>downlink_clock_divider</core-exttype>
+    <core-location>hdl\downlink_clock_divider.v</core-location>
+    <core-name>downlink_clock_divider_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>downlink_decoder</core-exttype>
+    <core-location>hdl\downlink_decoder.v</core-location>
+    <core-name>downlink_decoder_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>downlink_parser</core-exttype>
+    <core-location>hdl\downlink_parser.v</core-location>
+    <core-name>downlink_parser_0</core-name>
+  </core>
+  <core type="ComponentModule">
+    <core-type>ComponentModule</core-type>
+    <core-exttype>SmartGen</core-exttype>
+    <core-location>C:/Users/pyzhang/Desktop/working/backscatter-fpga/smartgen/input_buffer</core-location>
+    <core-name>input_buffer_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>packet_encoder</core-exttype>
+    <core-location>hdl\packet_encoder.v</core-location>
+    <core-name>packet_encoder_0</core-name>
+  </core>
+  <core type="ComponentModule">
+    <core-type>ComponentModule</core-type>
+    <core-exttype>SmartGen</core-exttype>
+    <core-location>C:/Users/pyzhang/Desktop/working/backscatter-fpga/smartgen/pll_core</core-location>
+    <core-name>pll_core_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>switch_encoder</core-exttype>
+    <core-location>hdl\switch_encoder.v</core-location>
+    <core-name>switch_encoder_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>whitening</core-exttype>
+    <core-location>hdl\whitening.v</core-location>
+    <core-name>whitening_0</core-name>
+  </core>
+  <memorysystem>
+    <title>Memory Map for top</title>
+    <description>The project does not contain any subsystems.</description>
+  </memorysystem>
+</datasheet>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\pyzhang\Desktop\working\backscatter-fpga\synthesis\synlog\top_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>clock_control_0.clock_out_RNICHN5</data>
+<data>1.0 MHz</data>
+<data>1.2 MHz</data>
+<data>460.083</data>
+</row>
+<row>
+<data>downlink_clock_divider_0.clock_out</data>
+<data>1.0 MHz</data>
+<data>33.8 MHz</data>
+<data>489.133</data>
+</row>
+<row>
+<data>pclk</data>
+<data>1.0 MHz</data>
+<data>12.3 MHz</data>
+<data>459.323</data>
+</row>
+<row>
+<data>pll_core_0.GLA</data>
+<data>50.0 MHz</data>
+<data>47.7 MHz</data>
+<data>-0.957</data>
+</row>
+</report_table>

@@ -1,0 +1,403 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/fpga_vision/test_tmp/simulation
+vcamera_adapter
+Z1 !s110 1520836460
+!i10b 1
+!s100 ?ICkQGK5zN^7_BP2MmAEA3
+I;HX>nKhLQ<3Ab:]>S:<Ii0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/pyzhang/Desktop/working/backscatter-fpga/simulation
+Z4 w1513066438
+8C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/camera_adapter.v
+FC:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/camera_adapter.v
+L0 1
+Z5 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z6 !s108 1520836460.000000
+!s107 C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/camera_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/camera_adapter.v|
+!s101 -O0
+!i113 1
+Z7 o-vlog01compat -work presynth -O0
+Z8 tCvgOpt 0
+vcamera_clock
+R1
+!i10b 1
+!s100 NWI]QKVIL5z7Gh263WFLg1
+IKm4@[dF0RAVHl6O6HT7b32
+R2
+R3
+R4
+8C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/camera_clock.v
+FC:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/camera_clock.v
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/camera_clock.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/camera_clock.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vclock_control
+R1
+!i10b 1
+!s100 _jLQ<<N1GU<RY:zB<[S;]3
+I7aE?azHAEOJ^GndS2AWEV1
+R2
+R3
+w1520827571
+8C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/clock_control.v
+FC:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/clock_control.v
+L0 7
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/clock_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/clock_control.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vclock_divider
+!s110 1457216938
+!i10b 1
+!s100 SEW]eUKHbn?ehN6e4^?312
+I_>7Z6<T4lcUc[^Y>^>0cU1
+Z9 V`JN@9S9cnhjKRR_L]QIcM3
+Z10 dZ:/fpga_vision/fs_backscatter/simulation
+w1457157299
+8Z:/fpga_vision/fs_backscatter/hdl/clock_divider.v
+FZ:/fpga_vision/fs_backscatter/hdl/clock_divider.v
+Z11 L0 20
+Z12 OW;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1457216938.869000
+!s107 Z:/fpga_vision/fs_backscatter/hdl/clock_divider.v|
+!s90 -reportprogress|300|-work|presynth|Z:/fpga_vision/fs_backscatter/hdl/clock_divider.v|
+!s101 -O0
+!i113 1
+Z13 o-work presynth -O0
+vcounter_tmp
+!s110 1425327960
+!i10b 1
+!s100 FO^dU;8l>5T2KNH2BkMac0
+INf9D87=>g830Kd^Kg7zKH1
+R9
+R0
+w1425307710
+8Z:/fpga_vision/test_tmp/hdl/counter_tmp.v
+FZ:/fpga_vision/test_tmp/hdl/counter_tmp.v
+R11
+R12
+r1
+!s85 0
+31
+!s108 1425327960.530000
+!s107 Z:/fpga_vision/test_tmp/hdl/counter_tmp.v|
+!s90 -work|presynth|Z:/fpga_vision/test_tmp/hdl/counter_tmp.v|
+!s101 -O0
+!i113 1
+R13
+vdata_rate
+Z14 !s110 1457216939
+!i10b 1
+!s100 a2X^=QHPh^EeKng3Kc`YC3
+ILQ]R<4>iMnKDIbo5VeYGP1
+R9
+R10
+w1457216326
+8Z:/fpga_vision/fs_backscatter/hdl/data_rate.v
+FZ:/fpga_vision/fs_backscatter/hdl/data_rate.v
+R11
+R12
+r1
+!s85 0
+31
+!s108 1457216939.041000
+!s107 Z:/fpga_vision/fs_backscatter/hdl/data_rate.v|
+!s90 -reportprogress|300|-work|presynth|Z:/fpga_vision/fs_backscatter/hdl/data_rate.v|
+!s101 -O0
+!i113 1
+R13
+vdbpsk_modulator
+R1
+!i10b 1
+!s100 ^Z]7P0jJVk8ignLY;_C9F3
+I]:Vhh9anlgZf<=h6T?TaS0
+R2
+R3
+R4
+8C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/dbpsk_modulator.v
+FC:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/dbpsk_modulator.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/dbpsk_modulator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/dbpsk_modulator.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vdownlink_decoder
+R1
+!i10b 1
+!s100 Mj[XB96olBN?bo8hhR51Q3
+IUOZlHjdDTmWSKXQ]H=C851
+R2
+R3
+w1520836158
+8C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/downlink_decoder.v
+FC:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/downlink_decoder.v
+L0 11
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/downlink_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/downlink_decoder.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vinput_buffer
+R1
+!i10b 1
+!s100 4^XMz<iZlYkC9Bj=S988C1
+IVFMWYQRLPVfFe6L1nL9Xn0
+R2
+R3
+w1514554223
+8C:/Users/pyzhang/Desktop/working/backscatter-fpga/smartgen/input_buffer/input_buffer.v
+FC:/Users/pyzhang/Desktop/working/backscatter-fpga/smartgen/input_buffer/input_buffer.v
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/pyzhang/Desktop/working/backscatter-fpga/smartgen/input_buffer/input_buffer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Users/pyzhang/Desktop/working/backscatter-fpga/smartgen/input_buffer/input_buffer.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vmain_clock
+!s110 1501265370
+!i10b 1
+!s100 iPXG1C;8]R>m@PSEScf0k3
+IZ6SJDEPHE<2?V]`9dBMe31
+R2
+Z15 dC:/Users/pyzhang/Downloads/HitchHike-stable/HitchHike-5062a0c009f31641af70f1cf3ca8fc7b243d43bf/HitchHike_FPGA_code/simulation
+w1495128988
+8C:/Users/pyzhang/Downloads/HitchHike-stable/HitchHike-5062a0c009f31641af70f1cf3ca8fc7b243d43bf/HitchHike_FPGA_code/hdl/main_clock.v
+FC:/Users/pyzhang/Downloads/HitchHike-stable/HitchHike-5062a0c009f31641af70f1cf3ca8fc7b243d43bf/HitchHike_FPGA_code/hdl/main_clock.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1501265370.000000
+!s107 C:/Users/pyzhang/Downloads/HitchHike-stable/HitchHike-5062a0c009f31641af70f1cf3ca8fc7b243d43bf/HitchHike_FPGA_code/hdl/main_clock.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Users/pyzhang/Downloads/HitchHike-stable/HitchHike-5062a0c009f31641af70f1cf3ca8fc7b243d43bf/HitchHike_FPGA_code/hdl/main_clock.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vmodulator
+!s110 1501265371
+!i10b 1
+!s100 QIM>ek93YK<lbk_@z=F0`3
+Ibg;:;Q;]OG2g0efAn2Qgc1
+R2
+R15
+w1501195858
+8C:/Users/pyzhang/Downloads/HitchHike-stable/HitchHike-5062a0c009f31641af70f1cf3ca8fc7b243d43bf/HitchHike_FPGA_code/hdl/modulator.v
+FC:/Users/pyzhang/Downloads/HitchHike-stable/HitchHike-5062a0c009f31641af70f1cf3ca8fc7b243d43bf/HitchHike_FPGA_code/hdl/modulator.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1501265371.000000
+!s107 C:/Users/pyzhang/Downloads/HitchHike-stable/HitchHike-5062a0c009f31641af70f1cf3ca8fc7b243d43bf/HitchHike_FPGA_code/hdl/modulator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Users/pyzhang/Downloads/HitchHike-stable/HitchHike-5062a0c009f31641af70f1cf3ca8fc7b243d43bf/HitchHike_FPGA_code/hdl/modulator.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vpacket_encoder
+R1
+!i10b 1
+!s100 ?OE`EEaB>f6?Ok27`?3[>1
+IAjTL905T:b?iUNHRhdSTS0
+R2
+R3
+R4
+8C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/packet_encoder.v
+FC:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/packet_encoder.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/packet_encoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/packet_encoder.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vpll_core
+R1
+!i10b 1
+!s100 5:1hZe0F;[TeK]mNUSW=M3
+IWZmSXR:<NEz6Eb?N;D:HZ0
+R2
+R3
+w1520828917
+8C:/Users/pyzhang/Desktop/working/backscatter-fpga/smartgen/pll_core/pll_core.v
+FC:/Users/pyzhang/Desktop/working/backscatter-fpga/smartgen/pll_core/pll_core.v
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/pyzhang/Desktop/working/backscatter-fpga/smartgen/pll_core/pll_core.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Users/pyzhang/Desktop/working/backscatter-fpga/smartgen/pll_core/pll_core.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vswitch_encoder
+R1
+!i10b 1
+!s100 BU4gSU=gHUKaW1UBdB>M23
+I6`QWIFdTIXWcSX9m23_?Q0
+R2
+R3
+R4
+8C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/switch_encoder.v
+FC:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/switch_encoder.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/switch_encoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/switch_encoder.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vtop
+R1
+!i10b 1
+!s100 h;baCg;`lkl_YVMlkdinC3
+IMibaYUVk0601WY=3M^K0z0
+R2
+R3
+w1520833117
+8C:/Users/pyzhang/Desktop/working/backscatter-fpga/component/work/top/top.v
+FC:/Users/pyzhang/Desktop/working/backscatter-fpga/component/work/top/top.v
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/pyzhang/Desktop/working/backscatter-fpga/component/work/top/top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Users/pyzhang/Desktop/working/backscatter-fpga/component/work/top/top.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vtop_tb
+R1
+!i10b 1
+!s100 01ibz<`Kbm_P9=`hVdHY61
+I`ibEoCB0Nbag5@eZO2T`V0
+R2
+R3
+R4
+8C:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus/top_tb.v
+FC:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus/top_tb.v
+L0 21
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus/top_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus|-vlog01compat|-work|presynth|C:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus/top_tb.v|
+!s101 -O0
+!i113 1
+R7
+!s92 +incdir+C:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus -vlog01compat -work presynth -O0
+R8
+vtrigger_signal_gen
+R14
+!i10b 1
+!s100 IRT`9UT;;V6Hck=ZK[YXJ3
+IY7PM>nBNb12ld2mn1`jk30
+R9
+R10
+w1457161232
+8Z:/fpga_vision/fs_backscatter/hdl/trigger_signal_gen.v
+FZ:/fpga_vision/fs_backscatter/hdl/trigger_signal_gen.v
+R11
+R12
+r1
+!s85 0
+31
+!s108 1457216939.541000
+!s107 Z:/fpga_vision/fs_backscatter/hdl/trigger_signal_gen.v|
+!s90 -reportprogress|300|-work|presynth|Z:/fpga_vision/fs_backscatter/hdl/trigger_signal_gen.v|
+!s101 -O0
+!i113 1
+R13
+vwhitening
+R1
+!i10b 1
+!s100 To_[`3HKnLDBa2EQPD5U@0
+I0A:XfTWRGNPLeK1C]T8SV1
+R2
+R3
+R4
+8C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/whitening.v
+FC:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/whitening.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/whitening.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Users/pyzhang/Desktop/working/backscatter-fpga/hdl/whitening.v|
+!s101 -O0
+!i113 1
+R7
+R8

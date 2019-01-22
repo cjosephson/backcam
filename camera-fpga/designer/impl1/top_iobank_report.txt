@@ -1,0 +1,48 @@
+********************************************************************
+                            I/O Bank Report
+********************************************************************
+  
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Date: Wed Mar 21 13:51:47 2018
+Design Name: Top  Family: IGLOO  Die: AGLN250V2  Package: 100 VQFP
+
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 10            | 0            | 0
+    Output I/O                            | 5             | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVCMOS12                        | 1.20v | N/A   | 10    | 5      | 0
+
+I/O Bank Resource Usage:
+
+          |   Voltages    | Single I/Os  | Diff I/O Pairs |        Vref I/Os
+          |-------|-------|------|-------|-------|--------|------|-------|----------
+          | Vcci  | Vref  | Used | Total | Used  | Total  | Used | Total | Vref Pins
+    ------|-------|-------|------|-------|-------|--------|------|-------|----------
+    Bank0 | 1.20v | N/A   | 7    | 20    | 0     | 0      | N/A  | N/A   | N/A
+    Bank1 | 1.20v | N/A   | 6    | 14    | 0     | 0      | N/A  | N/A   | N/A
+    Bank2 | 1.20v | N/A   | 0    | 17    | 0     | 0      | N/A  | N/A   | N/A
+    Bank3 | 1.20v | N/A   | 2    | 17    | 0     | 0      | N/A  | N/A   | N/A
+
+I/O Voltage Usage:
+
+       Voltages    |     I/Os
+    -------|-------|------|-------
+     Vcci  | Vref  | Used | Total
+    -------|-------|------|-------
+     1.20v | N/A   | 15   | 68
+

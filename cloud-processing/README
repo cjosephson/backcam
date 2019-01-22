@@ -1,0 +1,21 @@
+To run the RX software you need....
+python 2.7
+opencv3 (brew install opencv)
+If you get a message like this, do what it says:
+please run:
+  mkdir -p /Users/cjoseph/.local/lib/python2.7/site-packages
+  echo 'import site; site.addsitedir("/usr/local/lib/python2.7/site-packages")' >> /Users/cjoseph/.local/lib/python2.7/site-packages/homebrew.pth
+opencv-python, imutils (pip install opencv-python imutils)
+zmq (brew install zmq)
+pyzmq (brew install pyzmq)
+anaconda (https://www.anaconda.com/download/)
+cvxpy (conda install -c cvxgrp cvxpy libgcc)
+tshark (brew install tshark)
+ffmpeg (brew install ffmpeg)
+
+you may need to do ‘pip install numpy --upgrade’, or research a number of other issues. Python on OSX is not very well organized and I had lots of new things to debug each time I installed this. 
+
+1.) start the receiver 
+2.) start the processing loop, 'python brains.py'
+
+brains.py reads and processes the images that the receiver outputs into the images_raw/ directory

@@ -1,0 +1,381 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/fpga_vision/test_tmp/simulation
+vcamera_adapter
+Z1 !s110 1520878228
+!i10b 1
+!s100 kG91<j4G7olNE@Jh_U;@01
+I@K[]]Sl[HGH<7zN;Z6S4<3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/pyzhang/Desktop/working/backscatter-fpga/simulation
+Z4 w1520878222
+Z5 8C:/Users/pyzhang/Desktop/working/backscatter-fpga/synthesis/top.v
+Z6 FC:/Users/pyzhang/Desktop/working/backscatter-fpga/synthesis/top.v
+L0 1984
+Z7 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z8 !s108 1520878228.000000
+Z9 !s107 C:/Users/pyzhang/Desktop/working/backscatter-fpga/synthesis/top.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|postsynth|C:/Users/pyzhang/Desktop/working/backscatter-fpga/synthesis/top.v|
+!s101 -O0
+!i113 1
+Z11 o-vlog01compat -work postsynth -O0
+Z12 tCvgOpt 0
+vcamera_clock
+R1
+!i10b 1
+!s100 ]6GECzVUBOj5gjE@I7eI?1
+ICL9k0Sb1EZN?iKfnPSb7S2
+R2
+R3
+R4
+R5
+R6
+L0 589
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vclock_control
+R1
+!i10b 1
+!s100 <HhRZCX5PA2SM:3S@YZL03
+IZZ`W:lcPbfIB>g7Z`8EJ83
+R2
+R3
+R4
+R5
+R6
+L0 5
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vclock_divider
+Z13 !s110 1457226439
+!i10b 1
+!s100 ?`QzMA?Sf1>W[XFfWgC?D3
+Io4gdoPiBf?SLhR8YkEZMW2
+Z14 V`JN@9S9cnhjKRR_L]QIcM3
+Z15 dZ:/fpga_vision/fs_backscatter/simulation
+Z16 w1457226623
+Z17 8Z:/fpga_vision/fs_backscatter/synthesis/top.v
+Z18 FZ:/fpga_vision/fs_backscatter/synthesis/top.v
+L0 278
+Z19 OW;L;10.3c;59
+r1
+!s85 0
+31
+Z20 !s108 1457226439.562000
+Z21 !s107 Z:/fpga_vision/fs_backscatter/synthesis/top.v|
+Z22 !s90 -reportprogress|300|-work|postsynth|Z:/fpga_vision/fs_backscatter/synthesis/top.v|
+!s101 -O0
+!i113 1
+Z23 o-work postsynth -O0
+vcounter_tmp
+!s110 1425328064
+!i10b 1
+!s100 _V8E8DBQS]XbXB5VOD3VR1
+I;fNzAkVY6^QM=ClE@BS;S1
+R14
+R0
+w1425328061
+8Z:/fpga_vision/test_tmp/synthesis/top.v
+FZ:/fpga_vision/test_tmp/synthesis/top.v
+L0 5
+R19
+r1
+!s85 0
+31
+!s108 1425328064.311000
+!s107 Z:/fpga_vision/test_tmp/synthesis/top.v|
+!s90 -reportprogress|300|-work|postsynth|Z:/fpga_vision/test_tmp/synthesis/top.v|
+!s101 -O0
+!i113 1
+R23
+vdata_rate
+R13
+!i10b 1
+!s100 ;]C4IclI4z4LeG:<JW?NU1
+IeHlFz>2^zN8JMT?U5OC7K1
+R14
+R15
+R16
+R17
+R18
+L0 55
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+!i113 1
+R23
+vdbpsk_modulator
+R1
+!i10b 1
+!s100 dbNPR3kZE]kNzA6780Q650
+IM;mlH5><R3>;oX^d>>_T_1
+R2
+R3
+R4
+R5
+R6
+L0 171
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vdownlink_decoder
+R1
+!i10b 1
+!s100 KJ_z2PB6m[44[mRDjSYdG3
+Ia:laRm5;`P1_WDSAPQ[@23
+R2
+R3
+R4
+R5
+R6
+L0 429
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vdownlink_parser
+R1
+!i10b 1
+!s100 4hlML4@P:PUChGAHKYHgU3
+Io[n6?a5HdIHZ_7?=Je]YQ2
+R2
+R3
+R4
+R5
+R6
+L0 200
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vinput_buffer
+R1
+!i10b 1
+!s100 Y2alBg5@T^GSZb?4G:=IR3
+IVXA4RQ:g@izWg<[Po_WlB2
+R2
+R3
+R4
+R5
+R6
+L0 657
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vmodulator
+R13
+!i10b 1
+!s100 7cPiXSGWHAk0AmeA74G]I2
+IHYPM6;OJMnofeM7MYHnN53
+R14
+R15
+R16
+R17
+R18
+L0 141
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+!i113 1
+R23
+vpacket_encoder
+R1
+!i10b 1
+!s100 zaM<Re[@`TnN:KlaRV1z52
+IMd2Oe;bloSh^7HXMm5`Ah3
+R2
+R3
+R4
+R5
+R6
+L0 2178
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vpll_core
+R1
+!i10b 1
+!s100 :Si4?:=R:QM9@`cd5e1B92
+I9XQ5[5?A7a0FizOz;3d_;3
+R2
+R3
+R4
+R5
+R6
+L0 358
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vswitch_encoder
+R1
+!i10b 1
+!s100 ed<2^ABFYg^1RLWG`o2Tk1
+I3j^P0oAadm;V50K2_MUOh0
+R2
+R3
+R4
+R5
+R6
+L0 410
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vtop
+R1
+!i10b 1
+!s100 7=aM25Q0XUeLe`6Hk4bEk2
+I@KBU@mCcFZ0PBH^9c4OD[2
+R2
+R3
+R4
+R5
+R6
+L0 2901
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+vtop_tb
+R1
+!i10b 1
+!s100 01ibz<`Kbm_P9=`hVdHY61
+Ia<mXRLagSM=ffCGCzFSHm0
+R2
+R3
+w1513066438
+8C:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus/top_tb.v
+FC:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus/top_tb.v
+L0 21
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus/top_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus|-vlog01compat|-work|postsynth|C:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus/top_tb.v|
+!s101 -O0
+!i113 1
+R11
+!s92 +incdir+C:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus -vlog01compat -work postsynth -O0
+R12
+vwhitening
+R1
+!i10b 1
+!s100 ]HIoKZm=eO?LXSVY=nK=T0
+IBVgV7^5ZYcDT[FK?cedG23
+R2
+R3
+R4
+R5
+R6
+L0 288
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12

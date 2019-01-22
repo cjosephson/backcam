@@ -1,0 +1,949 @@
+KEY LIBERO "11.8"
+KEY CAPTURE "11.8.0.26"
+KEY DEFAULT_IMPORT_LOC "C:\Documents and Settings\Administrator\spi_accel\stimulus"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL93"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "IGLOO"
+KEY VendorTechnology_Die "UM4X4M1NLPLV"
+KEY VendorTechnology_Package "vq100"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS12"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "AGLN250V2;"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "C:\Users\pyzhang\Desktop\working\backscatter-fpga"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "top::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1513066438"
+SIZE="437"
+ENDFILE
+VALUE "<project>\component\work\DESIGN_IO\DESIGN_IO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1513066438"
+SIZE="413"
+ENDFILE
+VALUE "<project>\component\work\top\top.cxf,actgen_cxf"
+STATE="utd"
+TIME="1521611353"
+SIZE="4416"
+ENDFILE
+VALUE "<project>\component\work\top\top.v,hdl"
+STATE="utd"
+TIME="1521611352"
+SIZE="7708"
+PARENT="<project>\component\work\top\top.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\constraint\userdefined.sdc,sdc"
+STATE="utd"
+TIME="1521606813"
+SIZE="258"
+ENDFILE
+VALUE "<project>\designer\impl1\top.adb,adb"
+STATE="utd"
+TIME="1521611104"
+SIZE="2208256"
+ENDFILE
+VALUE "<project>\designer\impl1\top.ide_des,ide_des"
+STATE="utd"
+TIME="1521611104"
+SIZE="1068"
+ENDFILE
+VALUE "<project>\designer\impl1\top.pdb,pdb"
+STATE="utd"
+TIME="1521611532"
+SIZE="69134"
+ENDFILE
+VALUE "<project>\designer\impl1\top_ba.sdf,ba_sdf"
+STATE="ood"
+TIME="1520822693"
+SIZE="59193"
+ENDFILE
+VALUE "<project>\designer\impl1\top_compile_log.rpt,log"
+STATE="utd"
+TIME="1521606839"
+SIZE="20153"
+ENDFILE
+VALUE "<project>\designer\impl1\top_floorplan_log.rpt,log"
+STATE="utd"
+TIME="1513066438"
+SIZE="684"
+ENDFILE
+VALUE "<project>\designer\impl1\top_fp\projectData\top.pdb,pdb"
+STATE="utd"
+TIME="1521611170"
+SIZE="68787"
+ENDFILE
+VALUE "<project>\designer\impl1\top_fp\top.pro,pro"
+STATE="utd"
+TIME="1521611170"
+SIZE="2394"
+ENDFILE
+VALUE "<project>\designer\impl1\top_iteration_summary.rpt,log"
+STATE="utd"
+TIME="1521011141"
+SIZE="3479"
+ENDFILE
+VALUE "<project>\designer\impl1\top_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1521611509"
+SIZE="3366"
+ENDFILE
+VALUE "<project>\designer\impl1\top_power.rpt,log"
+STATE="utd"
+TIME="1521011140"
+SIZE="12398"
+ENDFILE
+VALUE "<project>\designer\impl1\top_power_r1_initial.rpt,log"
+STATE="utd"
+TIME="1521010138"
+SIZE="12374"
+ENDFILE
+VALUE "<project>\designer\impl1\top_power_r1_s1.rpt,log"
+STATE="utd"
+TIME="1521010174"
+SIZE="12374"
+ENDFILE
+VALUE "<project>\designer\impl1\top_power_r1_s2.rpt,log"
+STATE="utd"
+TIME="1521010208"
+SIZE="12374"
+ENDFILE
+VALUE "<project>\designer\impl1\top_power_r1_s3.rpt,log"
+STATE="utd"
+TIME="1521010246"
+SIZE="12374"
+ENDFILE
+VALUE "<project>\designer\impl1\top_power_r1_s4.rpt,log"
+STATE="utd"
+TIME="1521010285"
+SIZE="12374"
+ENDFILE
+VALUE "<project>\designer\impl1\top_power_r2_initial.rpt,log"
+STATE="utd"
+TIME="1521010547"
+SIZE="12374"
+ENDFILE
+VALUE "<project>\designer\impl1\top_power_r2_s6.rpt,log"
+STATE="utd"
+TIME="1521010585"
+SIZE="12374"
+ENDFILE
+VALUE "<project>\designer\impl1\top_power_r2_s7.rpt,log"
+STATE="utd"
+TIME="1521010633"
+SIZE="12374"
+ENDFILE
+VALUE "<project>\designer\impl1\top_power_r2_s8.rpt,log"
+STATE="utd"
+TIME="1521010677"
+SIZE="12374"
+ENDFILE
+VALUE "<project>\designer\impl1\top_power_r3_initial.rpt,log"
+STATE="utd"
+TIME="1521010896"
+SIZE="12374"
+ENDFILE
+VALUE "<project>\designer\impl1\top_power_r3_s9.rpt,log"
+STATE="utd"
+TIME="1521011140"
+SIZE="12398"
+ENDFILE
+VALUE "<project>\designer\impl1\top_prgdata_log.rpt,log"
+STATE="utd"
+TIME="1521611533"
+SIZE="710"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing.rpt,log"
+STATE="utd"
+TIME="1521011137"
+SIZE="74482"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timingconstraints_log.rpt,log"
+STATE="utd"
+TIME="1521606806"
+SIZE="350"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_r1_initial.rpt,log"
+STATE="utd"
+TIME="1521010130"
+SIZE="77941"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_r1_s1.rpt,log"
+STATE="utd"
+TIME="1521010172"
+SIZE="78087"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_r1_s2.rpt,log"
+STATE="utd"
+TIME="1521010206"
+SIZE="78968"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_r1_s3.rpt,log"
+STATE="utd"
+TIME="1521010244"
+SIZE="77517"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_r1_s4.rpt,log"
+STATE="utd"
+TIME="1521010283"
+SIZE="78143"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_r2_initial.rpt,log"
+STATE="utd"
+TIME="1521010546"
+SIZE="77650"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_r2_s6.rpt,log"
+STATE="utd"
+TIME="1521010584"
+SIZE="78920"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_r2_s7.rpt,log"
+STATE="utd"
+TIME="1521010632"
+SIZE="78230"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_r2_s8.rpt,log"
+STATE="utd"
+TIME="1521010676"
+SIZE="78825"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_r3_initial.rpt,log"
+STATE="utd"
+TIME="1521010892"
+SIZE="78920"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_r3_s9.rpt,log"
+STATE="utd"
+TIME="1521011137"
+SIZE="74482"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_max.rpt,log"
+STATE="utd"
+TIME="1521011137"
+SIZE="30842"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_max_r1_initial.rpt,log"
+STATE="utd"
+TIME="1521010131"
+SIZE="31037"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_max_r1_s1.rpt,log"
+STATE="utd"
+TIME="1521010173"
+SIZE="30533"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_max_r1_s2.rpt,log"
+STATE="utd"
+TIME="1521010207"
+SIZE="30817"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_max_r1_s3.rpt,log"
+STATE="utd"
+TIME="1521010245"
+SIZE="30703"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_max_r1_s4.rpt,log"
+STATE="utd"
+TIME="1521010284"
+SIZE="30701"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_max_r2_initial.rpt,log"
+STATE="utd"
+TIME="1521010546"
+SIZE="30903"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_max_r2_s6.rpt,log"
+STATE="utd"
+TIME="1521010584"
+SIZE="30594"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_max_r2_s7.rpt,log"
+STATE="utd"
+TIME="1521010632"
+SIZE="30421"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_max_r2_s8.rpt,log"
+STATE="utd"
+TIME="1521010676"
+SIZE="30531"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_max_r3_initial.rpt,log"
+STATE="utd"
+TIME="1521010893"
+SIZE="30594"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_max_r3_s9.rpt,log"
+STATE="utd"
+TIME="1521011137"
+SIZE="30842"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_min.rpt,log"
+STATE="utd"
+TIME="1521011138"
+SIZE="30377"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_min_r1_initial.rpt,log"
+STATE="utd"
+TIME="1521010131"
+SIZE="30504"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_min_r1_s1.rpt,log"
+STATE="utd"
+TIME="1521010173"
+SIZE="30451"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_min_r1_s2.rpt,log"
+STATE="utd"
+TIME="1521010207"
+SIZE="30450"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_min_r1_s3.rpt,log"
+STATE="utd"
+TIME="1521010245"
+SIZE="30366"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_min_r1_s4.rpt,log"
+STATE="utd"
+TIME="1521010284"
+SIZE="30427"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_min_r2_initial.rpt,log"
+STATE="utd"
+TIME="1521010546"
+SIZE="30451"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_min_r2_s6.rpt,log"
+STATE="utd"
+TIME="1521010584"
+SIZE="30476"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_min_r2_s7.rpt,log"
+STATE="utd"
+TIME="1521010632"
+SIZE="30391"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_min_r2_s8.rpt,log"
+STATE="utd"
+TIME="1521010677"
+SIZE="30370"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_min_r3_initial.rpt,log"
+STATE="utd"
+TIME="1521010893"
+SIZE="30476"
+ENDFILE
+VALUE "<project>\designer\impl1\top_timing_violations_min_r3_s9.rpt,log"
+STATE="utd"
+TIME="1521011138"
+SIZE="30377"
+ENDFILE
+VALUE "<project>\designer\impl1\top_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1521611514"
+SIZE="1134"
+ENDFILE
+VALUE "<project>\hdl\camera_adapter.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="7328"
+ENDFILE
+VALUE "<project>\hdl\camera_clock.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="913"
+ENDFILE
+VALUE "<project>\hdl\clock_control.v,hdl"
+STATE="utd"
+TIME="1520986219"
+SIZE="2280"
+ENDFILE
+VALUE "<project>\hdl\clock_divider.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="561"
+ENDFILE
+VALUE "<project>\hdl\counter_tmp.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="311"
+ENDFILE
+VALUE "<project>\hdl\data_dqpsk_generator.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="1424"
+ENDFILE
+VALUE "<project>\hdl\data_rate.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="2010"
+ENDFILE
+VALUE "<project>\hdl\data_source.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="1538"
+ENDFILE
+VALUE "<project>\hdl\dbpsk_modulator.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="523"
+ENDFILE
+VALUE "<project>\hdl\dewhitening.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="1910"
+ENDFILE
+VALUE "<project>\hdl\downlink_clock_divider.v,hdl"
+STATE="utd"
+TIME="1521606711"
+SIZE="909"
+ENDFILE
+VALUE "<project>\hdl\downlink_decoder.v,hdl"
+STATE="utd"
+TIME="1521606736"
+SIZE="2888"
+ENDFILE
+VALUE "<project>\hdl\downlink_parser.v,hdl"
+STATE="utd"
+TIME="1521606748"
+SIZE="1900"
+ENDFILE
+VALUE "<project>\hdl\dqpsk_modulator.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="1590"
+ENDFILE
+VALUE "<project>\hdl\fakedata_gen.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="979"
+ENDFILE
+VALUE "<project>\hdl\main_clock.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="549"
+ENDFILE
+VALUE "<project>\hdl\modulator.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="1065"
+ENDFILE
+VALUE "<project>\hdl\packet_encoder.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="4632"
+ENDFILE
+VALUE "<project>\hdl\phaser_modulator.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="4251"
+ENDFILE
+VALUE "<project>\hdl\sigen_trigger.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="868"
+ENDFILE
+VALUE "<project>\hdl\switch_encoder.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="359"
+ENDFILE
+VALUE "<project>\hdl\ten_mhz_clock.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="547"
+ENDFILE
+VALUE "<project>\hdl\trigger_signal_gen.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="766"
+ENDFILE
+VALUE "<project>\hdl\two_mhz_clock.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="548"
+ENDFILE
+VALUE "<project>\hdl\whitening.v,hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="612"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1520878223"
+SIZE="667"
+ENDFILE
+VALUE "<project>\smartgen\ccc_core\ccc_core.cxf,actgen_cxf"
+STATE="utd"
+TIME="1514556902"
+SIZE="2395"
+ENDFILE
+VALUE "<project>\smartgen\ccc_core\ccc_core.gen,gen"
+STATE="utd"
+TIME="1514556899"
+SIZE="566"
+PARENT="<project>\smartgen\ccc_core\ccc_core.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\ccc_core\ccc_core.log,log"
+STATE="utd"
+TIME="1514556900"
+SIZE="4504"
+PARENT="<project>\smartgen\ccc_core\ccc_core.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\ccc_core\ccc_core.v,hdl"
+STATE="utd"
+TIME="1514556900"
+SIZE="3005"
+PARENT="<project>\smartgen\ccc_core\ccc_core.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\delay\delay.cxf,actgen_cxf"
+STATE="utd"
+TIME="1514556896"
+SIZE="1164"
+ENDFILE
+VALUE "<project>\smartgen\delay\delay.gen,gen"
+STATE="utd"
+TIME="1514556895"
+SIZE="409"
+PARENT="<project>\smartgen\delay\delay.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\delay\delay.log,log"
+STATE="utd"
+TIME="1514556895"
+SIZE="1247"
+PARENT="<project>\smartgen\delay\delay.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\delay\delay.v,hdl"
+STATE="utd"
+TIME="1514556895"
+SIZE="1184"
+PARENT="<project>\smartgen\delay\delay.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\delay_five_ns\delay_five_ns.cxf,actgen_cxf"
+STATE="utd"
+TIME="1514556892"
+SIZE="1196"
+ENDFILE
+VALUE "<project>\smartgen\delay_five_ns\delay_five_ns.gen,gen"
+STATE="utd"
+TIME="1514556890"
+SIZE="416"
+PARENT="<project>\smartgen\delay_five_ns\delay_five_ns.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\delay_five_ns\delay_five_ns.log,log"
+STATE="utd"
+TIME="1514556891"
+SIZE="1269"
+PARENT="<project>\smartgen\delay_five_ns\delay_five_ns.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\delay_five_ns\delay_five_ns.v,hdl"
+STATE="utd"
+TIME="1514556891"
+SIZE="1199"
+PARENT="<project>\smartgen\delay_five_ns\delay_five_ns.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\input_buffer\input_buffer.cxf,actgen_cxf"
+STATE="utd"
+TIME="1521004760"
+SIZE="2308"
+ENDFILE
+VALUE "<project>\smartgen\input_buffer\input_buffer.gen,gen"
+STATE="utd"
+TIME="1521004757"
+SIZE="988"
+PARENT="<project>\smartgen\input_buffer\input_buffer.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\input_buffer\input_buffer.log,log"
+STATE="utd"
+TIME="1521004758"
+SIZE="3525"
+PARENT="<project>\smartgen\input_buffer\input_buffer.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\input_buffer\input_buffer.v,hdl"
+STATE="utd"
+TIME="1521004758"
+SIZE="63174"
+PARENT="<project>\smartgen\input_buffer\input_buffer.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\pll_core\pll_core.cxf,actgen_cxf"
+STATE="utd"
+TIME="1520879405"
+SIZE="1480"
+ENDFILE
+VALUE "<project>\smartgen\pll_core\pll_core.gen,gen"
+STATE="utd"
+TIME="1520879402"
+SIZE="565"
+PARENT="<project>\smartgen\pll_core\pll_core.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\pll_core\pll_core.log,log"
+STATE="utd"
+TIME="1520879403"
+SIZE="2685"
+PARENT="<project>\smartgen\pll_core\pll_core.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\pll_core\pll_core.v,hdl"
+STATE="utd"
+TIME="1520879403"
+SIZE="2738"
+PARENT="<project>\smartgen\pll_core\pll_core.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\stimulus\top_tb.v,tb_hdl"
+STATE="utd"
+TIME="1513066438"
+SIZE="1689"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1520877402"
+SIZE="159"
+ENDFILE
+VALUE "<project>\synthesis\synwork\top_comp.so,so"
+STATE="utd"
+TIME="1513066438"
+SIZE="159"
+ENDFILE
+VALUE "<project>\synthesis\top.edn,syn_edn"
+STATE="utd"
+TIME="1521606830"
+SIZE="526861"
+ENDFILE
+VALUE "<project>\synthesis\top.so,so"
+STATE="utd"
+TIME="1521606830"
+SIZE="225"
+ENDFILE
+VALUE "<project>\synthesis\top.v,syn_hdl"
+STATE="ood"
+TIME="1520878222"
+SIZE="161340"
+ENDFILE
+VALUE "<project>\synthesis\top_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1521606830"
+SIZE="790"
+ENDFILE
+VALUE "<project>\synthesis\top_syn.prj,prj"
+STATE="utd"
+TIME="1521606831"
+SIZE="2948"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "top::work"
+FILE "<project>\component\work\top\top.v,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\top_tb.v,tb_hdl"
+ENDLIST
+LIST SynthesisConstraints
+VALUE "<project>\constraint\userdefined.sdc,sdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\top.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\top.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\top_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\top_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST top
+VALUE "<project>\stimulus\top_tb.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=10us
+Resolution=1ps
+VsimOpt=
+EntityName=top_tb
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=true
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Modelsim\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "top::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\top.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\top.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Verify Timing:top_maxdelay_timingviolations_report.txt
+HDL;hdl\packet_encoder.v;0
+HDL;hdl\clock_control.v;0
+StartPage;StartPage;0
+HDL;hdl\downlink_clock_divider.v;0
+SmartDesign;top;0
+HDL;hdl\downlink_parser.v;0
+HDL;constraint\userdefined.sdc;0
+HDL;hdl\downlink_decoder.v;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "camera_adapter::work","hdl\camera_adapter.v","FALSE","FALSE"
+ENDLIST
+LIST "camera_clock::work","hdl\camera_clock.v","FALSE","FALSE"
+ENDLIST
+LIST "ccc_core::work","smartgen\ccc_core\ccc_core.v","TRUE","FALSE"
+ENDLIST
+LIST "clock_control::work","hdl\clock_control.v","FALSE","FALSE"
+ENDLIST
+LIST "clock_divider::work","hdl\clock_divider.v","FALSE","FALSE"
+ENDLIST
+LIST "counter_tmp::work","hdl\counter_tmp.v","FALSE","FALSE"
+ENDLIST
+LIST "data_dqpsk_generator::work","hdl\data_dqpsk_generator.v","FALSE","FALSE"
+ENDLIST
+LIST "data_rate::work","hdl\data_rate.v","FALSE","FALSE"
+ENDLIST
+LIST "data_source::work","hdl\data_source.v","FALSE","FALSE"
+ENDLIST
+LIST "dbpsk_modulator::work","hdl\dbpsk_modulator.v","FALSE","FALSE"
+ENDLIST
+LIST "delay::work","smartgen\delay\delay.v","TRUE","FALSE"
+ENDLIST
+LIST "delay_five_ns::work","smartgen\delay_five_ns\delay_five_ns.v","TRUE","FALSE"
+ENDLIST
+LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
+ENDLIST
+LIST "DESIGN_IO::work","component\work\DESIGN_IO\DESIGN_IO.cxf","TRUE","FALSE"
+ENDLIST
+LIST "dewhitening::work","hdl\dewhitening.v","FALSE","FALSE"
+ENDLIST
+LIST "downlink_clock_divider::work","hdl\downlink_clock_divider.v","FALSE","FALSE"
+ENDLIST
+LIST "downlink_decoder::work","hdl\downlink_decoder.v","FALSE","FALSE"
+ENDLIST
+LIST "downlink_parser::work","hdl\downlink_parser.v","FALSE","FALSE"
+ENDLIST
+LIST "dqpsk_modulator::work","hdl\dqpsk_modulator.v","FALSE","FALSE"
+ENDLIST
+LIST "fakedata_gen::work","hdl\fakedata_gen.v","FALSE","FALSE"
+ENDLIST
+LIST "input_buffer::work","smartgen\input_buffer\input_buffer.v","TRUE","FALSE"
+ENDLIST
+LIST "main_clock::work","hdl\main_clock.v","FALSE","FALSE"
+ENDLIST
+LIST "modulator::work","hdl\modulator.v","FALSE","FALSE"
+ENDLIST
+LIST "packet_encoder::work","hdl\packet_encoder.v","FALSE","FALSE"
+ENDLIST
+LIST "phaser_modulator::work","hdl\phaser_modulator.v","FALSE","FALSE"
+ENDLIST
+LIST "pll_core::work","smartgen\pll_core\pll_core.v","TRUE","FALSE"
+ENDLIST
+LIST "sigen_trigger::work","hdl\sigen_trigger.v","FALSE","FALSE"
+ENDLIST
+LIST "switch_encoder::work","hdl\switch_encoder.v","FALSE","FALSE"
+ENDLIST
+LIST "ten_mhz_clock::work","hdl\ten_mhz_clock.v","FALSE","FALSE"
+ENDLIST
+LIST "top::work","component\work\top\top.v","TRUE","FALSE"
+SUBBLOCK "camera_adapter::work","hdl\camera_adapter.v","FALSE","FALSE"
+SUBBLOCK "camera_clock::work","hdl\camera_clock.v","FALSE","FALSE"
+SUBBLOCK "clock_control::work","hdl\clock_control.v","FALSE","FALSE"
+SUBBLOCK "dbpsk_modulator::work","hdl\dbpsk_modulator.v","FALSE","FALSE"
+SUBBLOCK "downlink_clock_divider::work","hdl\downlink_clock_divider.v","FALSE","FALSE"
+SUBBLOCK "downlink_decoder::work","hdl\downlink_decoder.v","FALSE","FALSE"
+SUBBLOCK "downlink_parser::work","hdl\downlink_parser.v","FALSE","FALSE"
+SUBBLOCK "input_buffer::work","smartgen\input_buffer\input_buffer.v","TRUE","FALSE"
+SUBBLOCK "packet_encoder::work","hdl\packet_encoder.v","FALSE","FALSE"
+SUBBLOCK "pll_core::work","smartgen\pll_core\pll_core.v","TRUE","FALSE"
+SUBBLOCK "switch_encoder::work","hdl\switch_encoder.v","FALSE","FALSE"
+SUBBLOCK "whitening::work","hdl\whitening.v","FALSE","FALSE"
+ENDLIST
+LIST "trigger_signal_gen::work","hdl\trigger_signal_gen.v","FALSE","FALSE"
+ENDLIST
+LIST "two_mhz_clock::work","hdl\two_mhz_clock.v","FALSE","FALSE"
+ENDLIST
+LIST "whitening::work","hdl\whitening.v","FALSE","FALSE"
+ENDLIST
+LIST "top_tb::work","stimulus\top_tb.v","FALSE","TRUE"
+SUBBLOCK "top::work","component\work\top\top.v","TRUE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+VALUE "constraint\userdefined.sdc"
+ENDLIST
+LIST FDCTabList
+ENDLIST

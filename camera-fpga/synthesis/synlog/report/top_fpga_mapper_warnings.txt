@@ -1,0 +1,1 @@
+@W: MO160 :"c:\users\pyzhang\desktop\working\backscatter-fpga\hdl\camera_adapter.v":36:0:36:5|Register bit lohalf (in view view:work.camera_adapter(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.

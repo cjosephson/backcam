@@ -1,0 +1,822 @@
+Timing Violation Report Min Delay Analysis
+
+SmartTime Version v11.8
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Tue Mar 13 23:55:46 2018
+
+
+Design: Top
+Family: IGLOO
+Die: AGLN250V2
+Package: 100 VQFP
+Temperature Range: 0 - 70 C
+Voltage Range: 1.14 - 1.26 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.26 V - 0 C
+Max Operating Conditions: WORST - 1.14 V - 70 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+Path 1
+  From:                        downlink_parser_0/downlink_buffer[5]:CLK
+  To:                          downlink_parser_0/resolution:D
+  Delay (ns):                  0.498
+  Slack (ns):                  -0.468
+  Arrival (ns):                1.130
+  Required (ns):               1.598
+
+Path 2
+  From:                        downlink_parser_0/downlink_buffer[3]:CLK
+  To:                          downlink_parser_0/downlink_buffer[4]:D
+  Delay (ns):                  0.563
+  Slack (ns):                  -0.386
+  Arrival (ns):                1.212
+  Required (ns):               1.598
+
+Path 3
+  From:                        downlink_parser_0/downlink_buffer[8]:CLK
+  To:                          downlink_parser_0/downlink_buffer[9]:D
+  Delay (ns):                  0.494
+  Slack (ns):                  -0.272
+  Arrival (ns):                1.059
+  Required (ns):               1.331
+
+Path 4
+  From:                        camera_adapter_0/repeat_counter[0]:CLK
+  To:                          camera_adapter_0/output_data[0]:D
+  Delay (ns):                  1.077
+  Slack (ns):                  0.061
+  Arrival (ns):                2.568
+  Required (ns):               2.507
+
+Path 5
+  From:                        downlink_parser_0/downlink_buffer[0]:CLK
+  To:                          downlink_parser_0/downlink_buffer[1]:D
+  Delay (ns):                  0.447
+  Slack (ns):                  0.092
+  Arrival (ns):                1.683
+  Required (ns):               1.591
+
+Path 6
+  From:                        downlink_parser_0/downlink_buffer[6]:CLK
+  To:                          downlink_parser_0/downlink_buffer[7]:D
+  Delay (ns):                  0.494
+  Slack (ns):                  0.131
+  Arrival (ns):                1.059
+  Required (ns):               0.928
+
+Path 7
+  From:                        downlink_parser_0/downlink_buffer[10]:CLK
+  To:                          downlink_parser_0/downlink_buffer[11]:D
+  Delay (ns):                  0.498
+  Slack (ns):                  0.259
+  Arrival (ns):                1.224
+  Required (ns):               0.965
+
+Path 8
+  From:                        downlink_parser_0/downlink_buffer[12]:CLK
+  To:                          downlink_parser_0/downlink_buffer[13]:D
+  Delay (ns):                  0.494
+  Slack (ns):                  0.292
+  Arrival (ns):                1.220
+  Required (ns):               0.928
+
+Path 9
+  From:                        downlink_parser_0/downlink_buffer[11]:CLK
+  To:                          downlink_parser_0/downlink_buffer[12]:D
+  Delay (ns):                  0.498
+  Slack (ns):                  0.313
+  Arrival (ns):                1.248
+  Required (ns):               0.935
+
+Path 10
+  From:                        downlink_parser_0/downlink_buffer[2]:CLK
+  To:                          downlink_parser_0/downlink_buffer[3]:D
+  Delay (ns):                  0.447
+  Slack (ns):                  0.332
+  Arrival (ns):                1.168
+  Required (ns):               0.836
+
+Path 11
+  From:                        downlink_parser_0/downlink_buffer[5]:CLK
+  To:                          downlink_parser_0/downlink_buffer[6]:D
+  Delay (ns):                  0.498
+  Slack (ns):                  0.403
+  Arrival (ns):                1.130
+  Required (ns):               0.727
+
+Path 12
+  From:                        downlink_parser_0/downlink_buffer[6]:CLK
+  To:                          downlink_parser_0/resolution:E
+  Delay (ns):                  1.475
+  Slack (ns):                  0.442
+  Arrival (ns):                2.040
+  Required (ns):               1.598
+
+Path 13
+  From:                        input_buffer_0/DFN1C0_17:CLK
+  To:                          input_buffer_0/DFN1C0_WGRYSYNC[12]:D
+  Delay (ns):                  0.499
+  Slack (ns):                  0.468
+  Arrival (ns):                3.330
+  Required (ns):               2.862
+
+Path 14
+  From:                        input_buffer_0/DFN1C0_26:CLK
+  To:                          input_buffer_0/DFN1C0_WGRYSYNC[3]:D
+  Delay (ns):                  0.499
+  Slack (ns):                  0.468
+  Arrival (ns):                3.330
+  Required (ns):               2.862
+
+Path 15
+  From:                        input_buffer_0/DFN1C0_12:CLK
+  To:                          input_buffer_0/DFN1C0_WGRYSYNC[11]:D
+  Delay (ns):                  0.499
+  Slack (ns):                  0.468
+  Arrival (ns):                3.330
+  Required (ns):               2.862
+
+Path 16
+  From:                        input_buffer_0/DFN1C0_13:CLK
+  To:                          input_buffer_0/DFN1C0_WGRYSYNC[0]:D
+  Delay (ns):                  0.499
+  Slack (ns):                  0.468
+  Arrival (ns):                3.330
+  Required (ns):               2.862
+
+Path 17
+  From:                        input_buffer_0/DFN1C0_2:CLK
+  To:                          input_buffer_0/DFN1C0_WGRYSYNC[10]:D
+  Delay (ns):                  0.499
+  Slack (ns):                  0.468
+  Arrival (ns):                3.330
+  Required (ns):               2.862
+
+Path 18
+  From:                        input_buffer_0/DFN1C0_23:CLK
+  To:                          input_buffer_0/DFN1C0_WGRYSYNC[8]:D
+  Delay (ns):                  0.499
+  Slack (ns):                  0.474
+  Arrival (ns):                3.302
+  Required (ns):               2.828
+
+Path 19
+  From:                        input_buffer_0/DFN1C0_22:CLK
+  To:                          input_buffer_0/DFN1C0_WGRYSYNC[9]:D
+  Delay (ns):                  0.499
+  Slack (ns):                  0.476
+  Arrival (ns):                3.294
+  Required (ns):               2.818
+
+Path 20
+  From:                        input_buffer_0/DFN1C0_20:CLK
+  To:                          input_buffer_0/DFN1C0_WGRYSYNC[6]:D
+  Delay (ns):                  0.499
+  Slack (ns):                  0.476
+  Arrival (ns):                3.294
+  Required (ns):               2.818
+
+Path 21
+  From:                        input_buffer_0/DFN1C0_10:CLK
+  To:                          input_buffer_0/DFN1C0_WGRYSYNC[1]:D
+  Delay (ns):                  0.499
+  Slack (ns):                  0.479
+  Arrival (ns):                3.281
+  Required (ns):               2.802
+
+Path 22
+  From:                        input_buffer_0/DFN1C0_READ_RESET_P_0:CLK
+  To:                          input_buffer_0/DFN1E1C0_Q[3]/U1:CLR
+  Delay (ns):                  0.512
+  Slack (ns):                  0.486
+  Arrival (ns):                3.319
+  Required (ns):               2.833
+
+Path 23
+  From:                        input_buffer_0/DFN1C0_READ_RESET_P_1:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[6]:CLR
+  Delay (ns):                  0.512
+  Slack (ns):                  0.486
+  Arrival (ns):                3.319
+  Required (ns):               2.833
+
+Path 24
+  From:                        downlink_parser_0/downlink_buffer[7]:CLK
+  To:                          downlink_parser_0/downlink_buffer[8]:D
+  Delay (ns):                  0.494
+  Slack (ns):                  0.488
+  Arrival (ns):                1.215
+  Required (ns):               0.727
+
+Path 25
+  From:                        input_buffer_0/DFN1C0_READ_RESET_P:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[7]:CLR
+  Delay (ns):                  0.492
+  Slack (ns):                  0.497
+  Arrival (ns):                3.299
+  Required (ns):               2.802
+
+Path 26
+  From:                        input_buffer_0/DFN1C0_5:CLK
+  To:                          input_buffer_0/DFN1C0_WGRYSYNC[4]:D
+  Delay (ns):                  0.499
+  Slack (ns):                  0.502
+  Arrival (ns):                3.330
+  Required (ns):               2.828
+
+Path 27
+  From:                        input_buffer_0/DFN1C0_24:CLK
+  To:                          input_buffer_0/DFN1C0_WGRYSYNC[5]:D
+  Delay (ns):                  0.499
+  Slack (ns):                  0.502
+  Arrival (ns):                3.330
+  Required (ns):               2.828
+
+Path 28
+  From:                        input_buffer_0/DFN1C0_11:CLK
+  To:                          input_buffer_0/DFN1C0_WGRYSYNC[2]:D
+  Delay (ns):                  0.499
+  Slack (ns):                  0.502
+  Arrival (ns):                3.330
+  Required (ns):               2.828
+
+Path 29
+  From:                        input_buffer_0/DFN1C0_WRITE_RESET_P_0:CLK
+  To:                          input_buffer_0/DFN1C0_WGRY[9]:CLR
+  Delay (ns):                  0.539
+  Slack (ns):                  0.513
+  Arrival (ns):                4.924
+  Required (ns):               4.411
+
+Path 30
+  From:                        input_buffer_0/DFN1C0_WRITE_RESET_P_0:CLK
+  To:                          input_buffer_0/DFN1C0_WGRY[1]:CLR
+  Delay (ns):                  0.539
+  Slack (ns):                  0.513
+  Arrival (ns):                4.924
+  Required (ns):               4.411
+
+Path 31
+  From:                        input_buffer_0/DFN1C0_15:CLK
+  To:                          input_buffer_0/DFN1C0_WRITE_RESET_P_0:D
+  Delay (ns):                  0.550
+  Slack (ns):                  0.524
+  Arrival (ns):                4.935
+  Required (ns):               4.411
+
+Path 32
+  From:                        input_buffer_0/DFN1C0_15:CLK
+  To:                          input_buffer_0/DFN1C0_WRITE_RESET_P:D
+  Delay (ns):                  0.550
+  Slack (ns):                  0.531
+  Arrival (ns):                4.935
+  Required (ns):               4.404
+
+Path 33
+  From:                        input_buffer_0/DFN1C0_WRITE_RESET_P:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_WADDR[5]:CLR
+  Delay (ns):                  0.586
+  Slack (ns):                  0.561
+  Arrival (ns):                4.965
+  Required (ns):               4.404
+
+Path 34
+  From:                        input_buffer_0/DFN1C0_WRITE_RESET_P:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_WADDR[3]:CLR
+  Delay (ns):                  0.586
+  Slack (ns):                  0.561
+  Arrival (ns):                4.965
+  Required (ns):               4.404
+
+Path 35
+  From:                        input_buffer_0/DFN1C0_WRITE_RESET_P:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_WADDR[1]:CLR
+  Delay (ns):                  0.586
+  Slack (ns):                  0.561
+  Arrival (ns):                4.965
+  Required (ns):               4.404
+
+Path 36
+  From:                        input_buffer_0/DFN1C0_3:CLK
+  To:                          input_buffer_0/DFN1C0_READ_RESET_P_0:D
+  Delay (ns):                  0.601
+  Slack (ns):                  0.575
+  Arrival (ns):                3.408
+  Required (ns):               2.833
+
+Path 37
+  From:                        input_buffer_0/DFN1C0_3:CLK
+  To:                          input_buffer_0/DFN1C0_READ_RESET_P_1:D
+  Delay (ns):                  0.601
+  Slack (ns):                  0.575
+  Arrival (ns):                3.408
+  Required (ns):               2.833
+
+Path 38
+  From:                        input_buffer_0/DFN1C0_3:CLK
+  To:                          input_buffer_0/DFN1C0_READ_RESET_P:D
+  Delay (ns):                  0.601
+  Slack (ns):                  0.575
+  Arrival (ns):                3.408
+  Required (ns):               2.833
+
+Path 39
+  From:                        downlink_parser_0/downlink_buffer[9]:CLK
+  To:                          downlink_parser_0/downlink_buffer[10]:D
+  Delay (ns):                  0.498
+  Slack (ns):                  0.598
+  Arrival (ns):                1.533
+  Required (ns):               0.935
+
+Path 40
+  From:                        downlink_parser_0/downlink_buffer[13]:CLK
+  To:                          downlink_parser_0/resolution:E
+  Delay (ns):                  1.484
+  Slack (ns):                  0.607
+  Arrival (ns):                2.205
+  Required (ns):               1.598
+
+Path 41
+  From:                        camera_adapter_0/repeat_counter[0]:CLK
+  To:                          camera_adapter_0/output_data[7]:D
+  Delay (ns):                  1.295
+  Slack (ns):                  0.733
+  Arrival (ns):                2.786
+  Required (ns):               2.053
+
+Path 42
+  From:                        input_buffer_0/DFN1C0_WRITE_RESET_P_0:CLK
+  To:                          input_buffer_0/DFN1C0_WGRY[5]:CLR
+  Delay (ns):                  0.801
+  Slack (ns):                  0.802
+  Arrival (ns):                5.186
+  Required (ns):               4.384
+
+Path 43
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[8]:CLK
+  To:                          input_buffer_0/RAM4K9_QXI[7]:ADDRB8
+  Delay (ns):                  0.924
+  Slack (ns):                  0.804
+  Arrival (ns):                3.714
+  Required (ns):               2.910
+
+Path 44
+  From:                        camera_adapter_0/frame_flag:CLK
+  To:                          camera_adapter_0/repeat_counter[1]:D
+  Delay (ns):                  1.029
+  Slack (ns):                  0.806
+  Arrival (ns):                2.830
+  Required (ns):               2.024
+
+Path 45
+  From:                        input_buffer_0/DFN1C0_WRITE_RESET_P:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_WADDR[4]:CLR
+  Delay (ns):                  0.846
+  Slack (ns):                  0.821
+  Arrival (ns):                5.225
+  Required (ns):               4.404
+
+Path 46
+  From:                        downlink_clock_divider_0/clock_out:CLK
+  To:                          downlink_clock_divider_0/clock_out:D
+  Delay (ns):                  0.830
+  Slack (ns):                  0.830
+  Arrival (ns):                1.280
+  Required (ns):               0.450
+
+Path 47
+  From:                        packet_encoder_0/bit_state_ret:CLK
+  To:                          packet_encoder_0/bit_state_ret:D
+  Delay (ns):                  0.830
+  Slack (ns):                  0.830
+  Arrival (ns):                2.639
+  Required (ns):               1.809
+
+Path 48
+  From:                        input_buffer_0/DFN1C0_READ_RESET_P_1:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[5]:CLR
+  Delay (ns):                  0.856
+  Slack (ns):                  0.830
+  Arrival (ns):                3.663
+  Required (ns):               2.833
+
+Path 49
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[10]:CLK
+  To:                          input_buffer_0/RAM4K9_QXI[7]:ADDRB10
+  Delay (ns):                  0.972
+  Slack (ns):                  0.844
+  Arrival (ns):                3.754
+  Required (ns):               2.910
+
+Path 50
+  From:                        packet_encoder_0/seq_number[1]:CLK
+  To:                          packet_encoder_0/current_ret_5:D
+  Delay (ns):                  0.886
+  Slack (ns):                  0.859
+  Arrival (ns):                2.722
+  Required (ns):               1.863
+
+Path 51
+  From:                        input_buffer_0/DFN1C0_DVLDI:CLK
+  To:                          input_buffer_0/DFN1E1C0_Q[7]/U1:D
+  Delay (ns):                  0.882
+  Slack (ns):                  0.859
+  Arrival (ns):                3.661
+  Required (ns):               2.802
+
+Path 52
+  From:                        packet_encoder_0/seq_number[10]:CLK
+  To:                          packet_encoder_0/seq_number[10]:D
+  Delay (ns):                  0.861
+  Slack (ns):                  0.861
+  Arrival (ns):                2.703
+  Required (ns):               1.842
+
+Path 53
+  From:                        camera_clock_0/clock_out:CLK
+  To:                          camera_clock_0/clock_out:D
+  Delay (ns):                  0.861
+  Slack (ns):                  0.861
+  Arrival (ns):                1.308
+  Required (ns):               0.447
+
+Path 54
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[6]:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[6]:D
+  Delay (ns):                  0.861
+  Slack (ns):                  0.861
+  Arrival (ns):                3.668
+  Required (ns):               2.807
+
+Path 55
+  From:                        packet_encoder_0/seq_number_ret:CLK
+  To:                          packet_encoder_0/seq_number_ret:D
+  Delay (ns):                  0.873
+  Slack (ns):                  0.873
+  Arrival (ns):                2.711
+  Required (ns):               1.838
+
+Path 56
+  From:                        input_buffer_0/DFN1C0_READ_RESET_P:CLK
+  To:                          input_buffer_0/DFN1C0_5:CLR
+  Delay (ns):                  0.929
+  Slack (ns):                  0.874
+  Arrival (ns):                3.736
+  Required (ns):               2.862
+
+Path 57
+  From:                        downlink_parser_0/downlink_buffer[4]:CLK
+  To:                          downlink_parser_0/downlink_buffer[5]:D
+  Delay (ns):                  0.447
+  Slack (ns):                  0.876
+  Arrival (ns):                1.689
+  Required (ns):               0.813
+
+Path 58
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[9]:CLK
+  To:                          input_buffer_0/RAM4K9_QXI[7]:ADDRB9
+  Delay (ns):                  1.013
+  Slack (ns):                  0.882
+  Arrival (ns):                3.792
+  Required (ns):               2.910
+
+Path 59
+  From:                        camera_adapter_0/repeat_counter[1]:CLK
+  To:                          camera_adapter_0/output_data[0]:D
+  Delay (ns):                  1.682
+  Slack (ns):                  0.886
+  Arrival (ns):                3.393
+  Required (ns):               2.507
+
+Path 60
+  From:                        input_buffer_0/DFN1C0_WRITE_RESET_P_0:CLK
+  To:                          input_buffer_0/DFN1C0_WGRY[3]:CLR
+  Delay (ns):                  0.906
+  Slack (ns):                  0.888
+  Arrival (ns):                5.291
+  Required (ns):               4.403
+
+Path 61
+  From:                        input_buffer_0/DFN1C0_MEM_WADDR[5]:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_WADDR[5]:D
+  Delay (ns):                  0.889
+  Slack (ns):                  0.889
+  Arrival (ns):                5.268
+  Required (ns):               4.379
+
+Path 62
+  From:                        camera_clock_0/counter[0]:CLK
+  To:                          camera_clock_0/counter[0]:D
+  Delay (ns):                  0.889
+  Slack (ns):                  0.889
+  Arrival (ns):                1.335
+  Required (ns):               0.446
+
+Path 63
+  From:                        input_buffer_0/DFN1C0_MEM_WADDR[10]:CLK
+  To:                          input_buffer_0/RAM4K9_QXI[4]:ADDRA10
+  Delay (ns):                  0.975
+  Slack (ns):                  0.892
+  Arrival (ns):                5.353
+  Required (ns):               4.461
+
+Path 64
+  From:                        whitening_0/state[2]:CLK
+  To:                          whitening_0/state[3]:D
+  Delay (ns):                  0.927
+  Slack (ns):                  0.899
+  Arrival (ns):                2.729
+  Required (ns):               1.830
+
+Path 65
+  From:                        clock_control_0/counter[5]:CLK
+  To:                          clock_control_0/counter[5]:D
+  Delay (ns):                  0.900
+  Slack (ns):                  0.900
+  Arrival (ns):                1.352
+  Required (ns):               0.452
+
+Path 66
+  From:                        clock_control_0/counter[1]:CLK
+  To:                          clock_control_0/counter[1]:D
+  Delay (ns):                  0.900
+  Slack (ns):                  0.900
+  Arrival (ns):                1.352
+  Required (ns):               0.452
+
+Path 67
+  From:                        input_buffer_0/DFN1C0_MEM_WADDR[11]:CLK
+  To:                          input_buffer_0/RAM4K9_QXI[0]:ADDRA11
+  Delay (ns):                  0.977
+  Slack (ns):                  0.901
+  Arrival (ns):                5.362
+  Required (ns):               4.461
+
+Path 68
+  From:                        downlink_decoder_0/packet_length[5]:CLK
+  To:                          downlink_decoder_0/packet_length[5]:D
+  Delay (ns):                  0.901
+  Slack (ns):                  0.901
+  Arrival (ns):                1.837
+  Required (ns):               0.936
+
+Path 69
+  From:                        whitening_0/state[5]:CLK
+  To:                          whitening_0/state[6]:D
+  Delay (ns):                  0.926
+  Slack (ns):                  0.902
+  Arrival (ns):                2.732
+  Required (ns):               1.830
+
+Path 70
+  From:                        input_buffer_0/DFN1C0_READ_RESET_P_0:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[11]:CLR
+  Delay (ns):                  0.898
+  Slack (ns):                  0.903
+  Arrival (ns):                3.705
+  Required (ns):               2.802
+
+Path 71
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[1]:CLK
+  To:                          input_buffer_0/RAM4K9_QXI[7]:ADDRB1
+  Delay (ns):                  1.027
+  Slack (ns):                  0.907
+  Arrival (ns):                3.817
+  Required (ns):               2.910
+
+Path 72
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[4]:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[4]:D
+  Delay (ns):                  0.908
+  Slack (ns):                  0.908
+  Arrival (ns):                3.715
+  Required (ns):               2.807
+
+Path 73
+  From:                        whitening_0/state[0]:CLK
+  To:                          whitening_0/state[1]:D
+  Delay (ns):                  0.939
+  Slack (ns):                  0.910
+  Arrival (ns):                2.747
+  Required (ns):               1.837
+
+Path 74
+  From:                        whitening_0/state[4]:CLK
+  To:                          whitening_0/state[5]:D
+  Delay (ns):                  0.931
+  Slack (ns):                  0.911
+  Arrival (ns):                2.737
+  Required (ns):               1.826
+
+Path 75
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[12]:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[12]:D
+  Delay (ns):                  0.912
+  Slack (ns):                  0.912
+  Arrival (ns):                3.715
+  Required (ns):               2.803
+
+Path 76
+  From:                        dbpsk_modulator_0/output_dbpsk:CLK
+  To:                          dbpsk_modulator_0/output_dbpsk:D
+  Delay (ns):                  0.914
+  Slack (ns):                  0.914
+  Arrival (ns):                2.720
+  Required (ns):               1.806
+
+Path 77
+  From:                        input_buffer_0/DFN1C0_MEM_WADDR[8]:CLK
+  To:                          input_buffer_0/RAM4K9_QXI[4]:ADDRA8
+  Delay (ns):                  0.994
+  Slack (ns):                  0.918
+  Arrival (ns):                5.379
+  Required (ns):               4.461
+
+Path 78
+  From:                        input_buffer_0/DFN1C0_MEM_WADDR[11]:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_WADDR[11]:D
+  Delay (ns):                  0.921
+  Slack (ns):                  0.921
+  Arrival (ns):                5.306
+  Required (ns):               4.385
+
+Path 79
+  From:                        clock_control_0/counter[4]:CLK
+  To:                          clock_control_0/counter[4]:D
+  Delay (ns):                  0.921
+  Slack (ns):                  0.921
+  Arrival (ns):                1.386
+  Required (ns):               0.465
+
+Path 80
+  From:                        packet_encoder_0/bit_state_ret_1:CLK
+  To:                          packet_encoder_0/bit_state_ret:D
+  Delay (ns):                  0.942
+  Slack (ns):                  0.921
+  Arrival (ns):                2.751
+  Required (ns):               1.830
+
+Path 81
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[11]:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[11]:D
+  Delay (ns):                  0.926
+  Slack (ns):                  0.926
+  Arrival (ns):                3.708
+  Required (ns):               2.782
+
+Path 82
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[5]:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[5]:D
+  Delay (ns):                  0.926
+  Slack (ns):                  0.926
+  Arrival (ns):                3.733
+  Required (ns):               2.807
+
+Path 83
+  From:                        input_buffer_0/DFN1C0_MEM_WADDR[2]:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_WADDR[2]:D
+  Delay (ns):                  0.926
+  Slack (ns):                  0.926
+  Arrival (ns):                5.276
+  Required (ns):               4.350
+
+Path 84
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[9]:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[9]:D
+  Delay (ns):                  0.926
+  Slack (ns):                  0.926
+  Arrival (ns):                3.705
+  Required (ns):               2.779
+
+Path 85
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[7]:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[7]:D
+  Delay (ns):                  0.926
+  Slack (ns):                  0.926
+  Arrival (ns):                3.708
+  Required (ns):               2.782
+
+Path 86
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[10]:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[10]:D
+  Delay (ns):                  0.926
+  Slack (ns):                  0.926
+  Arrival (ns):                3.708
+  Required (ns):               2.782
+
+Path 87
+  From:                        input_buffer_0/DFN1C0_MEM_WADDR[4]:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_WADDR[4]:D
+  Delay (ns):                  0.926
+  Slack (ns):                  0.926
+  Arrival (ns):                5.305
+  Required (ns):               4.379
+
+Path 88
+  From:                        packet_encoder_0/seq_number[1]:CLK
+  To:                          packet_encoder_0/seq_number[1]:D
+  Delay (ns):                  0.926
+  Slack (ns):                  0.926
+  Arrival (ns):                2.762
+  Required (ns):               1.836
+
+Path 89
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[0]:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[0]:D
+  Delay (ns):                  0.929
+  Slack (ns):                  0.929
+  Arrival (ns):                3.711
+  Required (ns):               2.782
+
+Path 90
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[2]:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[2]:D
+  Delay (ns):                  0.929
+  Slack (ns):                  0.929
+  Arrival (ns):                3.719
+  Required (ns):               2.790
+
+Path 91
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[8]:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[8]:D
+  Delay (ns):                  0.932
+  Slack (ns):                  0.932
+  Arrival (ns):                3.722
+  Required (ns):               2.790
+
+Path 92
+  From:                        whitening_0/output_whitening:CLK
+  To:                          dbpsk_modulator_0/output_dbpsk:E
+  Delay (ns):                  0.955
+  Slack (ns):                  0.935
+  Arrival (ns):                2.761
+  Required (ns):               1.826
+
+Path 93
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[1]:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[1]:D
+  Delay (ns):                  0.935
+  Slack (ns):                  0.935
+  Arrival (ns):                3.725
+  Required (ns):               2.790
+
+Path 94
+  From:                        packet_encoder_0/seq_number[23]:CLK
+  To:                          packet_encoder_0/seq_number[23]:D
+  Delay (ns):                  0.936
+  Slack (ns):                  0.936
+  Arrival (ns):                2.775
+  Required (ns):               1.839
+
+Path 95
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[3]:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[3]:D
+  Delay (ns):                  0.939
+  Slack (ns):                  0.939
+  Arrival (ns):                3.731
+  Required (ns):               2.792
+
+Path 96
+  From:                        input_buffer_0/DFN1C0_READ_RESET_P:CLK
+  To:                          input_buffer_0/DFN1C0_MEM_RADDR[8]:CLR
+  Delay (ns):                  0.955
+  Slack (ns):                  0.950
+  Arrival (ns):                3.762
+  Required (ns):               2.812
+
+Path 97
+  From:                        input_buffer_0/DFN1C0_MEM_RADDR[3]:CLK
+  To:                          input_buffer_0/RAM4K9_QXI[7]:ADDRB3
+  Delay (ns):                  1.069
+  Slack (ns):                  0.951
+  Arrival (ns):                3.861
+  Required (ns):               2.910
+
+Path 98
+  From:                        packet_encoder_0/byte_counter[6]:CLK
+  To:                          packet_encoder_0/byte_counter[6]:D
+  Delay (ns):                  0.958
+  Slack (ns):                  0.958
+  Arrival (ns):                2.763
+  Required (ns):               1.805
+
+Path 99
+  From:                        camera_adapter_0/repeat_counter[0]:CLK
+  To:                          camera_adapter_0/output_data[4]:D
+  Delay (ns):                  1.532
+  Slack (ns):                  0.958
+  Arrival (ns):                3.023
+  Required (ns):               2.065
+
+Path 100
+  From:                        packet_encoder_0/seq_number[6]:CLK
+  To:                          packet_encoder_0/seq_number[6]:D
+  Delay (ns):                  0.959
+  Slack (ns):                  0.959
+  Arrival (ns):                2.801
+  Required (ns):               1.842
+

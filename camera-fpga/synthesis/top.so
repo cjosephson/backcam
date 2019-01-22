@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>top</design>
+	<target_edif>C:\Users\pyzhang\Desktop\working\backscatter-fpga\synthesis\top.edn</target_edif>
+</SynplifyOutput>

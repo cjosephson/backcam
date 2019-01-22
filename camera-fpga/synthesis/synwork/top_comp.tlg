@@ -1,0 +1,96 @@
+Selecting top level module top
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v":2:7:2:10|Synthesizing module AND2
+
+@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":20:7:20:15|Synthesizing module data_rate
+
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data3[7:0] 
+
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data4[7:0] 
+
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data5[7:0] 
+
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data6[7:0] 
+
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data7[7:0] 
+
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data8[7:0] 
+
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data9[7:0] 
+
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Pruning register data10[7:0] 
+
+@A: CL291 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Register state with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@W: CL113 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Feedback mux created for signal data2[7:0].
+@W: CL113 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|Feedback mux created for signal data1[7:0].
+@W: CL251 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|All reachable assignments to data1[7] assign 1, register removed by optimization
+@W: CL250 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|All reachable assignments to data1[6:0] assign 0, register removed by optimization
+@W: CL250 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_rate.v":38:0:38:5|All reachable assignments to data2[7:0] assign 0, register removed by optimization
+@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":19:7:19:17|Synthesizing module data_source
+
+@A: CL291 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register data2 with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register state with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Register data3 with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[0] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[1] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[2] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[3] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[4] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[5] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[6] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data4[7] to a constant 0
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data4[7:0] 
+
+@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\hdl\dbpsk_modulator.v":19:7:19:21|Synthesizing module dbpsk_modulator
+
+@N: CG179 :"Z:\fpga_vision\xorfi_high_rate\hdl\dbpsk_modulator.v":40:32:40:43|Removing redundant assignment
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v":1283:7:1283:9|Synthesizing module INV
+
+@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\hdl\main_clock.v":20:7:20:16|Synthesizing module main_clock
+
+@N: CG179 :"Z:\fpga_vision\xorfi_high_rate\hdl\main_clock.v":43:25:43:33|Removing redundant assignment
+@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\hdl\modulator.v":20:7:20:15|Synthesizing module modulator
+
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v":1464:7:1464:9|Synthesizing module OR2
+
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v":2447:7:2447:9|Synthesizing module PLL
+
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v":276:7:276:12|Synthesizing module PLLINT
+
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v":1163:7:1163:9|Synthesizing module GND
+
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\igloo.v":1864:7:1864:9|Synthesizing module VCC
+
+@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\smartgen\pll_core\pll_core.v":5:7:5:14|Synthesizing module pll_core
+
+@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\hdl\ten_mhz_clock.v":20:7:20:19|Synthesizing module ten_mhz_clock
+
+@N: CG179 :"Z:\fpga_vision\xorfi_high_rate\hdl\ten_mhz_clock.v":43:25:43:33|Removing redundant assignment
+@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\hdl\two_mhz_clock.v":20:7:20:19|Synthesizing module two_mhz_clock
+
+@N: CG179 :"Z:\fpga_vision\xorfi_high_rate\hdl\two_mhz_clock.v":43:25:43:33|Removing redundant assignment
+@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\hdl\whitening.v":19:7:19:15|Synthesizing module whitening
+
+@N: CG364 :"Z:\fpga_vision\xorfi_high_rate\component\work\top\top.v":9:7:9:9|Synthesizing module top
+
+@W: CL168 :"Z:\fpga_vision\xorfi_high_rate\component\work\top\top.v":236:14:236:28|Pruning instance ten_mhz_clock_0 -- not in use ...
+
+@W: CL168 :"Z:\fpga_vision\xorfi_high_rate\component\work\top\top.v":133:10:133:20|Pruning instance data_rate_0 -- not in use ...
+
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[2] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[3] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[4] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[5] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[6] to a constant 0
+@W: CL190 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Optimizing register bit data3[7] to a constant 0
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[7] 
+
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[6] 
+
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[5] 
+
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[4] 
+
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[3] 
+
+@W: CL169 :"Z:\fpga_vision\xorfi_high_rate\hdl\data_source.v":32:0:32:5|Pruning register data3[2] 
+

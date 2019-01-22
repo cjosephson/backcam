@@ -1,0 +1,24 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+4 non-gated/non-generated clock tree(s) driving 314 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+======================================================== Non-Gated/Non-Generated Clocks ========================================================
+Clock Tree ID     Driving Element                       Drive Element Type                Fanout     Sample Instance                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       clock_control_0.clock_out_RNICHN5     clock definition on CLKINT        165        whitening_0.state[6]                       
+@K:CKID0002       pclk                                  clock definition on port          81         camera_adapter_0.repeat_counter[1]         
+@K:CKID0003       pll_core_0                            clock definition on hierarchy     37         downlink_clock_divider_0.divider_counter[5]
+@K:CKID0004       downlink_clock_divider_0              clock definition on hierarchy     31         downlink_parser_0.downlink_buffer[14]      
+================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

@@ -1,0 +1,34 @@
+*****************************************************************
+Pin Report - Date: Wed Mar 21 13:51:48 2018 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Design Name: Top
+Family: IGLOO
+Die: AGLN250V2
+Package: 100 VQFP
+*****************************************************************
+
+-----------------------------------------------------------------
+Flash*Freeze information
+        Pin name  : 27
+        Pin usage : Available as a regular pin
+-----------------------------------------------------------------
+
+Port               |Pin |Fixed |Function      |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Output Load (pF) |Use I/O Reg |Hot Swappable |Schmitt Trigger |Hold previous I/O state in Flash*Freeze mode |
+-------------------|----|------|--------------|---------|------------------|-----|--------------|-----------------|------------|--------------|----------------|---------------------------------------------|
+cam_write_en        76   Yes    GBA1/IO19RSB0  LVCMOS12  2                  High  None           5                 No           No             ---              No
+camera_mclk         79   Yes    GBB0/IO16RSB0  LVCMOS12  2                  High  None           5                 No           No             ---              No
+camera_res          72   Yes    IO21RSB1       LVCMOS12  2                  High  None           5                 No           No             ---              No
+camera_res_dup      73   Yes    GBA2/IO20RSB1  LVCMOS12  2                  High  None           5                 No           No             ---              No
+clock               15   Yes    GFA1/IO58RSB3  LVCMOS12  ---                ---   None           ---               No           No             No               No
+hsync               80   Yes    GBC1/IO15RSB0  LVCMOS12  ---                ---   None           ---               No           No             No               No
+input_data[0]       65   Yes    GCC1/IO25RSB1  LVCMOS12  ---                ---   None           ---               No           No             No               No
+input_data[1]       69   Yes    IO24RSB1       LVCMOS12  ---                ---   None           ---               No           No             No               No
+input_data[2]       70   Yes    GBC2/IO23RSB1  LVCMOS12  ---                ---   None           ---               No           No             No               No
+input_data[3]       71   Yes    GBB2/IO22RSB1  LVCMOS12  ---                ---   None           ---               No           No             No               No
+pclk                78   Yes    GBB1/IO17RSB0  LVCMOS12  ---                ---   None           ---               No           No             No               No
+reset               10   Yes    GFB1/IO60RSB3  LVCMOS12  ---                ---   None           ---               No           No             No               No
+signal_into_switch  98   Yes    GAA0/IO00RSB0  LVCMOS12  2                  High  None           5                 No           No             ---              No
+trigger_signal      97   Yes    GAA1/IO01RSB0  LVCMOS12  ---                ---   None           ---               No           No             No               No
+vsync               81   Yes    GBC0/IO14RSB0  LVCMOS12  ---                ---   None           ---               No           No             No               No

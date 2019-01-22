@@ -1,0 +1,60 @@
+[Library]
+others = $MODEL_TECH/../modelsim.ini
+igloo = C:/Microsemi/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/igloo
+
+presynth = presynth
+
+postsynth = postsynth
+
+
+
+
+
+postlayout = ../designer/impl1/simulation/postlayout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+syncad_vhdl_lib = C:\Microsemi\Libero_SoC_v11.8\Designer/lib/actel/syncad_vhdl_lib
+
+[vcom]
+VHDL93 = 1
+
+[vsim]
+IterationLimit = 5000

@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dZ:/fpga_vision/test_tmp/simulation
+vPLLBA
+Z0 !s110 1520822700
+!i10b 1
+!s100 `k6aZYoC;QFT;mFRiUOh:2
+I^z7=l4aHXD]GSdVVN=_MT2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/pyzhang/Desktop/working/backscatter-fpga/simulation
+Z3 w1520822693
+Z4 8C:/Users/pyzhang/Desktop/working/backscatter-fpga/designer/impl1/top_ba.v
+Z5 FC:/Users/pyzhang/Desktop/working/backscatter-fpga/designer/impl1/top_ba.v
+L0 6
+Z6 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z7 !s108 1520822700.000000
+Z8 !s107 C:/Users/pyzhang/Desktop/working/backscatter-fpga/designer/impl1/top_ba.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|postlayout|C:/Users/pyzhang/Desktop/working/backscatter-fpga/designer/impl1/top_ba.v|
+!s101 -O0
+!i113 1
+Z10 o-vlog01compat -work postlayout -O0
+Z11 tCvgOpt 0
+n@p@l@l@b@a
+vtop
+R0
+!i10b 1
+!s100 kIFS_ILkXPVT_;iAM7I1d0
+Ilb^8d=kiOXc5I]b<P9kO?3
+R1
+R2
+R3
+R4
+R5
+L0 217
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+vtop_tb
+R0
+!i10b 1
+!s100 01ibz<`Kbm_P9=`hVdHY61
+IO?5Ybzc7WS<[J:DEF=aWW2
+R1
+R2
+w1513066438
+8C:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus/top_tb.v
+FC:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus/top_tb.v
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus/top_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus|-vlog01compat|-work|postlayout|C:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus/top_tb.v|
+!s101 -O0
+!i113 1
+R10
+!s92 +incdir+C:/Users/pyzhang/Desktop/working/backscatter-fpga/stimulus -vlog01compat -work postlayout -O0
+R11

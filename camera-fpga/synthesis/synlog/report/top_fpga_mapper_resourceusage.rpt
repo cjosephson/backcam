@@ -1,0 +1,79 @@
+Target Part: AGLN250V2_VQFP100_STD
+Report for cell top.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2    46      1.0       46.0
+             AND2A     1      1.0        1.0
+              AND3    16      1.0       16.0
+               AO1    50      1.0       50.0
+              AO1A     8      1.0        8.0
+              AO1B     1      1.0        1.0
+              AOI1     3      1.0        3.0
+             AOI1B     6      1.0        6.0
+               AX1     8      1.0        8.0
+              AX1A     1      1.0        1.0
+              AX1C    13      1.0       13.0
+              BUFF     3      1.0        3.0
+            CLKINT     4      0.0        0.0
+               GND    13      0.0        0.0
+               INV     7      1.0        7.0
+               MX2    12      1.0       12.0
+              MX2B     3      1.0        3.0
+              MX2C     1      1.0        1.0
+             NAND2     2      1.0        2.0
+              NOR2    15      1.0       15.0
+             NOR2A    39      1.0       39.0
+             NOR2B    71      1.0       71.0
+              NOR3     8      1.0        8.0
+             NOR3A    11      1.0       11.0
+             NOR3B    21      1.0       21.0
+             NOR3C    36      1.0       36.0
+               OA1     9      1.0        9.0
+              OA1A     2      1.0        2.0
+              OA1B     2      1.0        2.0
+               OR2    11      1.0       11.0
+              OR2A    13      1.0       13.0
+              OR2B     6      1.0        6.0
+               OR3     7      1.0        7.0
+              OR3A     1      1.0        1.0
+              OR3B     5      1.0        5.0
+              OR3C     1      1.0        1.0
+               PLL     1      0.0        0.0
+            PLLINT     1      0.0        0.0
+               VCC    13      0.0        0.0
+               XA1    26      1.0       26.0
+              XA1A    11      1.0       11.0
+              XA1B     4      1.0        4.0
+             XNOR2    41      1.0       41.0
+             XNOR3    62      1.0       62.0
+              XOR2   127      1.0      127.0
+              XOR3    11      1.0       11.0
+
+
+          DFN0E1C0    15      1.0       15.0
+            DFN1C0   196      1.0      196.0
+          DFN1E0C0    33      1.0       33.0
+            DFN1E1     1      1.0        1.0
+          DFN1E1C0    47      1.0       47.0
+          DFN1E1C1     3      1.0        3.0
+            DFN1P0     3      1.0        3.0
+            RAM4K9     8      0.0        0.0
+                   -----          ----------
+             TOTAL  1059              1019.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     9
+            OUTBUF     5
+                   -----
+             TOTAL    15
+
+
+Core Cells         : 1019 of 6144 (17%)
+IO Cells           : 15
+
+  RAM/ROM Usage Summary
+Block Rams : 8 of 8 (100%)
+

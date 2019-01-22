@@ -1,0 +1,29 @@
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 1   DATE: 23:48:48 13-Mar-2018
+# INVOKED AS:  extended_run_gui.tcl -n 5 -starting_seed_index 1 -timing_driven -compare_criteria violations -slack_criteria worst -analysis min -stop_on_success
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Minimum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+         N/A         0  N/A                       -0.353  top_timing_violations_min_r1_initial.rpt     
+           1         0  N/A                       -0.214  top_timing_violations_min_r1_s1.rpt          
+           2  86662958  N/A                       -0.601  top_timing_violations_min_r1_s2.rpt          
+           3   8988747  N/A                       -0.226  top_timing_violations_min_r1_s3.rpt          
+           4  51071856  N/A                       -0.355  top_timing_violations_min_r1_s4.rpt          
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 2   DATE: 23:55:44 13-Mar-2018
+# INVOKED AS:  extended_run_gui.tcl -n 3 -starting_seed_index 6 -timing_driven -mindel_repair on -compare_criteria violations -slack_criteria worst -analysis min -stop_on_success
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Minimum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+         N/A  78381505  N/A                       -0.468  top_timing_violations_min_r2_initial.rpt     
+           6  82287664  N/A                       -0.074  top_timing_violations_min_r2_s6.rpt          
+           7  23702026  N/A                       -0.803  top_timing_violations_min_r2_s7.rpt          
+           8  51370950  N/A                       -0.175  top_timing_violations_min_r2_s8.rpt          
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 3   DATE: 00:01:30 14-Mar-2018
+# INVOKED AS:  extended_run_gui.tcl -n 3 -starting_seed_index 9 -timing_driven -mindel_repair on -placer_high_effort on -seq_opt on -compare_criteria violations -slack_criteria worst -analysis min -stop_on_success
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Minimum Delay        Worst Slack  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+         N/A  82287664  N/A                       -0.074  top_timing_violations_min_r3_initial.rpt     
+           9  93189207  N/A                        0.072  top_timing_violations_min_r3_s9.rpt          
