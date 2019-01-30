@@ -31,7 +31,7 @@ Once the boards in the hardware directory have been fabricated and assembled, yo
 
 1. A [wifi card](https://null-byte.wonderhowto.com/how-to/buy-best-wireless-network-adapter-for-wi-fi-hacking-2018-0178550/) 
 capable of packet injection (we used a TP-LINK TL-WN722N) on a Linux disribution (we used Kali, our image is above)
-2. A wifi chipset that allows you to capture packets in monitor mode, and does not discard packets with bad CRC checksums (we used a 2015 MacBook Pro)
+2. A wifi chipset that allows you to capture packets in monitor mode, and does not discard packets with bad CRC checksums. We used a 2015 MacBook Pro. NOTE: newer MacBooks (the kind with the fancy keyboard) do not have a compatable wifi card.
 3. A FlashPro 5 FPGA programmer 
 4. A MSP-FETFlash MCU debugger/programmer 
 5. two 2.5Ghz antennas, such as VERT2450
