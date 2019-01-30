@@ -22,9 +22,6 @@ transmitter: backscatter excitation/downlink transmitter code
 
 NOTE: a 7zipped linux image for the transmitter is at http://web.stanford.edu/~cajoseph/bs-injection.img.7z with MD5 = 88afae37871665a57a705b29aa4d6ca1
 
-
-NOTE: a serial receiver is in cloud-processing/image-stream-decoding/serial_stream.c (compile instructions in README within directory)
-
 # Getting started
 
 Once the boards in the hardware directory have been fabricated and assembled, you need four more pieces of equipment:
@@ -63,21 +60,20 @@ Download [TI CCS] (http://processors.wiki.ti.com/index.php/Download_CCS#Download
 
 ## Focus the camera
 
-In the MCU code main.c, comment out #define TESTPATTERN. 
+In the MCU code main.c, comment out #define TESTPATTERN. Program the MCU, and then run the serial receiver is in cloud-processing/image-stream-decoding/serial_stream.c (compile instructions in README within directory). The first 10 images will probably be white while the camera's automatic gain setting adjusts. If the images are white for longer than 20 images, you may need to move to a room with dimmer light. NOTE: it is possible to turn off the camera's automatic gain and set it by hand, see the camera data sheet. 
+
+The images will be blurry at first, twist the lens to bring them into focus. We recommend focusing using the smaller images, as the feedback loop is shorter. 
 
 ## Set up packet injection
 
-See the instructions in the transmitter directory. Verify that packets are being injected on Ch. 3 (hint: filter by the MAC address specified in line 44 of backscatter-tx.c).
-The captured packets should have blank payloads. 
+See the instructions in the transmitter directory. Verify that packets are being injected on Ch. 3 (hint: filter by the MAC address specified in line 44 of backscatter-tx.c). The captured packets should have blank payloads. 
 
 ## Reprogram the MCU for wireless mode
 
 In the MCU code main.c, make sure #define TESTPATTERN and #define UARTDUMP are commented out.
-Use line 163 to set the reference voltage. `uint16_t` maxes at 65535, so to convert a volatage to a DAC value use this formula: `(volts/3.3)*65535`.
-Our code defaults to 24500, which is ~1.2V. 
+Use line 163 to set the reference voltage. `uint16_t` maxes at 65535, so to convert a volatage to a DAC value use this formula: `(volts/3.3)*65535`. Our code defaults to 24500, which is ~1.2V. 
 
-Program the MCU and then capture packets on Ch. 13. Most of the packets should have non-blank payloads (a few blank payloads is normal). 
-A blank payload means the backscatter radio is failing to inject data. Usually adjusting the reference voltage will fix this. 
+Program the MCU and then capture packets on Ch. 13. Most of the packets should have non-blank payloads (a few blank payloads is normal). A blank payload means the backscatter radio is failing to inject data. Usually adjusting the reference voltage will fix this. 
 
 ## Put it all together
 
