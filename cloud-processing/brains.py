@@ -178,16 +178,17 @@ def configure(frame, movement, face, datarate):
     config += '\0' 
     return config
 
-def remove_artifacts_and_compare(cur, prev):
+def remove_artifacts_and_compare(cur, prev, threshold=1.0):
     """
-    generate configuration string for backscatter camera
+    remove artifacts caused by dropped backscatter packets and
+    calculate how much the image has changed compared to the previous frame
+
     Args:
-        frame_original, a cv2 matrix of a backscatter image
-        movement, bool of whether of not a threshold of pixels differed between current frame and previous
-        face, number of faces detected
-        datarate, (unused, stub) the current  datarate of the backscatter uplink
+        cur, a cv2 matrix of the current frame
+        prev, a cv3 matrix of the previous frame
+        threshold, optional threshhold argument defaults to 1
     Returns:
-        a configuration string
+        a boolean if the current and previous frame differ by a threshold
     """
     print "shape",cur.shape
     lx, ly = cur.shape
@@ -214,14 +215,16 @@ def remove_artifacts_and_compare(cur, prev):
     avg_delta = delta/float((lx*ly))
 
     print ("avg delta",avg_delta)
-    print ("missed",missed)
-    #TODO; adjust threshold
-    return avg_delta > 1.0
+    print ("missing pixels",missed)
+    return avg_delta > thresh
 
-#assuming ~56 bytes per payload and 2bytes per pixel
 def noise(img):
     """
-    TODO
+    adds noise to a serial image to simulate backscatter link
+    args:
+        img, a cv2 matrix of current frame
+    returns:
+        noised image
     """
     #vectorize image into segments of ~25 pixels    
     flat = img.flatten()
@@ -237,10 +240,7 @@ def noise(img):
     expanded = expanded.astype('uint8')
     return(flat*expanded).reshape(img.shape)
 
-# the main loop
-"""
-TODO
-"""
+
 n = 1
 face = -1
 img_prev = None
@@ -248,6 +248,22 @@ movement = False
 config = None
 coffee_access = None
 build_face_db(known_face_dir)
+
+
+"""
+The main loop checks the directory for new images, and the processes
+them as the decoder dumps. First noise due to dropped packets is
+removed from the image, while metrics about the images are calculated
+(e.g. how much two subsequent frames differ). Then facial detection
+and recognition is performed on the cleaned images. Finally, the
+results of the facial detection/recognition and other metrics are sent
+to the configure() function, which returns a configuration string.
+
+The configuration string is sent to the backscatter transmitter to
+communicate with the camera, and then afterwards additional
+application specific actions are taken. In our case, the last step is
+granting or denying access to a coffee machine.
+"""
 while True:
     
     # check images directory for new images_raw + process
@@ -261,9 +277,10 @@ while True:
             except Exception as e:
                 print "error({0}): {1}".format(e.errno, e.strerror)
                 continue
-        #if there's a large delta between frames, increase frame rate
+
         print("processing",f,  os.path.getsize(raw_img_path+"/"+f))
         #img_grey = noise(img_grey)
+        #if there's a large delta between frames, can increase frame rate
         movement = remove_artifacts_and_compare(img_grey, img_prev)
         img_prev = img_grey
 
@@ -294,7 +311,7 @@ while True:
         print ("config",config)
         movement = False
 
-        # send message to TX server
+        # send config to TX server
         if config != None:
             try:
                 print("Sending request...")
@@ -310,6 +327,7 @@ while True:
                 csocket.connect("tcp://%s:%i"%(coffee,port))
                 socket.connect("tcp://%s:%i"%(host,port))
 
+        # send coffee access request to coffee server
         if coffee_access != None:
             try:
                 print("Sending coffee access...")
