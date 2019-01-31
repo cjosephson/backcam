@@ -1,0 +1,11 @@
+This is the legacy Python decoder
+
+Test
+====
+1. Remove old images, execute `rm IMG*`
+2. execute `bash demo.sh` while excitation transmitter is running
+3. execute `tshark -r dump.pcap -T fields -e data > dump.txt`
+4. execute `cat dump.txt | python3 newprocess.py`
+5. check the output image IMG*.png
+6. if clear image is obtained, proceed to next step; or use dump.pcap to debug
+

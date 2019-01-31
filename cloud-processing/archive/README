@@ -1,0 +1,5 @@
+fillpixel.py: standalone backscatter packet drop de-noiser
+noise.py: adds simuated backscatter noise to images
+output.py: dict of calculated PSNRs
+training.py: the old training script for CV2 haar_cascades face recognition, later abandoned for the face_recognition library
+psnr.py: calculate psnr of image vs compressed image

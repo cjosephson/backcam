@@ -1,47 +1,46 @@
+#### BackCam Cloud Processing Logic ####
 #
-#   Hello World client in Python
-#   Connects REQ socket to tcp://localhost:5555
-#   Sends "Hello" to server, expects "World" back
+# This is the main control loop for the edge/cloud image processing of
+# the BackCam platform. It takes in decoded images, de-noises them,
+# and performs ML/AI tasks like face detection and recognition. From
+# these results, the control loop dispatches commands to both a
+# security server and the backscatter transmitter. The backscatter
+# transmitter can reconfigure the camera based off commands that this
+# control loop sends. For example, if a face is detected a command is
+# sent to increase the camera resolution.
+#
+# Copyright 2019 Colleen Josephson cajoseph@stanford.edu
+# Stanford University
 #
 import zmq
 import numpy as np
-import cvxpy as cvx
-from scipy import ndimage
-import matplotlib.pyplot as plt
 from scipy import misc
 import os
 import time
 import cv2
-import glob
-import imutils
 import face_recognition
 from imutils.object_detection import non_max_suppression
 
-subject_label = 1
 font = cv2.FONT_HERSHEY_SIMPLEX
-list_of_videos = []
 cascade_path = "face_cascades/haarcascade_frontalface_default.xml"
 face_cascade = cv2.CascadeClassifier(cascade_path)
 hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
-recognizer = cv2.face.LBPHFaceRecognizer_create()
-#load pretrained recognizer
-recognizer.read("LBPHtrained.yml")
-# set threshold of confidence for face matching. For LBPH, the lower
-# the better the metric for confidence is some (unknown to me)
-# distance metric. This is poorly documented in CV2 docs
-recognizer.setThreshold(122)
-count=0
 
+# set up communication to backscatter transmitter and coffee access server 
 port = 5555 # server port
-host = "171.64.74.141" # server hostname or ip
-coffee = "172.24.74.41"
+host = "171.64.74.141" # backscatter transmitter IP or hostname
+coffee = "172.24.74.41" # coffee machine security server
+
+
 raw_img_path = "image-stream-decoding" # path for raw images
 proc_img_path = "processed" # path for processed image
+known_face_dir = "known_faces" # path of folder with known faces 
+face_encodings = [] # encodings of known faces
+face_names = []  # labels of known faces
 niters = 2 # number of times to iteratively clean image
-labels = ["Colleen", "", ""]
 
-# Socket to talk to TX server
+# Set up sockets to talk to servers
 context = zmq.Context()
 print("Connecting to iCam server...")
 socket = context.socket(zmq.PAIR)
@@ -55,10 +54,11 @@ socket.connect("tcp://%s:%i"%(host,port))
 if not os.path.exists(proc_img_path):
     os.makedirs(proc_img_path)
 
-
-face_encodings = []
-face_names = []
 def build_face_db(facedir):
+    """
+    loads images from the facedir and builds a db
+    args: string of directory where known faces are
+    """
     files = os.listdir(facedir)
     for f in files:
         img = face_recognition.load_image_file(facedir+"/"+f)
@@ -66,59 +66,40 @@ def build_face_db(facedir):
         print("f",f)
         face_names.append(f[:-4])
 
-#remove color artifacts by looking at delta across RGB
-#values. If delta across RGB values for a given pixel is >40,
-#reassign the value via interpolation
-def color(p):
-    return max(np.abs(p[0].astype(int)- p[1].astype(int)),
-               np.abs(p[0].astype(int)-p[2].astype(int))) > 40
-    #TODO: fix color artifact removal...very bad performance for IMG_0.png!
-    return False
-
 def detect_people(frame):
 	"""
 	detect humans using HOG descriptor
 	Args:
-		frame:
+		frame, a cv2 matrix of a backscatter image
 	Returns:
-		processed frame
+		processed frame with pededtrians boxed
 	"""
 	(rects, weights) = hog.detectMultiScale(frame, winStride=(8, 8), padding=(16, 16), scale=1.06)
 	rects = non_max_suppression(rects, probs=None, overlapThresh=0.65)
 	for (x, y, w, h) in rects:
-		cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 0, 255), 2)
-	return frame
+            cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 0, 255), 2)
+            return frame
 
 def detect_face(frame):
 	"""
-	detect human faces in image using haar-cascade
+	detect human faces in image using face_recognition library
 	Args:
-		frame:
+		frame, a cv2 matrix of a backscatter image
 	Returns:
-	coordinates of detected faces
+	        tuple of (face encodings, coordinates of detected faces)
 	"""
-        # detectMultiScale(frame, scaleFactor, minNeighbors, minSize, maxSize)
-        # https://stackoverflow.com/questions/20801015/recommended-values-for-opencv-detectmulti
-        
-        #this yields a better face detection rate, but does not match training
-	#faces = face_cascade.detectMultiScale(frame, 1.01, 5, 20)
-
-        #this matches training. If I try to train with the values
-        #above, too many "fake faces" are detected from the 326 width images
         faces = face_cascade.detectMultiScale(frame, 1.01, 5, 20)
-        print("faces",len(faces))
         face_locations = face_recognition.face_locations(frame, model="cnn")
-        print("faces2",len(face_locations))
         face_encodings = face_recognition.face_encodings(frame, face_locations)
 	return (face_encodings, face_locations)
 
 
 def recognize_face(frame_original, faces):
 	"""
-	recognize human faces using LBPH features
+	recognize human faces
 	Args:
-		frame_original:
-		faces:
+		frame_original, a cv2 matrix of a backscatter image
+		faces, face encodings returned from detect_face
 	Returns:
 		label of predicted person
 	"""
@@ -138,6 +119,7 @@ def recognize_face(frame_original, faces):
 def draw_faces(frame, faces):
     """
     draw rectangle around detected faces
+    args: a frame, list of the rectangle coordinates of faces
     Returns: face drawn processed frame
     """
     print("faces",faces)
@@ -150,7 +132,8 @@ def draw_faces(frame, faces):
 def put_label_on_face(frame, faces, labels):
     """
     draw label on faces
-    returns processed frame
+    args: a frame, list of the rectangle coordinates of faces, list of the labels
+    returns: processed frame
     """
     i = 0
     for (top, right, bottom, left) in faces:
@@ -170,14 +153,17 @@ For a desired frame rate the cloud will need to calculate the necessary
 repetition and compression level.
 '''
 def configure(frame, movement, face, datarate):
+    """
+    generate configuration string for backscatter camera
+    Args:
+        frame_original, a cv2 matrix of a backscatter image
+        movement, bool of whether of not a threshold of pixels differed between current frame and previous
+        face, number of faces detected
+        datarate, (unused, stub) the current  datarate of the backscatter uplink
+    Returns:
+        a configuration string
+    """
     config = ''
-    # TODO: run optimization alg
-    constraints = []
-    x = np.matrix('1 1 1 1').T
-    S = cvx.Semidef(4)
-    prob = cvx.Problem(cvx.Maximize(x.T*S*x), constraints)
-    #print prob.solve()
-    #print S.value
 
     if face > 0 and n - face <= 10:
         config += '1'
@@ -193,6 +179,16 @@ def configure(frame, movement, face, datarate):
     return config
 
 def remove_artifacts_and_compare(cur, prev):
+    """
+    generate configuration string for backscatter camera
+    Args:
+        frame_original, a cv2 matrix of a backscatter image
+        movement, bool of whether of not a threshold of pixels differed between current frame and previous
+        face, number of faces detected
+        datarate, (unused, stub) the current  datarate of the backscatter uplink
+    Returns:
+        a configuration string
+    """
     print "shape",cur.shape
     lx, ly = cur.shape
     missed = 0
@@ -224,6 +220,9 @@ def remove_artifacts_and_compare(cur, prev):
 
 #assuming ~56 bytes per payload and 2bytes per pixel
 def noise(img):
+    """
+    TODO
+    """
     #vectorize image into segments of ~25 pixels    
     flat = img.flatten()
 
@@ -239,13 +238,16 @@ def noise(img):
     return(flat*expanded).reshape(img.shape)
 
 # the main loop
+"""
+TODO
+"""
 n = 1
 face = -1
 img_prev = None
 movement = False
 config = None
 coffee_access = None
-build_face_db("known_faces")
+build_face_db(known_face_dir)
 while True:
     
     # check images directory for new images_raw + process
@@ -268,7 +270,7 @@ while True:
         # detect humans/face
         img_processed = cv2.cvtColor(img_grey, cv2.COLOR_GRAY2RGB)
         #img_processed = detect_people(img_grey)
-        faces,rects = detect_face(img_processed)
+        faces, rects = detect_face(img_processed)
         print "faces in %s: %s"%(f,len(faces))
         # facial recognition
         if len(faces) > 0:
@@ -293,8 +295,6 @@ while True:
         movement = False
 
         # send message to TX server
-
-
         if config != None:
             try:
                 print("Sending request...")
@@ -326,5 +326,3 @@ while True:
                 csocket.connect("tcp://%s:%i"%(coffee,port))
                 socket.connect("tcp://%s:%i"%(host,port))
         #time.sleep(1)
-        
-

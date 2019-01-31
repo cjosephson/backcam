@@ -160,7 +160,11 @@ void main(void)
 #ifdef REFVOLTAGE
     /* set reference voltage output */
     dac_init();                 // init DAC interface (SPI)
-    dac_write(24500);           // write refv
+    dac_write(24500);           // write refv, dac_write = (volts/3.3)*65535.
+                                // 24500 ~= 1.2V
+    /* NOTE: dynamic reference voltage tuning was successful with a
+       Teensy MCU. We ran out of time to port the changes to MSP430,
+       but a dynamic tuning algorithm should also work on this MCU */
 #endif
 
 
