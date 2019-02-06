@@ -1,26 +1,9 @@
-camera-fpga: fpga code for the BackCam board, responsible for downlink
-	     and backscatter uplink
+# Introduction
+This is the source code for the Backcam backscatter camera platform by Colleen Josephson, Lei Yang, Pengyu Zhang and Sachin Katti. It includes the hardware design files, as well as the firmware and cloud software needed to get the system up and running. 
 
-camera-mcu: MCU driver code for the camera, configures and controls
-	    the camera
+Instructions for setting up the system are below, there is also an additional README in each subdirectory. There is a directory map in the last section of this document. 
 
-cloud-processing: legacy python decoder, plus image processing
-		  pipeline code (noise removal, face recognition)
-
-compression: python simulation code for compression algorithm eval
-	     
-
-decoder: realtime auto-size-adjusting backscatter decoder written in C
-
-demo-setup: some older code demonstrating image capture and receive,
-	    useful for debugging
-
-hardware: project files for hardware board design
-
-transmitter: backscatter excitation/downlink transmitter code
-
-
-NOTE: a 7zipped linux image for the transmitter is at http://web.stanford.edu/~cajoseph/bs-injection.img.7z with MD5 = 88afae37871665a57a705b29aa4d6ca1
+The code is free to use for academic and personal purposes, but CANNOT be used for commercial purposes. 
 
 # Getting started
 
@@ -79,3 +62,30 @@ Program the MCU and then capture packets on Ch. 13. Most of the packets should h
 
 Connect two 2.4GHz antennas. Turn on the WiFi injection code. Compile the decoder according to the instructions in the decode directory, and then demo.sh and check that images are being received. They may be noisy. If they are completely black, try decreasing the reference voltage. Once that is successful, 
 modify the raw_img_path variable in brains.py to where the images are being dumped, and then execute brains.py. It will process each image as the decoder dumps it, and the cleaned images will be output to the directory specified by proc_img_path
+
+# Directory map
+
+camera-fpga: fpga code for the BackCam board, responsible for downlink
+	     and backscatter uplink
+
+camera-mcu: MCU driver code for the camera, configures and controls
+	    the camera
+
+cloud-processing: legacy python decoder, plus image processing
+		  pipeline code (noise removal, face recognition)
+
+compression: python simulation code for compression algorithm eval
+	     
+
+decoder: realtime auto-size-adjusting backscatter decoder written in C
+
+demo-setup: some older code demonstrating image capture and receive,
+	    useful for debugging
+
+hardware: project files for hardware board design
+
+transmitter: backscatter excitation/downlink transmitter code
+
+
+NOTE: a 7zipped linux image for the transmitter is at http://web.stanford.edu/~cajoseph/bs-injection.img.7z with MD5 = 88afae37871665a57a705b29aa4d6ca1
+
