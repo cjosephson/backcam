@@ -1,9 +1,13 @@
 # Introduction
-This is the source code for the Backcam backscatter camera platform by Colleen Josephson, Lei Yang, Pengyu Zhang and Sachin Katti. It includes the hardware design files, as well as the firmware and cloud software needed to get the system up and running. 
+This is the source code for the BackCam backscatter camera platform by Colleen Josephson, Lei Yang, Pengyu Zhang and Sachin Katti. It includes the hardware design files, as well as the firmware and cloud software needed to get the system up and running. 
 
 Instructions for setting up the system are below, there is also an additional README in each subdirectory. There is a directory map in the last section of this document. 
 
 The code is free to use for academic and personal purposes, but CANNOT be used for commercial purposes. 
+
+### Paper
+
+[BackCam: Wireless Computer Vision Using Commodity Radios](https://cjosephson.net/assets/pdfs/backcam.pdf), IPSN '19
 
 # Getting started
 
