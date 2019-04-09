@@ -63,7 +63,7 @@ def build_face_db(facedir):
     for f in files:
         img = face_recognition.load_image_file(facedir+"/"+f)
         face_encodings.append(face_recognition.face_encodings(img)[0])
-        print("f",f)
+        print "Loading known face %s"%f
         face_names.append(f[:-4])
 
 def detect_people(frame):
@@ -122,7 +122,6 @@ def draw_faces(frame, faces):
     args: a frame, list of the rectangle coordinates of faces
     Returns: face drawn processed frame
     """
-    print("faces",faces)
     for (top, right, bottom, left) in faces:
         cv2.rectangle(frame, (left, top), (right, bottom), (0, 0, 255), 2)
         #cv2.rectangle(frame, (xA, yA), (xB, yB), (0, 255, 0), 2)
@@ -190,7 +189,6 @@ def remove_artifacts_and_compare(cur, prev, threshold=1.0):
     Returns:
         a boolean if the current and previous frame differ by a threshold
     """
-    print "shape",cur.shape
     lx, ly = cur.shape
     missed = 0
     #compare against self if no prev frame yet
@@ -213,10 +211,7 @@ def remove_artifacts_and_compare(cur, prev, threshold=1.0):
                 
     # average delta of pixels in image
     avg_delta = delta/float((lx*ly))
-
-    print ("avg delta",avg_delta)
-    print ("missing pixels",missed)
-    return avg_delta > thresh
+    return avg_delta > threshold
 
 def noise(img):
     """
@@ -278,10 +273,8 @@ while True:
                 print "error({0}): {1}".format(e.errno, e.strerror)
                 continue
 
-        print("processing",f,  os.path.getsize(raw_img_path+"/"+f))
-        #img_grey = noise(img_grey)
+        print "processing %s"%f
         #if there's a large delta between frames, can increase frame rate
-        movement = remove_artifacts_and_compare(img_grey, img_prev)
         img_prev = img_grey
 
         # detect humans/face
@@ -292,7 +285,7 @@ while True:
         # facial recognition
         if len(faces) > 0:
             face = n
-            misc.imsave("faces" + "/" + f, img_processed) 
+            #misc.imsave("faces" + "/" + f, img_processed) 
             label = recognize_face(img_processed, faces)
             for l in label:
                 if l != "Unknown":
@@ -308,7 +301,7 @@ while True:
         n += 1 
 
         config = configure(n, movement, face, None)
-        print ("config",config)
+        print "Config updated to %s"%config
         movement = False
 
         # send config to TX server
@@ -330,7 +323,7 @@ while True:
         # send coffee access request to coffee server
         if coffee_access != None:
             try:
-                print("Sending coffee access...")
+                print("Sending coffee access...\n")
                 csocket.send("coffee "+ coffee_access)
                 coffee_access = None
             except Exception as e:
