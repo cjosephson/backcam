@@ -1,4 +1,17 @@
 eclipse.preferences.version=1
+encoding//Debug/FatFs/subdir_rules.mk=UTF-8
+encoding//Debug/FatFs/subdir_vars.mk=UTF-8
+encoding//Debug/HAL/subdir_rules.mk=UTF-8
+encoding//Debug/HAL/subdir_vars.mk=UTF-8
+encoding//Debug/SDCardLib/subdir_rules.mk=UTF-8
+encoding//Debug/SDCardLib/subdir_vars.mk=UTF-8
+encoding//Debug/driverlib/MSP430FR5xx_6xx/subdir_rules.mk=UTF-8
+encoding//Debug/driverlib/MSP430FR5xx_6xx/subdir_vars.mk=UTF-8
+encoding//Debug/makefile=UTF-8
+encoding//Debug/objects.mk=UTF-8
+encoding//Debug/sources.mk=UTF-8
+encoding//Debug/subdir_rules.mk=UTF-8
+encoding//Debug/subdir_vars.mk=UTF-8
 encoding//Release/FatFs/subdir_rules.mk=UTF-8
 encoding//Release/FatFs/subdir_vars.mk=UTF-8
 encoding//Release/HAL/subdir_rules.mk=UTF-8

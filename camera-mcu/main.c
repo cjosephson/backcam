@@ -38,9 +38,9 @@
 
 /* options */
 /* note: HIRES and SDCARD should not be enabled at the same time */
-//#define DEBUG           /* enable debug outputs like led and debug pins */
+#define DEBUG           /* enable debug outputs like led and debug pins */
 //#define HIRES           /* define this for 326x244 resolution, or it will be 164x122 */
-#define TESTPATTERN     /* define this for test pattern (walking '1's) */
+//#define TESTPATTERN     /* define this for test pattern (walking '1's) */
 //#define SDCARD          /* define this for SD card dump */
 #define UARTDUMP        /* define this to dump image to UART */
 #define REFVOLTAGE      /* define this to let MSP output reference voltage */
