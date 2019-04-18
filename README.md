@@ -9,6 +9,10 @@ The code is free to use for academic and personal purposes, but CANNOT be used f
 
 [BackCam: Wireless Computer Vision Using Commodity Radios](https://cjosephson.net/assets/pdfs/backcam.pdf), IPSN '19
 
+### Hardware
+
+The key pieces of hardware are the HiMax HM01B0-M camera sensor (the M variant is monochrome, but there's also a nearly drop-in A variant that is RGB), a TI MSP430FR5994 MCU and an IGLOO AGLN250 FPGA. The full schematics and part numbers are available in the hardware folder, as well as selected datasheets.
+
 # Getting started
 
 Once the boards in the hardware directory have been fabricated and assembled, you need four more pieces of equipment:
