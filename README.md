@@ -3,7 +3,7 @@ This is the source code for the BackCam backscatter camera platform by Colleen J
 
 Instructions for setting up the system are below, there is also an additional README in each subdirectory. There is a directory map in the last section of this document. 
 
-The code is free to use for academic and personal purposes, but CANNOT be used for commercial purposes. 
+The code is free to use for academic and personal purposes. 
 
 ### Paper
 
