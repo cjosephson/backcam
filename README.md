@@ -1,5 +1,5 @@
 # Introduction
-This is the source code for the BackCam backscatter camera platform by Colleen Josephson, Lei Yang, Pengyu Zhang and Sachin Katti. It includes the hardware design files, as well as the firmware and cloud software needed to get the system up and running. 
+This is the source code for the BackCam backscatter camera platform by Colleen Josephson, Lei Yang, Pengyu Zhang and Sachin Katti. It includes gerber files and schematics for the hardware, as well as the firmware and cloud software needed to get the system up and running. 
 
 Instructions for setting up the system are below, there is also an additional README in each subdirectory. There is a directory map in the last section of this document. 
 
@@ -90,7 +90,7 @@ decoder: realtime auto-size-adjusting backscatter decoder written in C
 demo-setup: some older code demonstrating image capture and receive,
 	    useful for debugging
 
-hardware: project files for hardware board design
+hardware: gerber files and schematics for the hardwaren
 
 transmitter: backscatter excitation/downlink transmitter code
 
